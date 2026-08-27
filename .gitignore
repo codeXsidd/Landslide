@@ -1,0 +1,148 @@
+# ============================================================
+# NER-SAGE .gitignore
+# ============================================================
+
+# Secrets — NEVER commit
+.env
+.env.local
+.env.production
+.env.*.local
+*.pem
+*.key
+secrets/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+*.manifest
+*.spec
+pip-log.txt
+pip-delete-this-directory.txt
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+cython_debug/
+backend/.venv/
+backend/venv/
+*.venv
+venv/
+ENV/
+env/
+.venv
+
+# Jupyter
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+*.ipynb_checkpoints/
+
+# Node.js / Next.js
+node_modules/
+.npm
+.eslintcache
+.next/
+out/
+build/
+.nuxt
+.cache
+.parcel-cache
+.turbo
+frontend/.next/
+frontend/node_modules/
+frontend/out/
+
+# Docker
+*.log
+
+# ML Artifacts (large files)
+ml/artifacts/*.pkl
+ml/artifacts/*.joblib
+ml/artifacts/*.h5
+ml/artifacts/*.pt
+ml/artifacts/*.onnx
+ml/artifacts/*.bin
+*.model
+
+# Data files (large raw/processed)
+data/raw/**/*.tif
+data/raw/**/*.geotiff
+data/raw/**/*.nc
+data/raw/**/*.hdf5
+data/raw/**/*.pdf
+*.pdf
+data/processed/**/*.tif
+data/processed/**/*.pkl
+
+# MinIO / Object storage local
+.minio/
+minio_data/
+
+# IDE
+.idea/
+.vscode/settings.json
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Test results
+.pytest_cache/
+test-results/
+playwright-report/
+junit/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS
+.DS_Store
+.AppleDouble
+.LSOverride
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk

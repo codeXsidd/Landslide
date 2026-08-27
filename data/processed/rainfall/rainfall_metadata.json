@@ -1,0 +1,32 @@
+{
+  "source": "NASA GPM IMERG Final V07B",
+  "product": "3B-DAY",
+  "version": "V07B",
+  "files_processed": 7,
+  "date_range_start": "2024-06-01",
+  "date_range_end": "2024-06-07",
+  "total_days_available": 7,
+  "missing_days": 0,
+  "missing_dates": [],
+  "latitude_range": [
+    21.05,
+    29.950000000000006
+  ],
+  "longitude_range": [
+    88.05000305175781,
+    97.94999694824219
+  ],
+  "latitude_count": 90,
+  "longitude_count": 100,
+  "variables": [
+    "time_bnds",
+    "precipitation"
+  ],
+  "precip_units": "mm/day",
+  "precip_long_name": "Daily mean precipitation rate (combined microwave-IR) estimate. Formerly precipitationCal.",
+  "global_precip_min": 0.0,
+  "global_precip_max": 183.329987,
+  "total_rows_processed": 63000,
+  "parquet_output": "data/processed/rainfall/rainfall_daily.parquet",
+  "processed_at": "2026-08-27T03:41:42.249755+00:00"
+}

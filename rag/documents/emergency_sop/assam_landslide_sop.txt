@@ -1,0 +1,29 @@
+ASSAM STATE DISASTER MANAGEMENT AUTHORITY (ASDMA)
+STANDARD OPERATING PROCEDURE (SOP) FOR LANDSLIDE RESPONSE
+
+SECTION 1: ROAD BLOCKAGE AND ISOLATION
+1.1 Immediate Assessment:
+Upon receiving a verified report of a landslide blocking a primary arterial road (e.g., Road B Corridor):
+- The District Emergency Operation Centre (DEOC) must immediately dispatch a Rapid Damage Assessment (RDA) team.
+- Aerial or satellite verification should be requested if on-ground access is deemed hazardous.
+
+1.2 Village Isolation Protocol:
+If a road blockage results in the isolation of a village (population > 500):
+- Priority 1: Establish communication via satellite phones or HAM radio if mobile networks fail.
+- Priority 2: Pre-position heavy earth-moving equipment (excavators, bulldozers) at the nearest accessible junction.
+- Priority 3: Assess alternate routes for Light Motor Vehicles (LMVs) to ensure medical supplies can reach the isolated population.
+
+1.3 Medical Facility Degradation:
+If access to the nearest District Hospital or Community Health Centre (CHC) is degraded:
+- Deploy Mobile Medical Units (MMUs) to the safe side of the blockage.
+- Identify the nearest functional Helipad for emergency medical evacuation.
+
+SECTION 2: EARLY WARNING NOTIFICATIONS
+2.1 When the Landslide Risk Score exceeds 80% (HIGH) and Confidence is HIGH (>80%):
+- Issue an SMS/Cell Broadcast warning to all residents within a 5km radius.
+- Traffic police must pre-emptively close highly susceptible road corridors to heavy vehicles.
+
+SECTION 3: EVIDENCE CONTRADICTIONS
+3.1 In cases where satellite data and ground reports contradict each other:
+- Ground reports verified by Computer Vision (CV) or local authorities take precedence over stale satellite imagery.
+- Do not lift evacuation orders until a physical inspection is complete.

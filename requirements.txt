@@ -1,0 +1,80 @@
+# ============================================================
+# NER-SAGE Python Requirements
+# ============================================================
+
+# ── Web Framework ──────────────────────────────────────────────
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+python-multipart==0.0.20
+
+# ── Database Drivers ───────────────────────────────────────────
+motor==3.7.0              # Async MongoDB driver
+pymongo==4.10.1           # Sync MongoDB (for scripts/seeding)
+neo4j==5.28.1             # Neo4j async driver
+redis[hiredis]==5.2.1     # Redis async client
+qdrant-client==1.12.1     # Qdrant vector DB client
+
+# ── Data Validation ────────────────────────────────────────────
+pydantic==2.10.4
+pydantic-settings==2.7.0
+
+# ── ML / Data Science ──────────────────────────────────────────
+numpy==2.2.1
+pandas==2.2.3
+scikit-learn==1.6.1
+xgboost==2.1.3
+joblib==1.4.2
+
+# ── Geospatial ─────────────────────────────────────────────────
+geopandas==1.0.1
+shapely==2.0.6
+pyproj==3.7.0
+fiona==1.10.1
+rasterio==1.4.3
+networkx==3.4.2
+osmnx==2.0.1
+
+# ── LLM / RAG (Groq) ───────────────────────────────────────────
+groq==0.13.1
+tiktoken==0.8.0
+langchain==0.3.14
+langchain-groq==0.2.3
+langchain-qdrant==0.2.0
+langchain-huggingface==0.1.2
+sentence-transformers==3.4.1
+
+# ── Security / Auth ────────────────────────────────────────────
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+
+# ── Computer Vision (citizen report verification) ──────────────
+Pillow==11.1.0
+
+# ── Optimization ───────────────────────────────────────────────
+ortools==9.15.6755
+
+# ── HTTP Client ────────────────────────────────────────────────
+httpx==0.28.1
+
+# ── Logging / Monitoring ───────────────────────────────────────
+structlog==24.4.0
+
+# ── Utilities ──────────────────────────────────────────────────
+python-dotenv==1.0.1
+click==8.1.8
+rich==13.9.4
+tqdm==4.67.1
+
+# ── Testing ────────────────────────────────────────────────────
+pytest==8.3.4
+pytest-asyncio==0.23.5
+pytest-cov==6.0.0
+factory-boy==3.3.1
+
+# ── Code Quality ───────────────────────────────────────────────
+ruff==0.9.1
+mypy==1.14.1
+
+# ── Data Extraction ────────────────────────────────────────────
+pdfplumber==0.11.10
+pyarrow==19.0.0
