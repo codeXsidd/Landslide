@@ -1,0 +1,2442 @@
+{
+  "manifest_version": "1.0.0",
+  "created_at": "2026-08-27T09:49:15.733416+00:00",
+  "opentopography_dataset": "SRTMGL1",
+  "output_format": "GTiff",
+  "total_planned_tiles": 90,
+  "existing_test_tile": "NER_DEM_E092_N24",
+  "api_key_configured": true,
+  "is_dry_run": false,
+  "tiles": [
+    {
+      "tile_id": "NER_DEM_E088_N21",
+      "xmin": 88.0,
+      "ymin": 21.0,
+      "xmax": 89.0,
+      "ymax": 22.0,
+      "approximate_area_km2": 11503.8,
+      "filename": "NER_DEM_E088_N21.tif",
+      "status": "SKIPPED_EXISTS",
+      "file_size": 1502540,
+      "downloaded_at": "2026-08-27T09:48:52.094549+00:00",
+      "validation_status": "VALID",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.0002777777777778146,
+        0.0002777777777778146
+      ],
+      "bounds": [
+        87.99986111114663,
+        21.000138888883722,
+        88.99986111114676,
+        22.000138888883853
+      ],
+      "min_elevation": -26.0,
+      "max_elevation": 39.0,
+      "nodata": -32768.0
+    },
+    {
+      "tile_id": "NER_DEM_E089_N21",
+      "xmin": 89.0,
+      "ymin": 21.0,
+      "xmax": 90.0,
+      "ymax": 22.0,
+      "approximate_area_km2": 11503.8,
+      "filename": "NER_DEM_E089_N21.tif",
+      "status": "SKIPPED_EXISTS",
+      "file_size": 1045259,
+      "downloaded_at": "2026-08-27T09:48:52.274518+00:00",
+      "validation_status": "VALID",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.0002777777777778146,
+        0.0002777777777778146
+      ],
+      "bounds": [
+        88.99986111114674,
+        21.000138888883722,
+        89.99986111114687,
+        22.000138888883853
+      ],
+      "min_elevation": -21.0,
+      "max_elevation": 41.0,
+      "nodata": -32768.0
+    },
+    {
+      "tile_id": "NER_DEM_E090_N21",
+      "xmin": 90.0,
+      "ymin": 21.0,
+      "xmax": 91.0,
+      "ymax": 22.0,
+      "approximate_area_km2": 11503.8,
+      "filename": "NER_DEM_E090_N21.tif",
+      "status": "SKIPPED_EXISTS",
+      "file_size": 600272,
+      "downloaded_at": "2026-08-27T09:48:52.447523+00:00",
+      "validation_status": "VALID",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.0002777777777778146,
+        0.0002777777777778146
+      ],
+      "bounds": [
+        89.99986111114686,
+        21.000138888883722,
+        90.99986111114698,
+        22.000138888883853
+      ],
+      "min_elevation": -20.0,
+      "max_elevation": 57.0,
+      "nodata": -32768.0
+    },
+    {
+      "tile_id": "NER_DEM_E091_N21",
+      "xmin": 91.0,
+      "ymin": 21.0,
+      "xmax": 92.0,
+      "ymax": 22.0,
+      "approximate_area_km2": 11503.8,
+      "filename": "NER_DEM_E091_N21.tif",
+      "status": "SKIPPED_EXISTS",
+      "file_size": 605973,
+      "downloaded_at": "2026-08-27T09:48:52.625479+00:00",
+      "validation_status": "VALID",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.0002777777777778146,
+        0.0002777777777778146
+      ],
+      "bounds": [
+        90.99986111114703,
+        21.000138888883722,
+        91.99986111114715,
+        22.000138888883853
+      ],
+      "min_elevation": -43.0,
+      "max_elevation": 87.0,
+      "nodata": -32768.0
+    },
+    {
+      "tile_id": "NER_DEM_E092_N21",
+      "xmin": 92.0,
+      "ymin": 21.0,
+      "xmax": 93.0,
+      "ymax": 22.0,
+      "approximate_area_km2": 11503.8,
+      "filename": "NER_DEM_E092_N21.tif",
+      "status": "SKIPPED_EXISTS",
+      "file_size": 15626607,
+      "downloaded_at": "2026-08-27T09:48:52.882054+00:00",
+      "validation_status": "VALID",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.0002777777777778146,
+        0.0002777777777778146
+      ],
+      "bounds": [
+        91.99986111114714,
+        21.000138888883722,
+        92.99986111114727,
+        22.000138888883853
+      ],
+      "min_elevation": -37.0,
+      "max_elevation": 1204.0,
+      "nodata": -32768.0
+    },
+    {
+      "tile_id": "NER_DEM_E093_N21",
+      "xmin": 93.0,
+      "ymin": 21.0,
+      "xmax": 94.0,
+      "ymax": 22.0,
+      "approximate_area_km2": 11503.8,
+      "filename": "NER_DEM_E093_N21.tif",
+      "status": "SKIPPED_EXISTS",
+      "file_size": 21161788,
+      "downloaded_at": "2026-08-27T09:48:53.143777+00:00",
+      "validation_status": "VALID",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.0002777777777778146,
+        0.0002777777777778146
+      ],
+      "bounds": [
+        92.99986111114725,
+        21.000138888883722,
+        93.99986111114738,
+        22.000138888883853
+      ],
+      "min_elevation": -1.0,
+      "max_elevation": 3073.0,
+      "nodata": -32768.0
+    },
+    {
+      "tile_id": "NER_DEM_E094_N21",
+      "xmin": 94.0,
+      "ymin": 21.0,
+      "xmax": 95.0,
+      "ymax": 22.0,
+      "approximate_area_km2": 11503.8,
+      "filename": "NER_DEM_E094_N21.tif",
+      "status": "SKIPPED_EXISTS",
+      "file_size": 12338515,
+      "downloaded_at": "2026-08-27T09:48:53.386450+00:00",
+      "validation_status": "VALID",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.0002777777777778146,
+        0.0002777777777778146
+      ],
+      "bounds": [
+        93.99986111114742,
+        21.000138888883722,
+        94.99986111114755,
+        22.000138888883853
+      ],
+      "min_elevation": 28.0,
+      "max_elevation": 2431.0,
+      "nodata": -32768.0
+    },
+    {
+      "tile_id": "NER_DEM_E095_N21",
+      "xmin": 95.0,
+      "ymin": 21.0,
+      "xmax": 96.0,
+      "ymax": 22.0,
+      "approximate_area_km2": 11503.8,
+      "filename": "NER_DEM_E095_N21.tif",
+      "status": "SKIPPED_EXISTS",
+      "file_size": 7927149,
+      "downloaded_at": "2026-08-27T09:48:53.602452+00:00",
+      "validation_status": "VALID",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.0002777777777778146,
+        0.0002777777777778146
+      ],
+      "bounds": [
+        94.99986111114754,
+        21.000138888883722,
+        95.99986111114767,
+        22.000138888883853
+      ],
+      "min_elevation": 36.0,
+      "max_elevation": 543.0,
+      "nodata": -32768.0
+    },
+    {
+      "tile_id": "NER_DEM_E096_N21",
+      "xmin": 96.0,
+      "ymin": 21.0,
+      "xmax": 97.0,
+      "ymax": 22.0,
+      "approximate_area_km2": 11503.8,
+      "filename": "NER_DEM_E096_N21.tif",
+      "status": "SKIPPED_EXISTS",
+      "file_size": 15048002,
+      "downloaded_at": "2026-08-27T09:48:53.871077+00:00",
+      "validation_status": "VALID",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.0002777777777778146,
+        0.0002777777777778146
+      ],
+      "bounds": [
+        95.99986111114765,
+        21.000138888883722,
+        96.99986111114778,
+        22.000138888883853
+      ],
+      "min_elevation": 30.0,
+      "max_elevation": 2366.0,
+      "nodata": -32768.0
+    },
+    {
+      "tile_id": "NER_DEM_E097_N21",
+      "xmin": 97.0,
+      "ymin": 21.0,
+      "xmax": 98.0,
+      "ymax": 22.0,
+      "approximate_area_km2": 11503.8,
+      "filename": "NER_DEM_E097_N21.tif",
+      "status": "SKIPPED_EXISTS",
+      "file_size": 14564373,
+      "downloaded_at": "2026-08-27T09:48:54.103120+00:00",
+      "validation_status": "VALID",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.0002777777777778146,
+        0.0002777777777778146
+      ],
+      "bounds": [
+        96.99986111114782,
+        21.000138888883722,
+        97.99986111114795,
+        22.000138888883853
+      ],
+      "min_elevation": 567.0,
+      "max_elevation": 2465.0,
+      "nodata": -32768.0
+    },
+    {
+      "tile_id": "NER_DEM_E088_N22",
+      "xmin": 88.0,
+      "ymin": 22.0,
+      "xmax": 89.0,
+      "ymax": 23.0,
+      "approximate_area_km2": 11423.0,
+      "filename": "NER_DEM_E088_N22.tif",
+      "status": "SKIPPED_EXISTS",
+      "file_size": 5471442,
+      "downloaded_at": "2026-08-27T09:48:54.315858+00:00",
+      "validation_status": "VALID",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.0002777777777778146,
+        0.0002777777777778146
+      ],
+      "bounds": [
+        87.99986111114663,
+        22.000138888883857,
+        88.99986111114676,
+        23.00013888888399
+      ],
+      "min_elevation": -43.0,
+      "max_elevation": 81.0,
+      "nodata": -32768.0
+    },
+    {
+      "tile_id": "NER_DEM_E089_N22",
+      "xmin": 89.0,
+      "ymin": 22.0,
+      "xmax": 90.0,
+      "ymax": 23.0,
+      "approximate_area_km2": 11423.0,
+      "filename": "NER_DEM_E089_N22.tif",
+      "status": "SKIPPED_EXISTS",
+      "file_size": 4789130,
+      "downloaded_at": "2026-08-27T09:48:54.529256+00:00",
+      "validation_status": "VALID",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.0002777777777778146,
+        0.0002777777777778146
+      ],
+      "bounds": [
+        88.99986111114674,
+        22.000138888883857,
+        89.99986111114687,
+        23.00013888888399
+      ],
+      "min_elevation": -37.0,
+      "max_elevation": 57.0,
+      "nodata": -32768.0
+    },
+    {
+      "tile_id": "NER_DEM_E090_N22",
+      "xmin": 90.0,
+      "ymin": 22.0,
+      "xmax": 91.0,
+      "ymax": 23.0,
+      "approximate_area_km2": 11423.0,
+      "filename": "NER_DEM_E090_N22.tif",
+      "status": "SKIPPED_EXISTS",
+      "file_size": 4714366,
+      "downloaded_at": "2026-08-27T09:48:54.755279+00:00",
+      "validation_status": "VALID",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.0002777777777778146,
+        0.0002777777777778146
+      ],
+      "bounds": [
+        89.99986111114686,
+        22.000138888883857,
+        90.99986111114698,
+        23.00013888888399
+      ],
+      "min_elevation": -27.0,
+      "max_elevation": 79.0,
+      "nodata": -32768.0
+    },
+    {
+      "tile_id": "NER_DEM_E091_N22",
+      "xmin": 91.0,
+      "ymin": 22.0,
+      "xmax": 92.0,
+      "ymax": 23.0,
+      "approximate_area_km2": 11423.0,
+      "filename": "NER_DEM_E091_N22.tif",
+      "status": "SKIPPED_EXISTS",
+      "file_size": 4446147,
+      "downloaded_at": "2026-08-27T09:48:54.976582+00:00",
+      "validation_status": "VALID",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.0002777777777778146,
+        0.0002777777777778146
+      ],
+      "bounds": [
+        90.99986111114703,
+        22.000138888883857,
+        91.99986111114715,
+        23.00013888888399
+      ],
+      "min_elevation": -44.0,
+      "max_elevation": 546.0,
+      "nodata": -32768.0
+    },
+    {
+      "tile_id": "NER_DEM_E092_N22",
+      "xmin": 92.0,
+      "ymin": 22.0,
+      "xmax": 93.0,
+      "ymax": 23.0,
+      "approximate_area_km2": 11423.0,
+      "filename": "NER_DEM_E092_N22.tif",
+      "status": "SKIPPED_EXISTS",
+      "file_size": 16312643,
+      "downloaded_at": "2026-08-27T09:48:55.232771+00:00",
+      "validation_status": "VALID",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.0002777777777778146,
+        0.0002777777777778146
+      ],
+      "bounds": [
+        91.99986111114714,
+        22.000138888883857,
+        92.99986111114727,
+        23.00013888888399
+      ],
+      "min_elevation": -37.0,
+      "max_elevation": 1681.0,
+      "nodata": -32768.0
+    },
+    {
+      "tile_id": "NER_DEM_E093_N22",
+      "xmin": 93.0,
+      "ymin": 22.0,
+      "xmax": 94.0,
+      "ymax": 23.0,
+      "approximate_area_km2": 11423.0,
+      "filename": "NER_DEM_E093_N22.tif",
+      "status": "SKIPPED_EXISTS",
+      "file_size": 20966313,
+      "downloaded_at": "2026-08-27T09:48:55.498505+00:00",
+      "validation_status": "VALID",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.0002777777777778146,
+        0.0002777777777778146
+      ],
+      "bounds": [
+        92.99986111114725,
+        22.000138888883857,
+        93.99986111114738,
+        23.00013888888399
+      ],
+      "min_elevation": 149.0,
+      "max_elevation": 2749.0,
+      "nodata": -32768.0
+    },
+    {
+      "tile_id": "NER_DEM_E094_N22",
+      "xmin": 94.0,
+      "ymin": 22.0,
+      "xmax": 95.0,
+      "ymax": 23.0,
+      "approximate_area_km2": 11423.0,
+      "filename": "NER_DEM_E094_N22.tif",
+      "status": "SKIPPED_EXISTS",
+      "file_size": 13155454,
+      "downloaded_at": "2026-08-27T09:48:55.735529+00:00",
+      "validation_status": "VALID",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.0002777777777778146,
+        0.0002777777777778146
+      ],
+      "bounds": [
+        93.99986111114742,
+        22.000138888883857,
+        94.99986111114755,
+        23.00013888888399
+      ],
+      "min_elevation": 39.0,
+      "max_elevation": 1342.0,
+      "nodata": -32768.0
+    },
+    {
+      "tile_id": "NER_DEM_E095_N22",
+      "xmin": 95.0,
+      "ymin": 22.0,
+      "xmax": 96.0,
+      "ymax": 23.0,
+      "approximate_area_km2": 11423.0,
+      "filename": "NER_DEM_E095_N22.tif",
+      "status": "SKIPPED_EXISTS",
+      "file_size": 7618968,
+      "downloaded_at": "2026-08-27T09:48:55.960422+00:00",
+      "validation_status": "VALID",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.0002777777777778146,
+        0.0002777777777778146
+      ],
+      "bounds": [
+        94.99986111114754,
+        22.000138888883857,
+        95.99986111114767,
+        23.00013888888399
+      ],
+      "min_elevation": 9.0,
+      "max_elevation": 505.0,
+      "nodata": -32768.0
+    },
+    {
+      "tile_id": "NER_DEM_E096_N22",
+      "xmin": 96.0,
+      "ymin": 22.0,
+      "xmax": 97.0,
+      "ymax": 23.0,
+      "approximate_area_km2": 11423.0,
+      "filename": "NER_DEM_E096_N22.tif",
+      "status": "SKIPPED_EXISTS",
+      "file_size": 15787609,
+      "downloaded_at": "2026-08-27T09:48:56.181569+00:00",
+      "validation_status": "VALID",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.0002777777777778146,
+        0.0002777777777778146
+      ],
+      "bounds": [
+        95.99986111114765,
+        22.000138888883857,
+        96.99986111114778,
+        23.00013888888399
+      ],
+      "min_elevation": 42.0,
+      "max_elevation": 2270.0,
+      "nodata": -32768.0
+    },
+    {
+      "tile_id": "NER_DEM_E097_N22",
+      "xmin": 97.0,
+      "ymin": 22.0,
+      "xmax": 98.0,
+      "ymax": 23.0,
+      "approximate_area_km2": 11423.0,
+      "filename": "NER_DEM_E097_N22.tif",
+      "status": "SKIPPED_EXISTS",
+      "file_size": 15519054,
+      "downloaded_at": "2026-08-27T09:48:56.416972+00:00",
+      "validation_status": "VALID",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.0002777777777778146,
+        0.0002777777777778146
+      ],
+      "bounds": [
+        96.99986111114782,
+        22.000138888883857,
+        97.99986111114795,
+        23.00013888888399
+      ],
+      "min_elevation": 307.0,
+      "max_elevation": 2081.0,
+      "nodata": -32768.0
+    },
+    {
+      "tile_id": "NER_DEM_E088_N23",
+      "xmin": 88.0,
+      "ymin": 23.0,
+      "xmax": 89.0,
+      "ymax": 24.0,
+      "approximate_area_km2": 11338.7,
+      "filename": "NER_DEM_E088_N23.tif",
+      "status": "SKIPPED_EXISTS",
+      "file_size": 5547515,
+      "downloaded_at": "2026-08-27T09:48:56.611898+00:00",
+      "validation_status": "VALID",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.0002777777777778146,
+        0.0002777777777778146
+      ],
+      "bounds": [
+        87.99986111114663,
+        23.000138888883992,
+        88.99986111114676,
+        24.000138888884123
+      ],
+      "min_elevation": -83.0,
+      "max_elevation": 80.0,
+      "nodata": -32768.0
+    },
+    {
+      "tile_id": "NER_DEM_E089_N23",
+      "xmin": 89.0,
+      "ymin": 23.0,
+      "xmax": 90.0,
+      "ymax": 24.0,
+      "approximate_area_km2": 11338.7,
+      "filename": "NER_DEM_E089_N23.tif",
+      "status": "SKIPPED_EXISTS",
+      "file_size": 5392789,
+      "downloaded_at": "2026-08-27T09:48:56.796124+00:00",
+      "validation_status": "VALID",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.0002777777777778146,
+        0.0002777777777778146
+      ],
+      "bounds": [
+        88.99986111114674,
+        23.000138888883992,
+        89.99986111114687,
+        24.000138888884123
+      ],
+      "min_elevation": -29.0,
+      "max_elevation": 99.0,
+      "nodata": -32768.0
+    },
+    {
+      "tile_id": "NER_DEM_E090_N23",
+      "xmin": 90.0,
+      "ymin": 23.0,
+      "xmax": 91.0,
+      "ymax": 24.0,
+      "approximate_area_km2": 11338.7,
+      "filename": "NER_DEM_E090_N23.tif",
+      "status": "SKIPPED_EXISTS",
+      "file_size": 5221663,
+      "downloaded_at": "2026-08-27T09:48:56.972263+00:00",
+      "validation_status": "VALID",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.0002777777777778146,
+        0.0002777777777778146
+      ],
+      "bounds": [
+        89.99986111114686,
+        23.000138888883992,
+        90.99986111114698,
+        24.000138888884123
+      ],
+      "min_elevation": -49.0,
+      "max_elevation": 58.0,
+      "nodata": -32768.0
+    },
+    {
+      "tile_id": "NER_DEM_E091_N23",
+      "xmin": 91.0,
+      "ymin": 23.0,
+      "xmax": 92.0,
+      "ymax": 24.0,
+      "approximate_area_km2": 11338.7,
+      "filename": "NER_DEM_E091_N23.tif",
+      "status": "SKIPPED_EXISTS",
+      "file_size": 9756527,
+      "downloaded_at": "2026-08-27T09:48:57.169744+00:00",
+      "validation_status": "VALID",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.0002777777777778146,
+        0.0002777777777778146
+      ],
+      "bounds": [
+        90.99986111114703,
+        23.000138888883992,
+        91.99986111114715,
+        24.000138888884123
+      ],
+      "min_elevation": -35.0,
+      "max_elevation": 510.0,
+      "nodata": -32768.0
+    },
+    {
+      "tile_id": "NER_DEM_E092_N23",
+      "xmin": 92.0,
+      "ymin": 23.0,
+      "xmax": 93.0,
+      "ymax": 24.0,
+      "approximate_area_km2": 11338.7,
+      "filename": "NER_DEM_E092_N23.tif",
+      "status": "SKIPPED_EXISTS",
+      "file_size": 18305947,
+      "downloaded_at": "2026-08-27T09:48:57.381089+00:00",
+      "validation_status": "VALID",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.0002777777777778146,
+        0.0002777777777778146
+      ],
+      "bounds": [
+        91.99986111114714,
+        23.000138888883992,
+        92.99986111114727,
+        24.000138888884123
+      ],
+      "min_elevation": 0.0,
+      "max_elevation": 1900.0,
+      "nodata": -32768.0
+    },
+    {
+      "tile_id": "NER_DEM_E093_N23",
+      "xmin": 93.0,
+      "ymin": 23.0,
+      "xmax": 94.0,
+      "ymax": 24.0,
+      "approximate_area_km2": 11338.7,
+      "filename": "NER_DEM_E093_N23.tif",
+      "status": "SKIPPED_EXISTS",
+      "file_size": 21229247,
+      "downloaded_at": "2026-08-27T09:48:57.599834+00:00",
+      "validation_status": "VALID",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.0002777777777778146,
+        0.0002777777777778146
+      ],
+      "bounds": [
+        92.99986111114725,
+        23.000138888883992,
+        93.99986111114738,
+        24.000138888884123
+      ],
+      "min_elevation": 123.0,
+      "max_elevation": 2696.0,
+      "nodata": -32768.0
+    },
+    {
+      "tile_id": "NER_DEM_E094_N23",
+      "xmin": 94.0,
+      "ymin": 23.0,
+      "xmax": 95.0,
+      "ymax": 24.0,
+      "approximate_area_km2": 11338.7,
+      "filename": "NER_DEM_E094_N23.tif",
+      "status": "SKIPPED_EXISTS",
+      "file_size": 14194108,
+      "downloaded_at": "2026-08-27T09:48:57.814556+00:00",
+      "validation_status": "VALID",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.0002777777777778146,
+        0.0002777777777778146
+      ],
+      "bounds": [
+        93.99986111114742,
+        23.000138888883992,
+        94.99986111114755,
+        24.000138888884123
+      ],
+      "min_elevation": 62.0,
+      "max_elevation": 1695.0,
+      "nodata": -32768.0
+    },
+    {
+      "tile_id": "NER_DEM_E095_N23",
+      "xmin": 95.0,
+      "ymin": 23.0,
+      "xmax": 96.0,
+      "ymax": 24.0,
+      "approximate_area_km2": 11338.7,
+      "filename": "NER_DEM_E095_N23.tif",
+      "status": "SKIPPED_EXISTS",
+      "file_size": 10422993,
+      "downloaded_at": "2026-08-27T09:48:58.037669+00:00",
+      "validation_status": "VALID",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.0002777777777778146,
+        0.0002777777777778146
+      ],
+      "bounds": [
+        94.99986111114754,
+        23.000138888883992,
+        95.99986111114767,
+        24.000138888884123
+      ],
+      "min_elevation": 75.0,
+      "max_elevation": 1242.0,
+      "nodata": -32768.0
+    },
+    {
+      "tile_id": "NER_DEM_E096_N23",
+      "xmin": 96.0,
+      "ymin": 23.0,
+      "xmax": 97.0,
+      "ymax": 24.0,
+      "approximate_area_km2": 11338.7,
+      "filename": "NER_DEM_E096_N23.tif",
+      "status": "SKIPPED_EXISTS",
+      "file_size": 12486047,
+      "downloaded_at": "2026-08-27T09:48:58.255698+00:00",
+      "validation_status": "VALID",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.0002777777777778146,
+        0.0002777777777778146
+      ],
+      "bounds": [
+        95.99986111114765,
+        23.000138888883992,
+        96.99986111114778,
+        24.000138888884123
+      ],
+      "min_elevation": 59.0,
+      "max_elevation": 1928.0,
+      "nodata": -32768.0
+    },
+    {
+      "tile_id": "NER_DEM_E097_N23",
+      "xmin": 97.0,
+      "ymin": 23.0,
+      "xmax": 98.0,
+      "ymax": 24.0,
+      "approximate_area_km2": 11338.7,
+      "filename": "NER_DEM_E097_N23.tif",
+      "status": "SKIPPED_EXISTS",
+      "file_size": 17249283,
+      "downloaded_at": "2026-08-27T09:48:58.479656+00:00",
+      "validation_status": "VALID",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.0002777777777778146,
+        0.0002777777777778146
+      ],
+      "bounds": [
+        96.99986111114782,
+        23.000138888883992,
+        97.99986111114795,
+        24.000138888884123
+      ],
+      "min_elevation": 107.0,
+      "max_elevation": 2349.0,
+      "nodata": -32768.0
+    },
+    {
+      "tile_id": "NER_DEM_E088_N24",
+      "xmin": 88.0,
+      "ymin": 24.0,
+      "xmax": 89.0,
+      "ymax": 25.0,
+      "approximate_area_km2": 11250.9,
+      "filename": "NER_DEM_E088_N24.tif",
+      "status": "SKIPPED_EXISTS",
+      "file_size": 5415112,
+      "downloaded_at": "2026-08-27T09:48:58.672322+00:00",
+      "validation_status": "VALID",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.0002777777777778146,
+        0.0002777777777778146
+      ],
+      "bounds": [
+        87.99986111114663,
+        24.00013888888412,
+        88.99986111114676,
+        25.00013888888425
+      ],
+      "min_elevation": -37.0,
+      "max_elevation": 62.0,
+      "nodata": -32768.0
+    },
+    {
+      "tile_id": "NER_DEM_E089_N24",
+      "xmin": 89.0,
+      "ymin": 24.0,
+      "xmax": 90.0,
+      "ymax": 25.0,
+      "approximate_area_km2": 11250.9,
+      "filename": "NER_DEM_E089_N24.tif",
+      "status": "SKIPPED_EXISTS",
+      "file_size": 5775392,
+      "downloaded_at": "2026-08-27T09:48:58.858618+00:00",
+      "validation_status": "VALID",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.0002777777777778146,
+        0.0002777777777778146
+      ],
+      "bounds": [
+        88.99986111114674,
+        24.00013888888412,
+        89.99986111114687,
+        25.00013888888425
+      ],
+      "min_elevation": -46.0,
+      "max_elevation": 105.0,
+      "nodata": -32768.0
+    },
+    {
+      "tile_id": "NER_DEM_E090_N24",
+      "xmin": 90.0,
+      "ymin": 24.0,
+      "xmax": 91.0,
+      "ymax": 25.0,
+      "approximate_area_km2": 11250.9,
+      "filename": "NER_DEM_E090_N24.tif",
+      "status": "SKIPPED_EXISTS",
+      "file_size": 5714120,
+      "downloaded_at": "2026-08-27T09:48:59.047293+00:00",
+      "validation_status": "VALID",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.0002777777777778146,
+        0.0002777777777778146
+      ],
+      "bounds": [
+        89.99986111114686,
+        24.00013888888412,
+        90.99986111114698,
+        25.00013888888425
+      ],
+      "min_elevation": -30.0,
+      "max_elevation": 53.0,
+      "nodata": -32768.0
+    },
+    {
+      "tile_id": "NER_DEM_E091_N24",
+      "xmin": 91.0,
+      "ymin": 24.0,
+      "xmax": 92.0,
+      "ymax": 25.0,
+      "approximate_area_km2": 11250.9,
+      "filename": "NER_DEM_E091_N24.tif",
+      "status": "SKIPPED_EXISTS",
+      "file_size": 6617617,
+      "downloaded_at": "2026-08-27T09:48:59.238704+00:00",
+      "validation_status": "VALID",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.0002777777777778146,
+        0.0002777777777778146
+      ],
+      "bounds": [
+        90.99986111114703,
+        24.00013888888412,
+        91.99986111114715,
+        25.00013888888425
+      ],
+      "min_elevation": -55.0,
+      "max_elevation": 444.0,
+      "nodata": -32768.0
+    },
+    {
+      "tile_id": "NER_DEM_E092_N24",
+      "xmin": 92.0,
+      "ymin": 24.0,
+      "xmax": 93.0,
+      "ymax": 25.0,
+      "approximate_area_km2": 11250.9,
+      "filename": "output_SRTMGL1.tif",
+      "status": "SKIPPED_EXISTING_TEST_TILE",
+      "file_size": 11717042,
+      "downloaded_at": "2026-08-27T09:48:59.441854+00:00",
+      "validation_status": "VALID",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.0002777777777778146,
+        0.0002777777777778146
+      ],
+      "bounds": [
+        91.99986111114714,
+        24.00013888888412,
+        92.99986111114727,
+        25.00013888888425
+      ],
+      "min_elevation": -38.0,
+      "max_elevation": 1254.0,
+      "nodata": -32768.0
+    },
+    {
+      "tile_id": "NER_DEM_E093_N24",
+      "xmin": 93.0,
+      "ymin": 24.0,
+      "xmax": 94.0,
+      "ymax": 25.0,
+      "approximate_area_km2": 11250.9,
+      "filename": "NER_DEM_E093_N24.tif",
+      "status": "SKIPPED_EXISTS",
+      "file_size": 18111401,
+      "downloaded_at": "2026-08-27T09:48:59.659216+00:00",
+      "validation_status": "VALID",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.0002777777777778146,
+        0.0002777777777778146
+      ],
+      "bounds": [
+        92.99986111114725,
+        24.00013888888412,
+        93.99986111114738,
+        25.00013888888425
+      ],
+      "min_elevation": -1.0,
+      "max_elevation": 2332.0,
+      "nodata": -32768.0
+    },
+    {
+      "tile_id": "NER_DEM_E094_N24",
+      "xmin": 94.0,
+      "ymin": 24.0,
+      "xmax": 95.0,
+      "ymax": 25.0,
+      "approximate_area_km2": 11250.9,
+      "filename": "NER_DEM_E094_N24.tif",
+      "status": "SKIPPED_EXISTS",
+      "file_size": 15572672,
+      "downloaded_at": "2026-08-27T09:48:59.881083+00:00",
+      "validation_status": "VALID",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.0002777777777778146,
+        0.0002777777777778146
+      ],
+      "bounds": [
+        93.99986111114742,
+        24.00013888888412,
+        94.99986111114755,
+        25.00013888888425
+      ],
+      "min_elevation": 95.0,
+      "max_elevation": 2260.0,
+      "nodata": -32768.0
+    },
+    {
+      "tile_id": "NER_DEM_E095_N24",
+      "xmin": 95.0,
+      "ymin": 24.0,
+      "xmax": 96.0,
+      "ymax": 25.0,
+      "approximate_area_km2": 11250.9,
+      "filename": "NER_DEM_E095_N24.tif",
+      "status": "SKIPPED_EXISTS",
+      "file_size": 14268099,
+      "downloaded_at": "2026-08-27T09:49:00.104595+00:00",
+      "validation_status": "VALID",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.0002777777777778146,
+        0.0002777777777778146
+      ],
+      "bounds": [
+        94.99986111114754,
+        24.00013888888412,
+        95.99986111114767,
+        25.00013888888425
+      ],
+      "min_elevation": 99.0,
+      "max_elevation": 1699.0,
+      "nodata": -32768.0
+    },
+    {
+      "tile_id": "NER_DEM_E096_N24",
+      "xmin": 96.0,
+      "ymin": 24.0,
+      "xmax": 97.0,
+      "ymax": 25.0,
+      "approximate_area_km2": 11250.9,
+      "filename": "NER_DEM_E096_N24.tif",
+      "status": "SKIPPED_EXISTS",
+      "file_size": 13265304,
+      "downloaded_at": "2026-08-27T09:49:00.347769+00:00",
+      "validation_status": "VALID",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.0002777777777778146,
+        0.0002777777777778146
+      ],
+      "bounds": [
+        95.99986111114765,
+        24.00013888888412,
+        96.99986111114778,
+        25.00013888888425
+      ],
+      "min_elevation": 70.0,
+      "max_elevation": 1548.0,
+      "nodata": -32768.0
+    },
+    {
+      "tile_id": "NER_DEM_E097_N24",
+      "xmin": 97.0,
+      "ymin": 24.0,
+      "xmax": 98.0,
+      "ymax": 25.0,
+      "approximate_area_km2": 11250.9,
+      "filename": "NER_DEM_E097_N24.tif",
+      "status": "SKIPPED_EXISTS",
+      "file_size": 15258721,
+      "downloaded_at": "2026-08-27T09:49:00.563756+00:00",
+      "validation_status": "VALID",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.0002777777777778146,
+        0.0002777777777778146
+      ],
+      "bounds": [
+        96.99986111114782,
+        24.00013888888412,
+        97.99986111114795,
+        25.00013888888425
+      ],
+      "min_elevation": 65.0,
+      "max_elevation": 2800.0,
+      "nodata": -32768.0
+    },
+    {
+      "tile_id": "NER_DEM_E088_N25",
+      "xmin": 88.0,
+      "ymin": 25.0,
+      "xmax": 89.0,
+      "ymax": 26.0,
+      "approximate_area_km2": 11159.7,
+      "filename": "NER_DEM_E088_N25.tif",
+      "status": "SKIPPED_EXISTS",
+      "file_size": 5809523,
+      "downloaded_at": "2026-08-27T09:49:00.759743+00:00",
+      "validation_status": "VALID",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.0002777777777778146,
+        0.0002777777777778146
+      ],
+      "bounds": [
+        87.99986111114663,
+        25.000138888884255,
+        88.99986111114676,
+        26.000138888884386
+      ],
+      "min_elevation": -15.0,
+      "max_elevation": 74.0,
+      "nodata": -32768.0
+    },
+    {
+      "tile_id": "NER_DEM_E089_N25",
+      "xmin": 89.0,
+      "ymin": 25.0,
+      "xmax": 90.0,
+      "ymax": 26.0,
+      "approximate_area_km2": 11159.7,
+      "filename": "NER_DEM_E089_N25.tif",
+      "status": "SKIPPED_EXISTS",
+      "file_size": 5750861,
+      "downloaded_at": "2026-08-27T09:49:00.974219+00:00",
+      "validation_status": "VALID",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.0002777777777778146,
+        0.0002777777777778146
+      ],
+      "bounds": [
+        88.99986111114674,
+        25.000138888884255,
+        89.99986111114687,
+        26.000138888884386
+      ],
+      "min_elevation": -25.0,
+      "max_elevation": 170.0,
+      "nodata": -32768.0
+    },
+    {
+      "tile_id": "NER_DEM_E090_N25",
+      "xmin": 90.0,
+      "ymin": 25.0,
+      "xmax": 91.0,
+      "ymax": 26.0,
+      "approximate_area_km2": 11159.7,
+      "filename": "NER_DEM_E090_N25.tif",
+      "status": "SKIPPED_EXISTS",
+      "file_size": 13000021,
+      "downloaded_at": "2026-08-27T09:49:01.192456+00:00",
+      "validation_status": "VALID",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.0002777777777778146,
+        0.0002777777777778146
+      ],
+      "bounds": [
+        89.99986111114686,
+        25.000138888884255,
+        90.99986111114698,
+        26.000138888884386
+      ],
+      "min_elevation": -19.0,
+      "max_elevation": 1421.0,
+      "nodata": -32768.0
+    },
+    {
+      "tile_id": "NER_DEM_E091_N25",
+      "xmin": 91.0,
+      "ymin": 25.0,
+      "xmax": 92.0,
+      "ymax": 26.0,
+      "approximate_area_km2": 11159.7,
+      "filename": "NER_DEM_E091_N25.tif",
+      "status": "SKIPPED_EXISTS",
+      "file_size": 14575076,
+      "downloaded_at": "2026-08-27T09:49:01.403147+00:00",
+      "validation_status": "VALID",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.0002777777777778146,
+        0.0002777777777778146
+      ],
+      "bounds": [
+        90.99986111114703,
+        25.000138888884255,
+        91.99986111114715,
+        26.000138888884386
+      ],
+      "min_elevation": -42.0,
+      "max_elevation": 1964.0,
+      "nodata": -32768.0
+    },
+    {
+      "tile_id": "NER_DEM_E092_N25",
+      "xmin": 92.0,
+      "ymin": 25.0,
+      "xmax": 93.0,
+      "ymax": 26.0,
+      "approximate_area_km2": 11159.7,
+      "filename": "NER_DEM_E092_N25.tif",
+      "status": "SKIPPED_EXISTS",
+      "file_size": 15105760,
+      "downloaded_at": "2026-08-27T09:49:01.627257+00:00",
+      "validation_status": "VALID",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.0002777777777778146,
+        0.0002777777777778146
+      ],
+      "bounds": [
+        91.99986111114714,
+        25.000138888884255,
+        92.99986111114727,
+        26.000138888884386
+      ],
+      "min_elevation": -12.0,
+      "max_elevation": 1714.0,
+      "nodata": -32768.0
+    },
+    {
+      "tile_id": "NER_DEM_E093_N25",
+      "xmin": 93.0,
+      "ymin": 25.0,
+      "xmax": 94.0,
+      "ymax": 26.0,
+      "approximate_area_km2": 11159.7,
+      "filename": "NER_DEM_E093_N25.tif",
+      "status": "SKIPPED_EXISTS",
+      "file_size": 16716920,
+      "downloaded_at": "2026-08-27T09:49:01.843769+00:00",
+      "validation_status": "VALID",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.0002777777777778146,
+        0.0002777777777778146
+      ],
+      "bounds": [
+        92.99986111114725,
+        25.000138888884255,
+        93.99986111114738,
+        26.000138888884386
+      ],
+      "min_elevation": 64.0,
+      "max_elevation": 2833.0,
+      "nodata": -32768.0
+    },
+    {
+      "tile_id": "NER_DEM_E094_N25",
+      "xmin": 94.0,
+      "ymin": 25.0,
+      "xmax": 95.0,
+      "ymax": 26.0,
+      "approximate_area_km2": 11159.7,
+      "filename": "NER_DEM_E094_N25.tif",
+      "status": "SKIPPED_EXISTS",
+      "file_size": 21144856,
+      "downloaded_at": "2026-08-27T09:49:02.062924+00:00",
+      "validation_status": "VALID",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.0002777777777778146,
+        0.0002777777777778146
+      ],
+      "bounds": [
+        93.99986111114742,
+        25.000138888884255,
+        94.99986111114755,
+        26.000138888884386
+      ],
+      "min_elevation": 94.0,
+      "max_elevation": 3123.0,
+      "nodata": -32768.0
+    },
+    {
+      "tile_id": "NER_DEM_E095_N25",
+      "xmin": 95.0,
+      "ymin": 25.0,
+      "xmax": 96.0,
+      "ymax": 26.0,
+      "approximate_area_km2": 11159.7,
+      "filename": "NER_DEM_E095_N25.tif",
+      "status": "SKIPPED_EXISTS",
+      "file_size": 14649696,
+      "downloaded_at": "2026-08-27T09:49:02.266194+00:00",
+      "validation_status": "VALID",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.0002777777777778146,
+        0.0002777777777778146
+      ],
+      "bounds": [
+        94.99986111114754,
+        25.000138888884255,
+        95.99986111114767,
+        26.000138888884386
+      ],
+      "min_elevation": 103.0,
+      "max_elevation": 3828.0,
+      "nodata": -32768.0
+    },
+    {
+      "tile_id": "NER_DEM_E096_N25",
+      "xmin": 96.0,
+      "ymin": 25.0,
+      "xmax": 97.0,
+      "ymax": 26.0,
+      "approximate_area_km2": 11159.7,
+      "filename": "NER_DEM_E096_N25.tif",
+      "status": "SKIPPED_EXISTS",
+      "file_size": 15825060,
+      "downloaded_at": "2026-08-27T09:49:02.461128+00:00",
+      "validation_status": "VALID",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.0002777777777778146,
+        0.0002777777777778146
+      ],
+      "bounds": [
+        95.99986111114765,
+        25.000138888884255,
+        96.99986111114778,
+        26.000138888884386
+      ],
+      "min_elevation": 127.0,
+      "max_elevation": 2257.0,
+      "nodata": -32768.0
+    },
+    {
+      "tile_id": "NER_DEM_E097_N25",
+      "xmin": 97.0,
+      "ymin": 25.0,
+      "xmax": 98.0,
+      "ymax": 26.0,
+      "approximate_area_km2": 11159.7,
+      "filename": "NER_DEM_E097_N25.tif",
+      "status": "SKIPPED_EXISTS",
+      "file_size": 16217892,
+      "downloaded_at": "2026-08-27T09:49:02.657492+00:00",
+      "validation_status": "VALID",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.0002777777777778146,
+        0.0002777777777778146
+      ],
+      "bounds": [
+        96.99986111114782,
+        25.000138888884255,
+        97.99986111114795,
+        26.000138888884386
+      ],
+      "min_elevation": 106.0,
+      "max_elevation": 3073.0,
+      "nodata": -32768.0
+    },
+    {
+      "tile_id": "NER_DEM_E088_N26",
+      "xmin": 88.0,
+      "ymin": 26.0,
+      "xmax": 89.0,
+      "ymax": 27.0,
+      "approximate_area_km2": 11065.1,
+      "filename": "NER_DEM_E088_N26.tif",
+      "status": "SKIPPED_EXISTS",
+      "file_size": 8133617,
+      "downloaded_at": "2026-08-27T09:49:02.843349+00:00",
+      "validation_status": "VALID",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.0002777777777778146,
+        0.0002777777777778146
+      ],
+      "bounds": [
+        87.99986111114663,
+        26.00013888888439,
+        88.99986111114676,
+        27.00013888888452
+      ],
+      "min_elevation": 31.0,
+      "max_elevation": 2613.0,
+      "nodata": -32768.0
+    },
+    {
+      "tile_id": "NER_DEM_E089_N26",
+      "xmin": 89.0,
+      "ymin": 26.0,
+      "xmax": 90.0,
+      "ymax": 27.0,
+      "approximate_area_km2": 11065.1,
+      "filename": "NER_DEM_E089_N26.tif",
+      "status": "SKIPPED_EXISTS",
+      "file_size": 9567117,
+      "downloaded_at": "2026-08-27T09:49:03.036677+00:00",
+      "validation_status": "VALID",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.0002777777777778146,
+        0.0002777777777778146
+      ],
+      "bounds": [
+        88.99986111114674,
+        26.00013888888439,
+        89.99986111114687,
+        27.00013888888452
+      ],
+      "min_elevation": -19.0,
+      "max_elevation": 4068.0,
+      "nodata": -32768.0
+    },
+    {
+      "tile_id": "NER_DEM_E090_N26",
+      "xmin": 90.0,
+      "ymin": 26.0,
+      "xmax": 91.0,
+      "ymax": 27.0,
+      "approximate_area_km2": 11065.1,
+      "filename": "NER_DEM_E090_N26.tif",
+      "status": "FAILED_HTTP_401",
+      "file_size": 0,
+      "downloaded_at": null,
+      "validation_status": "FAILED_HTTP",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.0002777777777778146,
+        0.0002777777777778146
+      ],
+      "bounds": [
+        90.0,
+        26.0,
+        91.0,
+        27.0
+      ],
+      "min_elevation": null,
+      "max_elevation": null,
+      "nodata": -32768.0
+    },
+    {
+      "tile_id": "NER_DEM_E091_N26",
+      "xmin": 91.0,
+      "ymin": 26.0,
+      "xmax": 92.0,
+      "ymax": 27.0,
+      "approximate_area_km2": 11065.1,
+      "filename": "NER_DEM_E091_N26.tif",
+      "status": "FAILED_HTTP_401",
+      "file_size": 0,
+      "downloaded_at": null,
+      "validation_status": "FAILED_HTTP",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.0002777777777778146,
+        0.0002777777777778146
+      ],
+      "bounds": [
+        91.0,
+        26.0,
+        92.0,
+        27.0
+      ],
+      "min_elevation": null,
+      "max_elevation": null,
+      "nodata": -32768.0
+    },
+    {
+      "tile_id": "NER_DEM_E092_N26",
+      "xmin": 92.0,
+      "ymin": 26.0,
+      "xmax": 93.0,
+      "ymax": 27.0,
+      "approximate_area_km2": 11065.1,
+      "filename": "NER_DEM_E092_N26.tif",
+      "status": "FAILED_HTTP_401",
+      "file_size": 0,
+      "downloaded_at": null,
+      "validation_status": "FAILED_HTTP",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.0002777777777778146,
+        0.0002777777777778146
+      ],
+      "bounds": [
+        92.0,
+        26.0,
+        93.0,
+        27.0
+      ],
+      "min_elevation": null,
+      "max_elevation": null,
+      "nodata": -32768.0
+    },
+    {
+      "tile_id": "NER_DEM_E093_N26",
+      "xmin": 93.0,
+      "ymin": 26.0,
+      "xmax": 94.0,
+      "ymax": 27.0,
+      "approximate_area_km2": 11065.1,
+      "filename": "NER_DEM_E093_N26.tif",
+      "status": "FAILED_HTTP_401",
+      "file_size": 0,
+      "downloaded_at": null,
+      "validation_status": "FAILED_HTTP",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.0002777777777778146,
+        0.0002777777777778146
+      ],
+      "bounds": [
+        93.0,
+        26.0,
+        94.0,
+        27.0
+      ],
+      "min_elevation": null,
+      "max_elevation": null,
+      "nodata": -32768.0
+    },
+    {
+      "tile_id": "NER_DEM_E094_N26",
+      "xmin": 94.0,
+      "ymin": 26.0,
+      "xmax": 95.0,
+      "ymax": 27.0,
+      "approximate_area_km2": 11065.1,
+      "filename": "NER_DEM_E094_N26.tif",
+      "status": "FAILED_HTTP_401",
+      "file_size": 0,
+      "downloaded_at": null,
+      "validation_status": "FAILED_HTTP",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.0002777777777778146,
+        0.0002777777777778146
+      ],
+      "bounds": [
+        94.0,
+        26.0,
+        95.0,
+        27.0
+      ],
+      "min_elevation": null,
+      "max_elevation": null,
+      "nodata": -32768.0
+    },
+    {
+      "tile_id": "NER_DEM_E095_N26",
+      "xmin": 95.0,
+      "ymin": 26.0,
+      "xmax": 96.0,
+      "ymax": 27.0,
+      "approximate_area_km2": 11065.1,
+      "filename": "NER_DEM_E095_N26.tif",
+      "status": "FAILED_HTTP_401",
+      "file_size": 0,
+      "downloaded_at": null,
+      "validation_status": "FAILED_HTTP",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.0002777777777778146,
+        0.0002777777777778146
+      ],
+      "bounds": [
+        95.0,
+        26.0,
+        96.0,
+        27.0
+      ],
+      "min_elevation": null,
+      "max_elevation": null,
+      "nodata": -32768.0
+    },
+    {
+      "tile_id": "NER_DEM_E096_N26",
+      "xmin": 96.0,
+      "ymin": 26.0,
+      "xmax": 97.0,
+      "ymax": 27.0,
+      "approximate_area_km2": 11065.1,
+      "filename": "NER_DEM_E096_N26.tif",
+      "status": "FAILED_HTTP_401",
+      "file_size": 0,
+      "downloaded_at": null,
+      "validation_status": "FAILED_HTTP",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.0002777777777778146,
+        0.0002777777777778146
+      ],
+      "bounds": [
+        96.0,
+        26.0,
+        97.0,
+        27.0
+      ],
+      "min_elevation": null,
+      "max_elevation": null,
+      "nodata": -32768.0
+    },
+    {
+      "tile_id": "NER_DEM_E097_N26",
+      "xmin": 97.0,
+      "ymin": 26.0,
+      "xmax": 98.0,
+      "ymax": 27.0,
+      "approximate_area_km2": 11065.1,
+      "filename": "NER_DEM_E097_N26.tif",
+      "status": "FAILED_HTTP_401",
+      "file_size": 0,
+      "downloaded_at": null,
+      "validation_status": "FAILED_HTTP",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.0002777777777778146,
+        0.0002777777777778146
+      ],
+      "bounds": [
+        97.0,
+        26.0,
+        98.0,
+        27.0
+      ],
+      "min_elevation": null,
+      "max_elevation": null,
+      "nodata": -32768.0
+    },
+    {
+      "tile_id": "NER_DEM_E088_N27",
+      "xmin": 88.0,
+      "ymin": 27.0,
+      "xmax": 89.0,
+      "ymax": 28.0,
+      "approximate_area_km2": 10967.1,
+      "filename": "NER_DEM_E088_N27.tif",
+      "status": "FAILED_HTTP_401",
+      "file_size": 0,
+      "downloaded_at": null,
+      "validation_status": "FAILED_HTTP",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.0002777777777778146,
+        0.0002777777777778146
+      ],
+      "bounds": [
+        88.0,
+        27.0,
+        89.0,
+        28.0
+      ],
+      "min_elevation": null,
+      "max_elevation": null,
+      "nodata": -32768.0
+    },
+    {
+      "tile_id": "NER_DEM_E089_N27",
+      "xmin": 89.0,
+      "ymin": 27.0,
+      "xmax": 90.0,
+      "ymax": 28.0,
+      "approximate_area_km2": 10967.1,
+      "filename": "NER_DEM_E089_N27.tif",
+      "status": "FAILED_HTTP_401",
+      "file_size": 0,
+      "downloaded_at": null,
+      "validation_status": "FAILED_HTTP",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.0002777777777778146,
+        0.0002777777777778146
+      ],
+      "bounds": [
+        89.0,
+        27.0,
+        90.0,
+        28.0
+      ],
+      "min_elevation": null,
+      "max_elevation": null,
+      "nodata": -32768.0
+    },
+    {
+      "tile_id": "NER_DEM_E090_N27",
+      "xmin": 90.0,
+      "ymin": 27.0,
+      "xmax": 91.0,
+      "ymax": 28.0,
+      "approximate_area_km2": 10967.1,
+      "filename": "NER_DEM_E090_N27.tif",
+      "status": "FAILED_HTTP_401",
+      "file_size": 0,
+      "downloaded_at": null,
+      "validation_status": "FAILED_HTTP",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.0002777777777778146,
+        0.0002777777777778146
+      ],
+      "bounds": [
+        90.0,
+        27.0,
+        91.0,
+        28.0
+      ],
+      "min_elevation": null,
+      "max_elevation": null,
+      "nodata": -32768.0
+    },
+    {
+      "tile_id": "NER_DEM_E091_N27",
+      "xmin": 91.0,
+      "ymin": 27.0,
+      "xmax": 92.0,
+      "ymax": 28.0,
+      "approximate_area_km2": 10967.1,
+      "filename": "NER_DEM_E091_N27.tif",
+      "status": "FAILED_HTTP_401",
+      "file_size": 0,
+      "downloaded_at": null,
+      "validation_status": "FAILED_HTTP",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.0002777777777778146,
+        0.0002777777777778146
+      ],
+      "bounds": [
+        91.0,
+        27.0,
+        92.0,
+        28.0
+      ],
+      "min_elevation": null,
+      "max_elevation": null,
+      "nodata": -32768.0
+    },
+    {
+      "tile_id": "NER_DEM_E092_N27",
+      "xmin": 92.0,
+      "ymin": 27.0,
+      "xmax": 93.0,
+      "ymax": 28.0,
+      "approximate_area_km2": 10967.1,
+      "filename": "NER_DEM_E092_N27.tif",
+      "status": "FAILED_HTTP_401",
+      "file_size": 0,
+      "downloaded_at": null,
+      "validation_status": "FAILED_HTTP",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.0002777777777778146,
+        0.0002777777777778146
+      ],
+      "bounds": [
+        92.0,
+        27.0,
+        93.0,
+        28.0
+      ],
+      "min_elevation": null,
+      "max_elevation": null,
+      "nodata": -32768.0
+    },
+    {
+      "tile_id": "NER_DEM_E093_N27",
+      "xmin": 93.0,
+      "ymin": 27.0,
+      "xmax": 94.0,
+      "ymax": 28.0,
+      "approximate_area_km2": 10967.1,
+      "filename": "NER_DEM_E093_N27.tif",
+      "status": "FAILED_HTTP_401",
+      "file_size": 0,
+      "downloaded_at": null,
+      "validation_status": "FAILED_HTTP",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.0002777777777778146,
+        0.0002777777777778146
+      ],
+      "bounds": [
+        93.0,
+        27.0,
+        94.0,
+        28.0
+      ],
+      "min_elevation": null,
+      "max_elevation": null,
+      "nodata": -32768.0
+    },
+    {
+      "tile_id": "NER_DEM_E094_N27",
+      "xmin": 94.0,
+      "ymin": 27.0,
+      "xmax": 95.0,
+      "ymax": 28.0,
+      "approximate_area_km2": 10967.1,
+      "filename": "NER_DEM_E094_N27.tif",
+      "status": "FAILED_HTTP_401",
+      "file_size": 0,
+      "downloaded_at": null,
+      "validation_status": "FAILED_HTTP",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.0002777777777778146,
+        0.0002777777777778146
+      ],
+      "bounds": [
+        94.0,
+        27.0,
+        95.0,
+        28.0
+      ],
+      "min_elevation": null,
+      "max_elevation": null,
+      "nodata": -32768.0
+    },
+    {
+      "tile_id": "NER_DEM_E095_N27",
+      "xmin": 95.0,
+      "ymin": 27.0,
+      "xmax": 96.0,
+      "ymax": 28.0,
+      "approximate_area_km2": 10967.1,
+      "filename": "NER_DEM_E095_N27.tif",
+      "status": "FAILED_HTTP_401",
+      "file_size": 0,
+      "downloaded_at": null,
+      "validation_status": "FAILED_HTTP",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.0002777777777778146,
+        0.0002777777777778146
+      ],
+      "bounds": [
+        95.0,
+        27.0,
+        96.0,
+        28.0
+      ],
+      "min_elevation": null,
+      "max_elevation": null,
+      "nodata": -32768.0
+    },
+    {
+      "tile_id": "NER_DEM_E096_N27",
+      "xmin": 96.0,
+      "ymin": 27.0,
+      "xmax": 97.0,
+      "ymax": 28.0,
+      "approximate_area_km2": 10967.1,
+      "filename": "NER_DEM_E096_N27.tif",
+      "status": "FAILED_HTTP_401",
+      "file_size": 0,
+      "downloaded_at": null,
+      "validation_status": "FAILED_HTTP",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.0002777777777778146,
+        0.0002777777777778146
+      ],
+      "bounds": [
+        96.0,
+        27.0,
+        97.0,
+        28.0
+      ],
+      "min_elevation": null,
+      "max_elevation": null,
+      "nodata": -32768.0
+    },
+    {
+      "tile_id": "NER_DEM_E097_N27",
+      "xmin": 97.0,
+      "ymin": 27.0,
+      "xmax": 98.0,
+      "ymax": 28.0,
+      "approximate_area_km2": 10967.1,
+      "filename": "NER_DEM_E097_N27.tif",
+      "status": "FAILED_HTTP_401",
+      "file_size": 0,
+      "downloaded_at": null,
+      "validation_status": "FAILED_HTTP",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.0002777777777778146,
+        0.0002777777777778146
+      ],
+      "bounds": [
+        97.0,
+        27.0,
+        98.0,
+        28.0
+      ],
+      "min_elevation": null,
+      "max_elevation": null,
+      "nodata": -32768.0
+    },
+    {
+      "tile_id": "NER_DEM_E088_N28",
+      "xmin": 88.0,
+      "ymin": 28.0,
+      "xmax": 89.0,
+      "ymax": 29.0,
+      "approximate_area_km2": 10865.8,
+      "filename": "NER_DEM_E088_N28.tif",
+      "status": "FAILED_HTTP_401",
+      "file_size": 0,
+      "downloaded_at": null,
+      "validation_status": "FAILED_HTTP",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.0002777777777778146,
+        0.0002777777777778146
+      ],
+      "bounds": [
+        88.0,
+        28.0,
+        89.0,
+        29.0
+      ],
+      "min_elevation": null,
+      "max_elevation": null,
+      "nodata": -32768.0
+    },
+    {
+      "tile_id": "NER_DEM_E089_N28",
+      "xmin": 89.0,
+      "ymin": 28.0,
+      "xmax": 90.0,
+      "ymax": 29.0,
+      "approximate_area_km2": 10865.8,
+      "filename": "NER_DEM_E089_N28.tif",
+      "status": "FAILED_HTTP_401",
+      "file_size": 0,
+      "downloaded_at": null,
+      "validation_status": "FAILED_HTTP",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.0002777777777778146,
+        0.0002777777777778146
+      ],
+      "bounds": [
+        89.0,
+        28.0,
+        90.0,
+        29.0
+      ],
+      "min_elevation": null,
+      "max_elevation": null,
+      "nodata": -32768.0
+    },
+    {
+      "tile_id": "NER_DEM_E090_N28",
+      "xmin": 90.0,
+      "ymin": 28.0,
+      "xmax": 91.0,
+      "ymax": 29.0,
+      "approximate_area_km2": 10865.8,
+      "filename": "NER_DEM_E090_N28.tif",
+      "status": "FAILED_HTTP_401",
+      "file_size": 0,
+      "downloaded_at": null,
+      "validation_status": "FAILED_HTTP",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.0002777777777778146,
+        0.0002777777777778146
+      ],
+      "bounds": [
+        90.0,
+        28.0,
+        91.0,
+        29.0
+      ],
+      "min_elevation": null,
+      "max_elevation": null,
+      "nodata": -32768.0
+    },
+    {
+      "tile_id": "NER_DEM_E091_N28",
+      "xmin": 91.0,
+      "ymin": 28.0,
+      "xmax": 92.0,
+      "ymax": 29.0,
+      "approximate_area_km2": 10865.8,
+      "filename": "NER_DEM_E091_N28.tif",
+      "status": "FAILED_HTTP_401",
+      "file_size": 0,
+      "downloaded_at": null,
+      "validation_status": "FAILED_HTTP",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.0002777777777778146,
+        0.0002777777777778146
+      ],
+      "bounds": [
+        91.0,
+        28.0,
+        92.0,
+        29.0
+      ],
+      "min_elevation": null,
+      "max_elevation": null,
+      "nodata": -32768.0
+    },
+    {
+      "tile_id": "NER_DEM_E092_N28",
+      "xmin": 92.0,
+      "ymin": 28.0,
+      "xmax": 93.0,
+      "ymax": 29.0,
+      "approximate_area_km2": 10865.8,
+      "filename": "NER_DEM_E092_N28.tif",
+      "status": "FAILED_HTTP_401",
+      "file_size": 0,
+      "downloaded_at": null,
+      "validation_status": "FAILED_HTTP",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.0002777777777778146,
+        0.0002777777777778146
+      ],
+      "bounds": [
+        92.0,
+        28.0,
+        93.0,
+        29.0
+      ],
+      "min_elevation": null,
+      "max_elevation": null,
+      "nodata": -32768.0
+    },
+    {
+      "tile_id": "NER_DEM_E093_N28",
+      "xmin": 93.0,
+      "ymin": 28.0,
+      "xmax": 94.0,
+      "ymax": 29.0,
+      "approximate_area_km2": 10865.8,
+      "filename": "NER_DEM_E093_N28.tif",
+      "status": "FAILED_HTTP_401",
+      "file_size": 0,
+      "downloaded_at": null,
+      "validation_status": "FAILED_HTTP",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.0002777777777778146,
+        0.0002777777777778146
+      ],
+      "bounds": [
+        93.0,
+        28.0,
+        94.0,
+        29.0
+      ],
+      "min_elevation": null,
+      "max_elevation": null,
+      "nodata": -32768.0
+    },
+    {
+      "tile_id": "NER_DEM_E094_N28",
+      "xmin": 94.0,
+      "ymin": 28.0,
+      "xmax": 95.0,
+      "ymax": 29.0,
+      "approximate_area_km2": 10865.8,
+      "filename": "NER_DEM_E094_N28.tif",
+      "status": "FAILED_HTTP_401",
+      "file_size": 0,
+      "downloaded_at": null,
+      "validation_status": "FAILED_HTTP",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.0002777777777778146,
+        0.0002777777777778146
+      ],
+      "bounds": [
+        94.0,
+        28.0,
+        95.0,
+        29.0
+      ],
+      "min_elevation": null,
+      "max_elevation": null,
+      "nodata": -32768.0
+    },
+    {
+      "tile_id": "NER_DEM_E095_N28",
+      "xmin": 95.0,
+      "ymin": 28.0,
+      "xmax": 96.0,
+      "ymax": 29.0,
+      "approximate_area_km2": 10865.8,
+      "filename": "NER_DEM_E095_N28.tif",
+      "status": "FAILED_HTTP_401",
+      "file_size": 0,
+      "downloaded_at": null,
+      "validation_status": "FAILED_HTTP",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.0002777777777778146,
+        0.0002777777777778146
+      ],
+      "bounds": [
+        95.0,
+        28.0,
+        96.0,
+        29.0
+      ],
+      "min_elevation": null,
+      "max_elevation": null,
+      "nodata": -32768.0
+    },
+    {
+      "tile_id": "NER_DEM_E096_N28",
+      "xmin": 96.0,
+      "ymin": 28.0,
+      "xmax": 97.0,
+      "ymax": 29.0,
+      "approximate_area_km2": 10865.8,
+      "filename": "NER_DEM_E096_N28.tif",
+      "status": "FAILED_HTTP_401",
+      "file_size": 0,
+      "downloaded_at": null,
+      "validation_status": "FAILED_HTTP",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.0002777777777778146,
+        0.0002777777777778146
+      ],
+      "bounds": [
+        96.0,
+        28.0,
+        97.0,
+        29.0
+      ],
+      "min_elevation": null,
+      "max_elevation": null,
+      "nodata": -32768.0
+    },
+    {
+      "tile_id": "NER_DEM_E097_N28",
+      "xmin": 97.0,
+      "ymin": 28.0,
+      "xmax": 98.0,
+      "ymax": 29.0,
+      "approximate_area_km2": 10865.8,
+      "filename": "NER_DEM_E097_N28.tif",
+      "status": "FAILED_HTTP_401",
+      "file_size": 0,
+      "downloaded_at": null,
+      "validation_status": "FAILED_HTTP",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.0002777777777778146,
+        0.0002777777777778146
+      ],
+      "bounds": [
+        97.0,
+        28.0,
+        98.0,
+        29.0
+      ],
+      "min_elevation": null,
+      "max_elevation": null,
+      "nodata": -32768.0
+    },
+    {
+      "tile_id": "NER_DEM_E088_N29",
+      "xmin": 88.0,
+      "ymin": 29.0,
+      "xmax": 89.0,
+      "ymax": 30.0,
+      "approximate_area_km2": 10761.2,
+      "filename": "NER_DEM_E088_N29.tif",
+      "status": "FAILED_HTTP_401",
+      "file_size": 0,
+      "downloaded_at": null,
+      "validation_status": "FAILED_HTTP",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.0002777777777778146,
+        0.0002777777777778146
+      ],
+      "bounds": [
+        88.0,
+        29.0,
+        89.0,
+        30.0
+      ],
+      "min_elevation": null,
+      "max_elevation": null,
+      "nodata": -32768.0
+    },
+    {
+      "tile_id": "NER_DEM_E089_N29",
+      "xmin": 89.0,
+      "ymin": 29.0,
+      "xmax": 90.0,
+      "ymax": 30.0,
+      "approximate_area_km2": 10761.2,
+      "filename": "NER_DEM_E089_N29.tif",
+      "status": "FAILED_HTTP_401",
+      "file_size": 0,
+      "downloaded_at": null,
+      "validation_status": "FAILED_HTTP",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.0002777777777778146,
+        0.0002777777777778146
+      ],
+      "bounds": [
+        89.0,
+        29.0,
+        90.0,
+        30.0
+      ],
+      "min_elevation": null,
+      "max_elevation": null,
+      "nodata": -32768.0
+    },
+    {
+      "tile_id": "NER_DEM_E090_N29",
+      "xmin": 90.0,
+      "ymin": 29.0,
+      "xmax": 91.0,
+      "ymax": 30.0,
+      "approximate_area_km2": 10761.2,
+      "filename": "NER_DEM_E090_N29.tif",
+      "status": "FAILED_HTTP_401",
+      "file_size": 0,
+      "downloaded_at": null,
+      "validation_status": "FAILED_HTTP",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.0002777777777778146,
+        0.0002777777777778146
+      ],
+      "bounds": [
+        90.0,
+        29.0,
+        91.0,
+        30.0
+      ],
+      "min_elevation": null,
+      "max_elevation": null,
+      "nodata": -32768.0
+    },
+    {
+      "tile_id": "NER_DEM_E091_N29",
+      "xmin": 91.0,
+      "ymin": 29.0,
+      "xmax": 92.0,
+      "ymax": 30.0,
+      "approximate_area_km2": 10761.2,
+      "filename": "NER_DEM_E091_N29.tif",
+      "status": "FAILED_HTTP_401",
+      "file_size": 0,
+      "downloaded_at": null,
+      "validation_status": "FAILED_HTTP",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.0002777777777778146,
+        0.0002777777777778146
+      ],
+      "bounds": [
+        91.0,
+        29.0,
+        92.0,
+        30.0
+      ],
+      "min_elevation": null,
+      "max_elevation": null,
+      "nodata": -32768.0
+    },
+    {
+      "tile_id": "NER_DEM_E092_N29",
+      "xmin": 92.0,
+      "ymin": 29.0,
+      "xmax": 93.0,
+      "ymax": 30.0,
+      "approximate_area_km2": 10761.2,
+      "filename": "NER_DEM_E092_N29.tif",
+      "status": "FAILED_HTTP_401",
+      "file_size": 0,
+      "downloaded_at": null,
+      "validation_status": "FAILED_HTTP",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.0002777777777778146,
+        0.0002777777777778146
+      ],
+      "bounds": [
+        92.0,
+        29.0,
+        93.0,
+        30.0
+      ],
+      "min_elevation": null,
+      "max_elevation": null,
+      "nodata": -32768.0
+    },
+    {
+      "tile_id": "NER_DEM_E093_N29",
+      "xmin": 93.0,
+      "ymin": 29.0,
+      "xmax": 94.0,
+      "ymax": 30.0,
+      "approximate_area_km2": 10761.2,
+      "filename": "NER_DEM_E093_N29.tif",
+      "status": "FAILED_HTTP_401",
+      "file_size": 0,
+      "downloaded_at": null,
+      "validation_status": "FAILED_HTTP",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.0002777777777778146,
+        0.0002777777777778146
+      ],
+      "bounds": [
+        93.0,
+        29.0,
+        94.0,
+        30.0
+      ],
+      "min_elevation": null,
+      "max_elevation": null,
+      "nodata": -32768.0
+    },
+    {
+      "tile_id": "NER_DEM_E094_N29",
+      "xmin": 94.0,
+      "ymin": 29.0,
+      "xmax": 95.0,
+      "ymax": 30.0,
+      "approximate_area_km2": 10761.2,
+      "filename": "NER_DEM_E094_N29.tif",
+      "status": "FAILED_HTTP_401",
+      "file_size": 0,
+      "downloaded_at": null,
+      "validation_status": "FAILED_HTTP",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.0002777777777778146,
+        0.0002777777777778146
+      ],
+      "bounds": [
+        94.0,
+        29.0,
+        95.0,
+        30.0
+      ],
+      "min_elevation": null,
+      "max_elevation": null,
+      "nodata": -32768.0
+    },
+    {
+      "tile_id": "NER_DEM_E095_N29",
+      "xmin": 95.0,
+      "ymin": 29.0,
+      "xmax": 96.0,
+      "ymax": 30.0,
+      "approximate_area_km2": 10761.2,
+      "filename": "NER_DEM_E095_N29.tif",
+      "status": "FAILED_HTTP_401",
+      "file_size": 0,
+      "downloaded_at": null,
+      "validation_status": "FAILED_HTTP",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.0002777777777778146,
+        0.0002777777777778146
+      ],
+      "bounds": [
+        95.0,
+        29.0,
+        96.0,
+        30.0
+      ],
+      "min_elevation": null,
+      "max_elevation": null,
+      "nodata": -32768.0
+    },
+    {
+      "tile_id": "NER_DEM_E096_N29",
+      "xmin": 96.0,
+      "ymin": 29.0,
+      "xmax": 97.0,
+      "ymax": 30.0,
+      "approximate_area_km2": 10761.2,
+      "filename": "NER_DEM_E096_N29.tif",
+      "status": "FAILED_HTTP_401",
+      "file_size": 0,
+      "downloaded_at": null,
+      "validation_status": "FAILED_HTTP",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.0002777777777778146,
+        0.0002777777777778146
+      ],
+      "bounds": [
+        96.0,
+        29.0,
+        97.0,
+        30.0
+      ],
+      "min_elevation": null,
+      "max_elevation": null,
+      "nodata": -32768.0
+    },
+    {
+      "tile_id": "NER_DEM_E097_N29",
+      "xmin": 97.0,
+      "ymin": 29.0,
+      "xmax": 98.0,
+      "ymax": 30.0,
+      "approximate_area_km2": 10761.2,
+      "filename": "NER_DEM_E097_N29.tif",
+      "status": "FAILED_HTTP_401",
+      "file_size": 0,
+      "downloaded_at": null,
+      "validation_status": "FAILED_HTTP",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.0002777777777778146,
+        0.0002777777777778146
+      ],
+      "bounds": [
+        97.0,
+        29.0,
+        98.0,
+        30.0
+      ],
+      "min_elevation": null,
+      "max_elevation": null,
+      "nodata": -32768.0
+    }
+  ]
+}

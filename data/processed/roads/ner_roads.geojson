@@ -1,0 +1,1527 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "data_type": "SYNTHETIC_DEMO",
+    "warning": "THIS IS SYNTHETIC DATA FOR DEMONSTRATION ONLY. Not real OSM data.",
+    "total_roads": 44,
+    "generated_at": "2026-08-27T10:00:00Z"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            91.736,
+            26.144
+          ],
+          [
+            91.907155,
+            25.974161
+          ],
+          [
+            91.881707,
+            26.008177
+          ],
+          [
+            91.893,
+            25.578
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "ROAD_001",
+        "name": "NH-6",
+        "road_type": "national_highway",
+        "surface": "paved",
+        "lanes": 2,
+        "length_km": 64.8,
+        "from_city": "Guwahati",
+        "to_city": "Shillong",
+        "from_state": "Assam",
+        "to_state": "Meghalaya",
+        "landslide_risk_zone": false,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            91.736,
+            26.144
+          ],
+          [
+            92.327208,
+            26.436806
+          ],
+          [
+            93.073456,
+            26.831285
+          ],
+          [
+            93.606,
+            27.084
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "ROAD_002",
+        "name": "NH-15",
+        "road_type": "national_highway",
+        "surface": "paved",
+        "lanes": 2,
+        "length_km": 212.9,
+        "from_city": "Guwahati",
+        "to_city": "Itanagar",
+        "from_state": "Assam",
+        "to_state": "Arunachal Pradesh",
+        "landslide_risk_zone": true,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            91.736,
+            26.144
+          ],
+          [
+            92.574064,
+            26.499988
+          ],
+          [
+            93.806229,
+            26.88548
+          ],
+          [
+            94.912,
+            27.48
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "ROAD_003",
+        "name": "NH-37",
+        "road_type": "national_highway",
+        "surface": "paved",
+        "lanes": 2,
+        "length_km": 347.8,
+        "from_city": "Guwahati",
+        "to_city": "Dibrugarh",
+        "from_state": "Assam",
+        "to_state": "Assam",
+        "landslide_risk_zone": true,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            91.736,
+            26.144
+          ],
+          [
+            91.681552,
+            25.77905
+          ],
+          [
+            92.361016,
+            25.715753
+          ],
+          [
+            92.222707,
+            25.355395
+          ],
+          [
+            92.654068,
+            25.577438
+          ],
+          [
+            92.585909,
+            25.102291
+          ],
+          [
+            92.797,
+            24.826
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "ROAD_004",
+        "name": "NH-44",
+        "road_type": "national_highway",
+        "surface": "paved",
+        "lanes": 2,
+        "length_km": 180.8,
+        "from_city": "Guwahati",
+        "to_city": "Silchar",
+        "from_state": "Assam",
+        "to_state": "Assam",
+        "landslide_risk_zone": true,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            91.736,
+            26.144
+          ],
+          [
+            92.001892,
+            26.413681
+          ],
+          [
+            92.437926,
+            26.514524
+          ],
+          [
+            92.795,
+            26.633
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "ROAD_005",
+        "name": "NH-52",
+        "road_type": "national_highway",
+        "surface": "paved",
+        "lanes": 2,
+        "length_km": 118.5,
+        "from_city": "Guwahati",
+        "to_city": "Tezpur",
+        "from_state": "Assam",
+        "to_state": "Assam",
+        "landslide_risk_zone": true,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            93.95,
+            24.817
+          ],
+          [
+            93.583675,
+            24.868133
+          ],
+          [
+            93.865962,
+            25.232735
+          ],
+          [
+            94.12964,
+            25.060639
+          ],
+          [
+            94.183771,
+            25.235336
+          ],
+          [
+            94.070397,
+            25.483748
+          ],
+          [
+            94.11,
+            25.67
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "ROAD_006",
+        "name": "NH-2",
+        "road_type": "national_highway",
+        "surface": "paved",
+        "lanes": 2,
+        "length_km": 96.0,
+        "from_city": "Imphal",
+        "to_city": "Kohima",
+        "from_state": "Manipur",
+        "to_state": "Nagaland",
+        "landslide_risk_zone": false,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            91.286,
+            23.831
+          ],
+          [
+            91.726651,
+            23.648821
+          ],
+          [
+            92.226468,
+            24.091022
+          ],
+          [
+            92.298974,
+            24.690017
+          ],
+          [
+            92.797,
+            24.826
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "ROAD_007",
+        "name": "NH-44S",
+        "road_type": "national_highway",
+        "surface": "paved",
+        "lanes": 2,
+        "length_km": 188.6,
+        "from_city": "Agartala",
+        "to_city": "Silchar",
+        "from_state": "Tripura",
+        "to_state": "Assam",
+        "landslide_risk_zone": true,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            91.893,
+            25.578
+          ],
+          [
+            91.629316,
+            25.684701
+          ],
+          [
+            91.106807,
+            25.346989
+          ],
+          [
+            90.858587,
+            25.485623
+          ],
+          [
+            90.422372,
+            25.386144
+          ],
+          [
+            90.208,
+            25.512
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "ROAD_008",
+        "name": "NH-62",
+        "road_type": "state_highway",
+        "surface": "paved",
+        "lanes": 1,
+        "length_km": 168.9,
+        "from_city": "Shillong",
+        "to_city": "Tura",
+        "from_state": "Meghalaya",
+        "to_state": "Meghalaya",
+        "landslide_risk_zone": true,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            92.717,
+            23.727
+          ],
+          [
+            92.797604,
+            23.642623
+          ],
+          [
+            92.940452,
+            23.293396
+          ],
+          [
+            92.517806,
+            23.017939
+          ],
+          [
+            92.736,
+            22.888
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "ROAD_009",
+        "name": "NH-54",
+        "road_type": "state_highway",
+        "surface": "paved",
+        "lanes": 1,
+        "length_km": 93.1,
+        "from_city": "Aizawl",
+        "to_city": "Lunglei",
+        "from_state": "Mizoram",
+        "to_state": "Mizoram",
+        "landslide_risk_zone": false,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            94.11,
+            25.67
+          ],
+          [
+            93.987363,
+            25.787652
+          ],
+          [
+            93.807328,
+            25.937878
+          ],
+          [
+            93.727,
+            25.909
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "ROAD_010",
+        "name": "NH-29",
+        "road_type": "state_highway",
+        "surface": "paved",
+        "lanes": 1,
+        "length_km": 46.6,
+        "from_city": "Kohima",
+        "to_city": "Dimapur",
+        "from_state": "Nagaland",
+        "to_state": "Nagaland",
+        "landslide_risk_zone": false,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            94.912,
+            27.48
+          ],
+          [
+            95.183173,
+            27.525982
+          ],
+          [
+            95.101732,
+            27.671883
+          ],
+          [
+            94.915979,
+            27.921756
+          ],
+          [
+            95.333,
+            28.067
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "ROAD_011",
+        "name": "NH-52B",
+        "road_type": "state_highway",
+        "surface": "paved",
+        "lanes": 1,
+        "length_km": 77.2,
+        "from_city": "Dibrugarh",
+        "to_city": "Pasighat",
+        "from_state": "Assam",
+        "to_state": "Arunachal Pradesh",
+        "landslide_risk_zone": false,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.612,
+            27.329
+          ],
+          [
+            89.183953,
+            27.195823
+          ],
+          [
+            89.647457,
+            26.747427
+          ],
+          [
+            90.171023,
+            26.577871
+          ],
+          [
+            90.571599,
+            26.467741
+          ],
+          [
+            91.297174,
+            26.340125
+          ],
+          [
+            91.736,
+            26.144
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "ROAD_012",
+        "name": "NH-10",
+        "road_type": "national_highway",
+        "surface": "paved",
+        "lanes": 2,
+        "length_km": 336.5,
+        "from_city": "Gangtok",
+        "to_city": "Guwahati",
+        "from_state": "Sikkim",
+        "to_state": "Assam",
+        "landslide_risk_zone": true,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            91.736,
+            26.144
+          ],
+          [
+            91.750486,
+            25.786213
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "ROAD_013",
+        "name": "District Road 13",
+        "road_type": "district_road",
+        "surface": "gravel",
+        "lanes": 1,
+        "length_km": 39.7,
+        "from_city": "Guwahati",
+        "to_city": "Village_13",
+        "from_state": "Assam",
+        "to_state": "Assam",
+        "landslide_risk_zone": true,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            91.736,
+            26.144
+          ],
+          [
+            92.049217,
+            26.545896
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "ROAD_014",
+        "name": "District Road 14",
+        "road_type": "district_road",
+        "surface": "gravel",
+        "lanes": 1,
+        "length_km": 54.4,
+        "from_city": "Guwahati",
+        "to_city": "Village_14",
+        "from_state": "Assam",
+        "to_state": "Assam",
+        "landslide_risk_zone": true,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            94.912,
+            27.48
+          ],
+          [
+            94.798592,
+            27.264499
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "ROAD_015",
+        "name": "District Road 15",
+        "road_type": "district_road",
+        "surface": "gravel",
+        "lanes": 1,
+        "length_km": 26.4,
+        "from_city": "Dibrugarh",
+        "to_city": "Village_15",
+        "from_state": "Assam",
+        "to_state": "Assam",
+        "landslide_risk_zone": true,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            94.912,
+            27.48
+          ],
+          [
+            94.578369,
+            27.741719
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "ROAD_016",
+        "name": "District Road 16",
+        "road_type": "district_road",
+        "surface": "gravel",
+        "lanes": 1,
+        "length_km": 43.9,
+        "from_city": "Dibrugarh",
+        "to_city": "Village_16",
+        "from_state": "Assam",
+        "to_state": "Assam",
+        "landslide_risk_zone": true,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            92.797,
+            24.826
+          ],
+          [
+            92.370612,
+            24.904747
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "ROAD_017",
+        "name": "District Road 17",
+        "road_type": "district_road",
+        "surface": "gravel",
+        "lanes": 1,
+        "length_km": 43.8,
+        "from_city": "Silchar",
+        "to_city": "Village_17",
+        "from_state": "Assam",
+        "to_state": "Assam",
+        "landslide_risk_zone": true,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            92.797,
+            24.826
+          ],
+          [
+            92.515178,
+            24.737122
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "ROAD_018",
+        "name": "District Road 18",
+        "road_type": "district_road",
+        "surface": "gravel",
+        "lanes": 1,
+        "length_km": 30.1,
+        "from_city": "Silchar",
+        "to_city": "Village_18",
+        "from_state": "Assam",
+        "to_state": "Assam",
+        "landslide_risk_zone": true,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            94.11,
+            25.67
+          ],
+          [
+            93.865377,
+            25.199282
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "ROAD_019",
+        "name": "District Road 19",
+        "road_type": "district_road",
+        "surface": "gravel",
+        "lanes": 1,
+        "length_km": 57.7,
+        "from_city": "Kohima",
+        "to_city": "Village_19",
+        "from_state": "Nagaland",
+        "to_state": "Nagaland",
+        "landslide_risk_zone": true,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            94.11,
+            25.67
+          ],
+          [
+            94.294094,
+            25.523325
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "ROAD_020",
+        "name": "District Road 20",
+        "road_type": "district_road",
+        "surface": "gravel",
+        "lanes": 1,
+        "length_km": 24.6,
+        "from_city": "Kohima",
+        "to_city": "Village_20",
+        "from_state": "Nagaland",
+        "to_state": "Nagaland",
+        "landslide_risk_zone": true,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            93.727,
+            25.909
+          ],
+          [
+            93.785429,
+            25.461308
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "ROAD_021",
+        "name": "District Road 21",
+        "road_type": "district_road",
+        "surface": "gravel",
+        "lanes": 1,
+        "length_km": 50.0,
+        "from_city": "Dimapur",
+        "to_city": "Village_21",
+        "from_state": "Nagaland",
+        "to_state": "Nagaland",
+        "landslide_risk_zone": true,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            93.727,
+            25.909
+          ],
+          [
+            93.636143,
+            26.200527
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "ROAD_022",
+        "name": "District Road 22",
+        "road_type": "district_road",
+        "surface": "gravel",
+        "lanes": 1,
+        "length_km": 33.6,
+        "from_city": "Dimapur",
+        "to_city": "Village_22",
+        "from_state": "Nagaland",
+        "to_state": "Nagaland",
+        "landslide_risk_zone": true,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            93.606,
+            27.084
+          ],
+          [
+            93.87233,
+            27.088836
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "ROAD_023",
+        "name": "District Road 23",
+        "road_type": "district_road",
+        "surface": "gravel",
+        "lanes": 1,
+        "length_km": 26.3,
+        "from_city": "Itanagar",
+        "to_city": "Village_23",
+        "from_state": "Arunachal Pradesh",
+        "to_state": "Arunachal Pradesh",
+        "landslide_risk_zone": true,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            93.606,
+            27.084
+          ],
+          [
+            93.51234,
+            26.651573
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "ROAD_024",
+        "name": "District Road 24",
+        "road_type": "district_road",
+        "surface": "gravel",
+        "lanes": 1,
+        "length_km": 48.9,
+        "from_city": "Itanagar",
+        "to_city": "Village_24",
+        "from_state": "Arunachal Pradesh",
+        "to_state": "Arunachal Pradesh",
+        "landslide_risk_zone": true,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            95.333,
+            28.067
+          ],
+          [
+            95.378137,
+            27.538087
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "ROAD_025",
+        "name": "District Road 25",
+        "road_type": "district_road",
+        "surface": "gravel",
+        "lanes": 1,
+        "length_km": 58.9,
+        "from_city": "Pasighat",
+        "to_city": "Village_25",
+        "from_state": "Arunachal Pradesh",
+        "to_state": "Arunachal Pradesh",
+        "landslide_risk_zone": true,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            95.333,
+            28.067
+          ],
+          [
+            95.65592,
+            28.292099
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "ROAD_026",
+        "name": "District Road 26",
+        "road_type": "district_road",
+        "surface": "gravel",
+        "lanes": 1,
+        "length_km": 40.3,
+        "from_city": "Pasighat",
+        "to_city": "Village_26",
+        "from_state": "Arunachal Pradesh",
+        "to_state": "Arunachal Pradesh",
+        "landslide_risk_zone": true,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.612,
+            27.329
+          ],
+          [
+            88.860613,
+            26.988911
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "ROAD_027",
+        "name": "District Road 27",
+        "road_type": "district_road",
+        "surface": "gravel",
+        "lanes": 1,
+        "length_km": 45.0,
+        "from_city": "Gangtok",
+        "to_city": "Village_27",
+        "from_state": "Sikkim",
+        "to_state": "Sikkim",
+        "landslide_risk_zone": true,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.612,
+            27.329
+          ],
+          [
+            88.740965,
+            27.673574
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "ROAD_028",
+        "name": "District Road 28",
+        "road_type": "district_road",
+        "surface": "gravel",
+        "lanes": 1,
+        "length_km": 40.3,
+        "from_city": "Gangtok",
+        "to_city": "Village_28",
+        "from_state": "Sikkim",
+        "to_state": "Sikkim",
+        "landslide_risk_zone": true,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            91.286,
+            23.831
+          ],
+          [
+            91.467635,
+            24.098529
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "ROAD_029",
+        "name": "District Road 29",
+        "road_type": "district_road",
+        "surface": "gravel",
+        "lanes": 1,
+        "length_km": 35.0,
+        "from_city": "Agartala",
+        "to_city": "Village_29",
+        "from_state": "Tripura",
+        "to_state": "Tripura",
+        "landslide_risk_zone": true,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            91.286,
+            23.831
+          ],
+          [
+            91.791936,
+            23.585714
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "ROAD_030",
+        "name": "District Road 30",
+        "road_type": "district_road",
+        "surface": "gravel",
+        "lanes": 1,
+        "length_km": 58.1,
+        "from_city": "Agartala",
+        "to_city": "Village_30",
+        "from_state": "Tripura",
+        "to_state": "Tripura",
+        "landslide_risk_zone": true,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            92.163,
+            24.375
+          ],
+          [
+            91.706809,
+            24.077291
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "ROAD_031",
+        "name": "District Road 31",
+        "road_type": "district_road",
+        "surface": "gravel",
+        "lanes": 1,
+        "length_km": 56.7,
+        "from_city": "Dharmanagar",
+        "to_city": "Village_31",
+        "from_state": "Tripura",
+        "to_state": "Tripura",
+        "landslide_risk_zone": true,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            92.163,
+            24.375
+          ],
+          [
+            92.461414,
+            24.605291
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "ROAD_032",
+        "name": "District Road 32",
+        "road_type": "district_road",
+        "surface": "gravel",
+        "lanes": 1,
+        "length_km": 39.5,
+        "from_city": "Dharmanagar",
+        "to_city": "Village_32",
+        "from_state": "Tripura",
+        "to_state": "Tripura",
+        "landslide_risk_zone": true,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            93.95,
+            24.817
+          ],
+          [
+            94.291168,
+            24.788359
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "ROAD_033",
+        "name": "District Road 33",
+        "road_type": "district_road",
+        "surface": "gravel",
+        "lanes": 1,
+        "length_km": 34.5,
+        "from_city": "Imphal",
+        "to_city": "Village_33",
+        "from_state": "Manipur",
+        "to_state": "Manipur",
+        "landslide_risk_zone": true,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            93.95,
+            24.817
+          ],
+          [
+            93.984359,
+            25.286876
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "ROAD_034",
+        "name": "District Road 34",
+        "road_type": "district_road",
+        "surface": "gravel",
+        "lanes": 1,
+        "length_km": 52.3,
+        "from_city": "Imphal",
+        "to_city": "Village_34",
+        "from_state": "Manipur",
+        "to_state": "Manipur",
+        "landslide_risk_zone": true,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            93.68,
+            24.333
+          ],
+          [
+            93.412841,
+            24.223352
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "ROAD_035",
+        "name": "District Road 35",
+        "road_type": "district_road",
+        "surface": "gravel",
+        "lanes": 1,
+        "length_km": 29.6,
+        "from_city": "Churachandpur",
+        "to_city": "Village_35",
+        "from_state": "Manipur",
+        "to_state": "Manipur",
+        "landslide_risk_zone": true,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            93.68,
+            24.333
+          ],
+          [
+            93.654036,
+            24.125785
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "ROAD_036",
+        "name": "District Road 36",
+        "road_type": "district_road",
+        "surface": "gravel",
+        "lanes": 1,
+        "length_km": 23.2,
+        "from_city": "Churachandpur",
+        "to_city": "Village_36",
+        "from_state": "Manipur",
+        "to_state": "Manipur",
+        "landslide_risk_zone": true,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            91.893,
+            25.578
+          ],
+          [
+            92.413747,
+            25.512608
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "ROAD_037",
+        "name": "District Road 37",
+        "road_type": "district_road",
+        "surface": "gravel",
+        "lanes": 1,
+        "length_km": 52.6,
+        "from_city": "Shillong",
+        "to_city": "Village_37",
+        "from_state": "Meghalaya",
+        "to_state": "Meghalaya",
+        "landslide_risk_zone": true,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            91.893,
+            25.578
+          ],
+          [
+            92.183341,
+            25.842402
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "ROAD_038",
+        "name": "District Road 38",
+        "road_type": "district_road",
+        "surface": "gravel",
+        "lanes": 1,
+        "length_km": 41.3,
+        "from_city": "Shillong",
+        "to_city": "Village_38",
+        "from_state": "Meghalaya",
+        "to_state": "Meghalaya",
+        "landslide_risk_zone": true,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            90.208,
+            25.512
+          ],
+          [
+            90.645497,
+            25.375009
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "ROAD_039",
+        "name": "District Road 39",
+        "road_type": "district_road",
+        "surface": "gravel",
+        "lanes": 1,
+        "length_km": 46.4,
+        "from_city": "Tura",
+        "to_city": "Village_39",
+        "from_state": "Meghalaya",
+        "to_state": "Meghalaya",
+        "landslide_risk_zone": true,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            90.208,
+            25.512
+          ],
+          [
+            89.946424,
+            25.470533
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "ROAD_040",
+        "name": "District Road 40",
+        "road_type": "district_road",
+        "surface": "gravel",
+        "lanes": 1,
+        "length_km": 26.6,
+        "from_city": "Tura",
+        "to_city": "Village_40",
+        "from_state": "Meghalaya",
+        "to_state": "Meghalaya",
+        "landslide_risk_zone": true,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            92.717,
+            23.727
+          ],
+          [
+            93.141718,
+            23.638453
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "ROAD_041",
+        "name": "District Road 41",
+        "road_type": "district_road",
+        "surface": "gravel",
+        "lanes": 1,
+        "length_km": 44.3,
+        "from_city": "Aizawl",
+        "to_city": "Village_41",
+        "from_state": "Mizoram",
+        "to_state": "Mizoram",
+        "landslide_risk_zone": true,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            92.717,
+            23.727
+          ],
+          [
+            92.735604,
+            23.212358
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "ROAD_042",
+        "name": "District Road 42",
+        "road_type": "district_road",
+        "surface": "gravel",
+        "lanes": 1,
+        "length_km": 57.2,
+        "from_city": "Aizawl",
+        "to_city": "Village_42",
+        "from_state": "Mizoram",
+        "to_state": "Mizoram",
+        "landslide_risk_zone": true,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            92.736,
+            22.888
+          ],
+          [
+            92.628626,
+            22.470785
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "ROAD_043",
+        "name": "District Road 43",
+        "road_type": "district_road",
+        "surface": "gravel",
+        "lanes": 1,
+        "length_km": 47.6,
+        "from_city": "Lunglei",
+        "to_city": "Village_43",
+        "from_state": "Mizoram",
+        "to_state": "Mizoram",
+        "landslide_risk_zone": true,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            92.736,
+            22.888
+          ],
+          [
+            92.569868,
+            22.602472
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "ROAD_044",
+        "name": "District Road 44",
+        "road_type": "district_road",
+        "surface": "gravel",
+        "lanes": 1,
+        "length_km": 36.0,
+        "from_city": "Lunglei",
+        "to_city": "Village_44",
+        "from_state": "Mizoram",
+        "to_state": "Mizoram",
+        "landslide_risk_zone": true,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    }
+  ]
+}

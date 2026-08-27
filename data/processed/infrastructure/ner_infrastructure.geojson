@@ -1,0 +1,2238 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "data_type": "SYNTHETIC_DEMO",
+    "warning": "THIS IS SYNTHETIC DATA FOR DEMONSTRATION ONLY.",
+    "total_features": 109,
+    "types": {
+      "hospitals": 37,
+      "schools": 62,
+      "bridges": 10
+    },
+    "generated_at": "2026-08-27T10:00:00Z"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          91.641471,
+          26.141132
+        ]
+      },
+      "properties": {
+        "infra_id": "HOSP_001",
+        "type": "hospital",
+        "name": "Guwahati Hospital",
+        "state": "Assam",
+        "beds": 100,
+        "has_emergency": true,
+        "has_icu": true,
+        "helicopter_pad": false,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          91.825275,
+          26.155211
+        ]
+      },
+      "properties": {
+        "infra_id": "HOSP_002",
+        "type": "hospital",
+        "name": "Guwahati District Hospital",
+        "state": "Assam",
+        "beds": 10,
+        "has_emergency": false,
+        "has_icu": false,
+        "helicopter_pad": false,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          91.684182,
+          26.089435
+        ]
+      },
+      "properties": {
+        "infra_id": "HOSP_003",
+        "type": "hospital",
+        "name": "Guwahati District Hospital",
+        "state": "Assam",
+        "beds": 30,
+        "has_emergency": false,
+        "has_icu": false,
+        "helicopter_pad": false,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          91.83322,
+          25.615067
+        ]
+      },
+      "properties": {
+        "infra_id": "HOSP_004",
+        "type": "hospital",
+        "name": "Shillong Hospital",
+        "state": "Meghalaya",
+        "beds": 30,
+        "has_emergency": true,
+        "has_icu": true,
+        "helicopter_pad": false,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          91.916914,
+          25.516676
+        ]
+      },
+      "properties": {
+        "infra_id": "HOSP_005",
+        "type": "hospital",
+        "name": "Shillong District Hospital",
+        "state": "Meghalaya",
+        "beds": 30,
+        "has_emergency": false,
+        "has_icu": false,
+        "helicopter_pad": true,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          91.869082,
+          25.615495
+        ]
+      },
+      "properties": {
+        "infra_id": "HOSP_006",
+        "type": "hospital",
+        "name": "Shillong District Hospital",
+        "state": "Meghalaya",
+        "beds": 20,
+        "has_emergency": false,
+        "has_icu": false,
+        "helicopter_pad": true,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.617425,
+          23.750254
+        ]
+      },
+      "properties": {
+        "infra_id": "HOSP_007",
+        "type": "hospital",
+        "name": "Aizawl Hospital",
+        "state": "Mizoram",
+        "beds": 100,
+        "has_emergency": true,
+        "has_icu": true,
+        "helicopter_pad": false,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.076285,
+          25.688666
+        ]
+      },
+      "properties": {
+        "infra_id": "HOSP_008",
+        "type": "hospital",
+        "name": "Kohima Hospital",
+        "state": "Nagaland",
+        "beds": 200,
+        "has_emergency": true,
+        "has_icu": false,
+        "helicopter_pad": false,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.207038,
+          25.641714
+        ]
+      },
+      "properties": {
+        "infra_id": "HOSP_009",
+        "type": "hospital",
+        "name": "Kohima District Hospital",
+        "state": "Nagaland",
+        "beds": 10,
+        "has_emergency": false,
+        "has_icu": false,
+        "helicopter_pad": false,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.050801,
+          24.899585
+        ]
+      },
+      "properties": {
+        "infra_id": "HOSP_010",
+        "type": "hospital",
+        "name": "Imphal Hospital",
+        "state": "Manipur",
+        "beds": 200,
+        "has_emergency": true,
+        "has_icu": true,
+        "helicopter_pad": false,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          91.352045,
+          23.772199
+        ]
+      },
+      "properties": {
+        "infra_id": "HOSP_011",
+        "type": "hospital",
+        "name": "Agartala Hospital",
+        "state": "Tripura",
+        "beds": 30,
+        "has_emergency": true,
+        "has_icu": true,
+        "helicopter_pad": true,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          91.319602,
+          23.865203
+        ]
+      },
+      "properties": {
+        "infra_id": "HOSP_012",
+        "type": "hospital",
+        "name": "Agartala District Hospital",
+        "state": "Tripura",
+        "beds": 30,
+        "has_emergency": false,
+        "has_icu": false,
+        "helicopter_pad": false,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          91.238901,
+          23.750855
+        ]
+      },
+      "properties": {
+        "infra_id": "HOSP_013",
+        "type": "hospital",
+        "name": "Agartala District Hospital",
+        "state": "Tripura",
+        "beds": 20,
+        "has_emergency": false,
+        "has_icu": false,
+        "helicopter_pad": true,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          93.618391,
+          27.015601
+        ]
+      },
+      "properties": {
+        "infra_id": "HOSP_014",
+        "type": "hospital",
+        "name": "Itanagar Hospital",
+        "state": "Arunachal Pradesh",
+        "beds": 300,
+        "has_emergency": true,
+        "has_icu": false,
+        "helicopter_pad": false,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.629778,
+          27.332233
+        ]
+      },
+      "properties": {
+        "infra_id": "HOSP_015",
+        "type": "hospital",
+        "name": "Gangtok Hospital",
+        "state": "Sikkim",
+        "beds": 200,
+        "has_emergency": true,
+        "has_icu": true,
+        "helicopter_pad": false,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.660493,
+          27.312503
+        ]
+      },
+      "properties": {
+        "infra_id": "HOSP_016",
+        "type": "hospital",
+        "name": "Gangtok District Hospital",
+        "state": "Sikkim",
+        "beds": 10,
+        "has_emergency": false,
+        "has_icu": false,
+        "helicopter_pad": true,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.650433,
+          27.49037
+        ]
+      },
+      "properties": {
+        "infra_id": "HOSP_017",
+        "type": "hospital",
+        "name": "Gangtok District Hospital",
+        "state": "Sikkim",
+        "beds": 10,
+        "has_emergency": false,
+        "has_icu": false,
+        "helicopter_pad": true,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.95339,
+          27.516184
+        ]
+      },
+      "properties": {
+        "infra_id": "HOSP_018",
+        "type": "hospital",
+        "name": "Dibrugarh Hospital",
+        "state": "Assam",
+        "beds": 300,
+        "has_emergency": true,
+        "has_icu": true,
+        "helicopter_pad": false,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.883064,
+          27.478593
+        ]
+      },
+      "properties": {
+        "infra_id": "HOSP_019",
+        "type": "hospital",
+        "name": "Dibrugarh District Hospital",
+        "state": "Assam",
+        "beds": 20,
+        "has_emergency": false,
+        "has_icu": false,
+        "helicopter_pad": false,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.852197,
+          27.514708
+        ]
+      },
+      "properties": {
+        "infra_id": "HOSP_020",
+        "type": "hospital",
+        "name": "Dibrugarh District Hospital",
+        "state": "Assam",
+        "beds": 20,
+        "has_emergency": false,
+        "has_icu": false,
+        "helicopter_pad": true,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.85009,
+          24.837075
+        ]
+      },
+      "properties": {
+        "infra_id": "HOSP_021",
+        "type": "hospital",
+        "name": "Silchar Hospital",
+        "state": "Assam",
+        "beds": 50,
+        "has_emergency": true,
+        "has_icu": true,
+        "helicopter_pad": false,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.841463,
+          24.887723
+        ]
+      },
+      "properties": {
+        "infra_id": "HOSP_022",
+        "type": "hospital",
+        "name": "Silchar District Hospital",
+        "state": "Assam",
+        "beds": 30,
+        "has_emergency": false,
+        "has_icu": false,
+        "helicopter_pad": false,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.242089,
+          26.720208
+        ]
+      },
+      "properties": {
+        "infra_id": "HOSP_023",
+        "type": "hospital",
+        "name": "Jorhat Hospital",
+        "state": "Assam",
+        "beds": 50,
+        "has_emergency": true,
+        "has_icu": true,
+        "helicopter_pad": false,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.17364,
+          26.840486
+        ]
+      },
+      "properties": {
+        "infra_id": "HOSP_024",
+        "type": "hospital",
+        "name": "Jorhat District Hospital",
+        "state": "Assam",
+        "beds": 10,
+        "has_emergency": false,
+        "has_icu": false,
+        "helicopter_pad": false,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.150592,
+          26.709582
+        ]
+      },
+      "properties": {
+        "infra_id": "HOSP_025",
+        "type": "hospital",
+        "name": "Jorhat District Hospital",
+        "state": "Assam",
+        "beds": 10,
+        "has_emergency": false,
+        "has_icu": false,
+        "helicopter_pad": true,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.82092,
+          26.634048
+        ]
+      },
+      "properties": {
+        "infra_id": "HOSP_026",
+        "type": "hospital",
+        "name": "Tezpur Hospital",
+        "state": "Assam",
+        "beds": 300,
+        "has_emergency": true,
+        "has_icu": false,
+        "helicopter_pad": true,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.739269,
+          26.663555
+        ]
+      },
+      "properties": {
+        "infra_id": "HOSP_027",
+        "type": "hospital",
+        "name": "Tezpur District Hospital",
+        "state": "Assam",
+        "beds": 30,
+        "has_emergency": false,
+        "has_icu": false,
+        "helicopter_pad": true,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.23288,
+          25.498614
+        ]
+      },
+      "properties": {
+        "infra_id": "HOSP_028",
+        "type": "hospital",
+        "name": "Tura Hospital",
+        "state": "Meghalaya",
+        "beds": 300,
+        "has_emergency": true,
+        "has_icu": false,
+        "helicopter_pad": true,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          93.67512,
+          24.395138
+        ]
+      },
+      "properties": {
+        "infra_id": "HOSP_029",
+        "type": "hospital",
+        "name": "Churachandpur Hospital",
+        "state": "Manipur",
+        "beds": 50,
+        "has_emergency": true,
+        "has_icu": false,
+        "helicopter_pad": true,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.770692,
+          22.919846
+        ]
+      },
+      "properties": {
+        "infra_id": "HOSP_030",
+        "type": "hospital",
+        "name": "Lunglei Hospital",
+        "state": "Mizoram",
+        "beds": 50,
+        "has_emergency": true,
+        "has_icu": false,
+        "helicopter_pad": false,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          93.741581,
+          25.916517
+        ]
+      },
+      "properties": {
+        "infra_id": "HOSP_031",
+        "type": "hospital",
+        "name": "Dimapur Hospital",
+        "state": "Nagaland",
+        "beds": 200,
+        "has_emergency": true,
+        "has_icu": true,
+        "helicopter_pad": false,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.354202,
+          28.117239
+        ]
+      },
+      "properties": {
+        "infra_id": "HOSP_032",
+        "type": "hospital",
+        "name": "Pasighat Hospital",
+        "state": "Arunachal Pradesh",
+        "beds": 100,
+        "has_emergency": true,
+        "has_icu": false,
+        "helicopter_pad": false,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.370462,
+          28.112835
+        ]
+      },
+      "properties": {
+        "infra_id": "HOSP_033",
+        "type": "hospital",
+        "name": "Pasighat District Hospital",
+        "state": "Arunachal Pradesh",
+        "beds": 30,
+        "has_emergency": false,
+        "has_icu": false,
+        "helicopter_pad": true,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.23475,
+          28.087815
+        ]
+      },
+      "properties": {
+        "infra_id": "HOSP_034",
+        "type": "hospital",
+        "name": "Pasighat District Hospital",
+        "state": "Arunachal Pradesh",
+        "beds": 30,
+        "has_emergency": false,
+        "has_icu": false,
+        "helicopter_pad": false,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.15903,
+          24.392263
+        ]
+      },
+      "properties": {
+        "infra_id": "HOSP_035",
+        "type": "hospital",
+        "name": "Dharmanagar Hospital",
+        "state": "Tripura",
+        "beds": 200,
+        "has_emergency": true,
+        "has_icu": false,
+        "helicopter_pad": false,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.17368,
+          24.353618
+        ]
+      },
+      "properties": {
+        "infra_id": "HOSP_036",
+        "type": "hospital",
+        "name": "Dharmanagar District Hospital",
+        "state": "Tripura",
+        "beds": 30,
+        "has_emergency": false,
+        "has_icu": false,
+        "helicopter_pad": false,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.172144,
+          24.393374
+        ]
+      },
+      "properties": {
+        "infra_id": "HOSP_037",
+        "type": "hospital",
+        "name": "Dharmanagar District Hospital",
+        "state": "Tripura",
+        "beds": 30,
+        "has_emergency": false,
+        "has_icu": false,
+        "helicopter_pad": true,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          91.87586,
+          26.121834
+        ]
+      },
+      "properties": {
+        "infra_id": "SCH_038",
+        "type": "school",
+        "name": "Guwahati School 1",
+        "state": "Assam",
+        "students": 1223,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          91.640828,
+          26.120931
+        ]
+      },
+      "properties": {
+        "infra_id": "SCH_039",
+        "type": "school",
+        "name": "Guwahati School 2",
+        "state": "Assam",
+        "students": 1323,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          91.715017,
+          26.036056
+        ]
+      },
+      "properties": {
+        "infra_id": "SCH_040",
+        "type": "school",
+        "name": "Guwahati School 3",
+        "state": "Assam",
+        "students": 1339,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          91.983784,
+          25.70432
+        ]
+      },
+      "properties": {
+        "infra_id": "SCH_041",
+        "type": "school",
+        "name": "Shillong School 1",
+        "state": "Meghalaya",
+        "students": 1846,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          91.723653,
+          25.462465
+        ]
+      },
+      "properties": {
+        "infra_id": "SCH_042",
+        "type": "school",
+        "name": "Shillong School 2",
+        "state": "Meghalaya",
+        "students": 1229,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          91.82458,
+          25.565322
+        ]
+      },
+      "properties": {
+        "infra_id": "SCH_043",
+        "type": "school",
+        "name": "Shillong School 3",
+        "state": "Meghalaya",
+        "students": 1024,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          91.826168,
+          25.656841
+        ]
+      },
+      "properties": {
+        "infra_id": "SCH_044",
+        "type": "school",
+        "name": "Shillong School 4",
+        "state": "Meghalaya",
+        "students": 1794,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          91.922874,
+          25.478681
+        ]
+      },
+      "properties": {
+        "infra_id": "SCH_045",
+        "type": "school",
+        "name": "Shillong School 5",
+        "state": "Meghalaya",
+        "students": 294,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.782687,
+          23.59447
+        ]
+      },
+      "properties": {
+        "infra_id": "SCH_046",
+        "type": "school",
+        "name": "Aizawl School 1",
+        "state": "Mizoram",
+        "students": 866,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.673195,
+          23.872948
+        ]
+      },
+      "properties": {
+        "infra_id": "SCH_047",
+        "type": "school",
+        "name": "Aizawl School 2",
+        "state": "Mizoram",
+        "students": 1071,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.794301,
+          23.899259
+        ]
+      },
+      "properties": {
+        "infra_id": "SCH_048",
+        "type": "school",
+        "name": "Aizawl School 3",
+        "state": "Mizoram",
+        "students": 290,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.78558,
+          23.576686
+        ]
+      },
+      "properties": {
+        "infra_id": "SCH_049",
+        "type": "school",
+        "name": "Aizawl School 4",
+        "state": "Mizoram",
+        "students": 863,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.063909,
+          25.545357
+        ]
+      },
+      "properties": {
+        "infra_id": "SCH_050",
+        "type": "school",
+        "name": "Kohima School 1",
+        "state": "Nagaland",
+        "students": 1250,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.053721,
+          25.532135
+        ]
+      },
+      "properties": {
+        "infra_id": "SCH_051",
+        "type": "school",
+        "name": "Kohima School 2",
+        "state": "Nagaland",
+        "students": 941,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.227707,
+          25.580346
+        ]
+      },
+      "properties": {
+        "infra_id": "SCH_052",
+        "type": "school",
+        "name": "Kohima School 3",
+        "state": "Nagaland",
+        "students": 1636,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          93.83221,
+          24.924985
+        ]
+      },
+      "properties": {
+        "infra_id": "SCH_053",
+        "type": "school",
+        "name": "Imphal School 1",
+        "state": "Manipur",
+        "students": 689,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          93.895087,
+          24.741827
+        ]
+      },
+      "properties": {
+        "infra_id": "SCH_054",
+        "type": "school",
+        "name": "Imphal School 2",
+        "state": "Manipur",
+        "students": 1283,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          93.9473,
+          24.75908
+        ]
+      },
+      "properties": {
+        "infra_id": "SCH_055",
+        "type": "school",
+        "name": "Imphal School 3",
+        "state": "Manipur",
+        "students": 1087,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          93.997236,
+          24.824711
+        ]
+      },
+      "properties": {
+        "infra_id": "SCH_056",
+        "type": "school",
+        "name": "Imphal School 4",
+        "state": "Manipur",
+        "students": 1831,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          93.932896,
+          24.770651
+        ]
+      },
+      "properties": {
+        "infra_id": "SCH_057",
+        "type": "school",
+        "name": "Imphal School 5",
+        "state": "Manipur",
+        "students": 670,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          91.1052,
+          23.898957
+        ]
+      },
+      "properties": {
+        "infra_id": "SCH_058",
+        "type": "school",
+        "name": "Agartala School 1",
+        "state": "Tripura",
+        "students": 1671,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          91.160651,
+          23.888479
+        ]
+      },
+      "properties": {
+        "infra_id": "SCH_059",
+        "type": "school",
+        "name": "Agartala School 2",
+        "state": "Tripura",
+        "students": 1416,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          91.238172,
+          23.702574
+        ]
+      },
+      "properties": {
+        "infra_id": "SCH_060",
+        "type": "school",
+        "name": "Agartala School 3",
+        "state": "Tripura",
+        "students": 1447,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          93.620455,
+          27.162582
+        ]
+      },
+      "properties": {
+        "infra_id": "SCH_061",
+        "type": "school",
+        "name": "Itanagar School 1",
+        "state": "Arunachal Pradesh",
+        "students": 1661,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          93.690944,
+          27.050993
+        ]
+      },
+      "properties": {
+        "infra_id": "SCH_062",
+        "type": "school",
+        "name": "Itanagar School 2",
+        "state": "Arunachal Pradesh",
+        "students": 112,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          93.656522,
+          27.107231
+        ]
+      },
+      "properties": {
+        "infra_id": "SCH_063",
+        "type": "school",
+        "name": "Itanagar School 3",
+        "state": "Arunachal Pradesh",
+        "students": 1446,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          93.638294,
+          27.039087
+        ]
+      },
+      "properties": {
+        "infra_id": "SCH_064",
+        "type": "school",
+        "name": "Itanagar School 4",
+        "state": "Arunachal Pradesh",
+        "students": 1396,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.679032,
+          27.432091
+        ]
+      },
+      "properties": {
+        "infra_id": "SCH_065",
+        "type": "school",
+        "name": "Gangtok School 1",
+        "state": "Sikkim",
+        "students": 870,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.656073,
+          27.249031
+        ]
+      },
+      "properties": {
+        "infra_id": "SCH_066",
+        "type": "school",
+        "name": "Gangtok School 2",
+        "state": "Sikkim",
+        "students": 857,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.741555,
+          27.449254
+        ]
+      },
+      "properties": {
+        "infra_id": "SCH_067",
+        "type": "school",
+        "name": "Dibrugarh School 1",
+        "state": "Assam",
+        "students": 1262,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.794169,
+          27.309453
+        ]
+      },
+      "properties": {
+        "infra_id": "SCH_068",
+        "type": "school",
+        "name": "Dibrugarh School 2",
+        "state": "Assam",
+        "students": 418,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.027885,
+          27.556216
+        ]
+      },
+      "properties": {
+        "infra_id": "SCH_069",
+        "type": "school",
+        "name": "Dibrugarh School 3",
+        "state": "Assam",
+        "students": 1480,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.965067,
+          27.574296
+        ]
+      },
+      "properties": {
+        "infra_id": "SCH_070",
+        "type": "school",
+        "name": "Dibrugarh School 4",
+        "state": "Assam",
+        "students": 968,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.732555,
+          24.745119
+        ]
+      },
+      "properties": {
+        "infra_id": "SCH_071",
+        "type": "school",
+        "name": "Silchar School 1",
+        "state": "Assam",
+        "students": 541,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.747864,
+          24.827527
+        ]
+      },
+      "properties": {
+        "infra_id": "SCH_072",
+        "type": "school",
+        "name": "Silchar School 2",
+        "state": "Assam",
+        "students": 980,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.893637,
+          24.941494
+        ]
+      },
+      "properties": {
+        "infra_id": "SCH_073",
+        "type": "school",
+        "name": "Silchar School 3",
+        "state": "Assam",
+        "students": 1314,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.809443,
+          24.678198
+        ]
+      },
+      "properties": {
+        "infra_id": "SCH_074",
+        "type": "school",
+        "name": "Silchar School 4",
+        "state": "Assam",
+        "students": 193,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          93.080626,
+          24.879148
+        ]
+      },
+      "properties": {
+        "infra_id": "SCH_075",
+        "type": "school",
+        "name": "Silchar School 5",
+        "state": "Assam",
+        "students": 212,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.434276,
+          26.820102
+        ]
+      },
+      "properties": {
+        "infra_id": "SCH_076",
+        "type": "school",
+        "name": "Jorhat School 1",
+        "state": "Assam",
+        "students": 1671,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.261331,
+          26.801988
+        ]
+      },
+      "properties": {
+        "infra_id": "SCH_077",
+        "type": "school",
+        "name": "Jorhat School 2",
+        "state": "Assam",
+        "students": 771,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.803049,
+          26.798601
+        ]
+      },
+      "properties": {
+        "infra_id": "SCH_078",
+        "type": "school",
+        "name": "Tezpur School 1",
+        "state": "Assam",
+        "students": 459,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.884472,
+          26.717885
+        ]
+      },
+      "properties": {
+        "infra_id": "SCH_079",
+        "type": "school",
+        "name": "Tezpur School 2",
+        "state": "Assam",
+        "students": 571,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.295043,
+          25.690884
+        ]
+      },
+      "properties": {
+        "infra_id": "SCH_080",
+        "type": "school",
+        "name": "Tura School 1",
+        "state": "Meghalaya",
+        "students": 186,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.25129,
+          25.409821
+        ]
+      },
+      "properties": {
+        "infra_id": "SCH_081",
+        "type": "school",
+        "name": "Tura School 2",
+        "state": "Meghalaya",
+        "students": 259,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.108213,
+          25.596804
+        ]
+      },
+      "properties": {
+        "infra_id": "SCH_082",
+        "type": "school",
+        "name": "Tura School 3",
+        "state": "Meghalaya",
+        "students": 1274,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.28879,
+          25.394043
+        ]
+      },
+      "properties": {
+        "infra_id": "SCH_083",
+        "type": "school",
+        "name": "Tura School 4",
+        "state": "Meghalaya",
+        "students": 692,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          93.826255,
+          24.117698
+        ]
+      },
+      "properties": {
+        "infra_id": "SCH_084",
+        "type": "school",
+        "name": "Churachandpur School 1",
+        "state": "Manipur",
+        "students": 451,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          93.548396,
+          24.376973
+        ]
+      },
+      "properties": {
+        "infra_id": "SCH_085",
+        "type": "school",
+        "name": "Churachandpur School 2",
+        "state": "Manipur",
+        "students": 1803,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.837453,
+          23.052096
+        ]
+      },
+      "properties": {
+        "infra_id": "SCH_086",
+        "type": "school",
+        "name": "Lunglei School 1",
+        "state": "Mizoram",
+        "students": 598,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.775777,
+          22.794998
+        ]
+      },
+      "properties": {
+        "infra_id": "SCH_087",
+        "type": "school",
+        "name": "Lunglei School 2",
+        "state": "Mizoram",
+        "students": 261,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.7885,
+          22.81964
+        ]
+      },
+      "properties": {
+        "infra_id": "SCH_088",
+        "type": "school",
+        "name": "Lunglei School 3",
+        "state": "Mizoram",
+        "students": 795,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.907024,
+          22.918877
+        ]
+      },
+      "properties": {
+        "infra_id": "SCH_089",
+        "type": "school",
+        "name": "Lunglei School 4",
+        "state": "Mizoram",
+        "students": 256,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          93.714452,
+          25.844552
+        ]
+      },
+      "properties": {
+        "infra_id": "SCH_090",
+        "type": "school",
+        "name": "Dimapur School 1",
+        "state": "Nagaland",
+        "students": 1689,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          93.857805,
+          25.814747
+        ]
+      },
+      "properties": {
+        "infra_id": "SCH_091",
+        "type": "school",
+        "name": "Dimapur School 2",
+        "state": "Nagaland",
+        "students": 1777,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.389066,
+          28.071849
+        ]
+      },
+      "properties": {
+        "infra_id": "SCH_092",
+        "type": "school",
+        "name": "Pasighat School 1",
+        "state": "Arunachal Pradesh",
+        "students": 504,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.384075,
+          28.093634
+        ]
+      },
+      "properties": {
+        "infra_id": "SCH_093",
+        "type": "school",
+        "name": "Pasighat School 2",
+        "state": "Arunachal Pradesh",
+        "students": 1654,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.28124,
+          28.032065
+        ]
+      },
+      "properties": {
+        "infra_id": "SCH_094",
+        "type": "school",
+        "name": "Pasighat School 3",
+        "state": "Arunachal Pradesh",
+        "students": 1682,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.191924,
+          24.249487
+        ]
+      },
+      "properties": {
+        "infra_id": "SCH_095",
+        "type": "school",
+        "name": "Dharmanagar School 1",
+        "state": "Tripura",
+        "students": 1286,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.234666,
+          24.159489
+        ]
+      },
+      "properties": {
+        "infra_id": "SCH_096",
+        "type": "school",
+        "name": "Dharmanagar School 2",
+        "state": "Tripura",
+        "students": 1256,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          91.933369,
+          24.192193
+        ]
+      },
+      "properties": {
+        "infra_id": "SCH_097",
+        "type": "school",
+        "name": "Dharmanagar School 3",
+        "state": "Tripura",
+        "students": 761,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.057184,
+          24.467403
+        ]
+      },
+      "properties": {
+        "infra_id": "SCH_098",
+        "type": "school",
+        "name": "Dharmanagar School 4",
+        "state": "Tripura",
+        "students": 409,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.204571,
+          24.270459
+        ]
+      },
+      "properties": {
+        "infra_id": "SCH_099",
+        "type": "school",
+        "name": "Dharmanagar School 5",
+        "state": "Tripura",
+        "students": 1393,
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          91.8,
+          26.15
+        ]
+      },
+      "properties": {
+        "infra_id": "BRG_100",
+        "type": "bridge",
+        "name": "Brahmaputra Bridge 1",
+        "state": "Assam",
+        "critical": true,
+        "single_point_of_failure": true,
+        "load_capacity_tons": 70,
+        "age_years": 22,
+        "condition": "poor",
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          91.5,
+          26.2
+        ]
+      },
+      "properties": {
+        "infra_id": "BRG_101",
+        "type": "bridge",
+        "name": "Brahmaputra Bridge 2",
+        "state": "Assam",
+        "critical": true,
+        "single_point_of_failure": true,
+        "load_capacity_tons": 20,
+        "age_years": 27,
+        "condition": "poor",
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.2,
+          26.7
+        ]
+      },
+      "properties": {
+        "infra_id": "BRG_102",
+        "type": "bridge",
+        "name": "Jorhat Bridge",
+        "state": "Assam",
+        "critical": true,
+        "single_point_of_failure": true,
+        "load_capacity_tons": 20,
+        "age_years": 24,
+        "condition": "fair",
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          91.9,
+          25.5
+        ]
+      },
+      "properties": {
+        "infra_id": "BRG_103",
+        "type": "bridge",
+        "name": "Shillong Bridge",
+        "state": "Meghalaya",
+        "critical": true,
+        "single_point_of_failure": true,
+        "load_capacity_tons": 100,
+        "age_years": 7,
+        "condition": "good",
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.6,
+          27.3
+        ]
+      },
+      "properties": {
+        "infra_id": "BRG_104",
+        "type": "bridge",
+        "name": "Teesta Bridge",
+        "state": "Sikkim",
+        "critical": true,
+        "single_point_of_failure": true,
+        "load_capacity_tons": 70,
+        "age_years": 23,
+        "condition": "good",
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          93.9,
+          24.8
+        ]
+      },
+      "properties": {
+        "infra_id": "BRG_105",
+        "type": "bridge",
+        "name": "Imphal River Bridge",
+        "state": "Manipur",
+        "critical": true,
+        "single_point_of_failure": true,
+        "load_capacity_tons": 20,
+        "age_years": 44,
+        "condition": "poor",
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.7,
+          23.7
+        ]
+      },
+      "properties": {
+        "infra_id": "BRG_106",
+        "type": "bridge",
+        "name": "Tlawng River Bridge",
+        "state": "Mizoram",
+        "critical": true,
+        "single_point_of_failure": true,
+        "load_capacity_tons": 100,
+        "age_years": 34,
+        "condition": "poor",
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          93.7,
+          25.9
+        ]
+      },
+      "properties": {
+        "infra_id": "BRG_107",
+        "type": "bridge",
+        "name": "Dhansiri Bridge",
+        "state": "Nagaland",
+        "critical": true,
+        "single_point_of_failure": true,
+        "load_capacity_tons": 20,
+        "age_years": 33,
+        "condition": "poor",
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.3,
+          28.0
+        ]
+      },
+      "properties": {
+        "infra_id": "BRG_108",
+        "type": "bridge",
+        "name": "Siang River Bridge",
+        "state": "Arunachal Pradesh",
+        "critical": true,
+        "single_point_of_failure": true,
+        "load_capacity_tons": 40,
+        "age_years": 25,
+        "condition": "poor",
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          93.6,
+          27.0
+        ]
+      },
+      "properties": {
+        "infra_id": "BRG_109",
+        "type": "bridge",
+        "name": "Subansiri Bridge",
+        "state": "Arunachal Pradesh",
+        "critical": true,
+        "single_point_of_failure": true,
+        "load_capacity_tons": 100,
+        "age_years": 37,
+        "condition": "good",
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    }
+  ]
+}

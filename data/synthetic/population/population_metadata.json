@@ -1,0 +1,26 @@
+{
+  "data_type": "SYNTHETIC_DEMO",
+  "warning": "THIS IS SYNTHETIC POPULATION DATA FOR DEMONSTRATION ONLY. Not real WorldPop data.",
+  "resolution_degrees": 0.1,
+  "bbox": {
+    "lon_min": 88.0,
+    "lat_min": 21.9,
+    "lon_max": 97.5,
+    "lat_max": 29.5
+  },
+  "total_grid_cells": 4190,
+  "total_population_synthetic": 169605138,
+  "total_population_at_risk_synthetic": 45148345,
+  "states_covered": [
+    "Assam",
+    "Arunachal Pradesh",
+    "Meghalaya",
+    "Nagaland",
+    "Manipur",
+    "Mizoram",
+    "Tripura",
+    "Sikkim"
+  ],
+  "generated_at": "2026-08-27T10:00:00Z",
+  "csv_output": "data/synthetic/population/ner_population_exposure.csv"
+}

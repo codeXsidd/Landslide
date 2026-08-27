@@ -1,0 +1,2461 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "data_type": "SYNTHETIC_DEMO",
+    "warning": "THIS IS SYNTHETIC DATA FOR DEMONSTRATION ONLY.",
+    "total_villages": 98,
+    "generated_at": "2026-08-27T10:00:00Z"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.277607,
+          25.518998
+        ]
+      },
+      "properties": {
+        "village_id": "VIL_0001",
+        "name": "ASS_Village_0001",
+        "state": "Assam",
+        "district": "Assam_District_2",
+        "population": 854,
+        "households": 170,
+        "elevation_approx_m": 253.7,
+        "has_health_facility": true,
+        "has_school": true,
+        "road_connectivity": "isolated",
+        "landslide_exposure": "HIGH",
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.088614,
+          24.127325
+        ]
+      },
+      "properties": {
+        "village_id": "VIL_0002",
+        "name": "ASS_Village_0002",
+        "state": "Assam",
+        "district": "Assam_District_3",
+        "population": 1308,
+        "households": 261,
+        "elevation_approx_m": 241.3,
+        "has_health_facility": true,
+        "has_school": true,
+        "road_connectivity": "connected",
+        "landslide_exposure": "HIGH",
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          91.426559,
+          26.053793
+        ]
+      },
+      "properties": {
+        "village_id": "VIL_0003",
+        "name": "ASS_Village_0003",
+        "state": "Assam",
+        "district": "Assam_District_4",
+        "population": 604,
+        "households": 120,
+        "elevation_approx_m": 1836.0,
+        "has_health_facility": false,
+        "has_school": true,
+        "road_connectivity": "connected",
+        "landslide_exposure": "LOW",
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.880541,
+          27.168489
+        ]
+      },
+      "properties": {
+        "village_id": "VIL_0004",
+        "name": "ASS_Village_0004",
+        "state": "Assam",
+        "district": "Assam_District_5",
+        "population": 1254,
+        "households": 250,
+        "elevation_approx_m": 332.6,
+        "has_health_facility": false,
+        "has_school": true,
+        "road_connectivity": "connected",
+        "landslide_exposure": "HIGH",
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.801824,
+          26.658785
+        ]
+      },
+      "properties": {
+        "village_id": "VIL_0005",
+        "name": "ASS_Village_0005",
+        "state": "Assam",
+        "district": "Assam_District_1",
+        "population": 1597,
+        "households": 319,
+        "elevation_approx_m": 914.3,
+        "has_health_facility": false,
+        "has_school": true,
+        "road_connectivity": "connected",
+        "landslide_exposure": "LOW",
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.837626,
+          24.632693
+        ]
+      },
+      "properties": {
+        "village_id": "VIL_0006",
+        "name": "ASS_Village_0006",
+        "state": "Assam",
+        "district": "Assam_District_2",
+        "population": 1482,
+        "households": 296,
+        "elevation_approx_m": 1210.3,
+        "has_health_facility": false,
+        "has_school": true,
+        "road_connectivity": "isolated",
+        "landslide_exposure": "HIGH",
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.895551,
+          24.292236
+        ]
+      },
+      "properties": {
+        "village_id": "VIL_0007",
+        "name": "ASS_Village_0007",
+        "state": "Assam",
+        "district": "Assam_District_3",
+        "population": 1851,
+        "households": 370,
+        "elevation_approx_m": 2323.3,
+        "has_health_facility": false,
+        "has_school": true,
+        "road_connectivity": "connected",
+        "landslide_exposure": "LOW",
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.18645,
+          24.91224
+        ]
+      },
+      "properties": {
+        "village_id": "VIL_0008",
+        "name": "ASS_Village_0008",
+        "state": "Assam",
+        "district": "Assam_District_4",
+        "population": 115,
+        "households": 23,
+        "elevation_approx_m": 240.7,
+        "has_health_facility": false,
+        "has_school": false,
+        "road_connectivity": "connected",
+        "landslide_exposure": "LOW",
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.018867,
+          25.183947
+        ]
+      },
+      "properties": {
+        "village_id": "VIL_0009",
+        "name": "ASS_Village_0009",
+        "state": "Assam",
+        "district": "Assam_District_5",
+        "population": 1097,
+        "households": 219,
+        "elevation_approx_m": 1688.5,
+        "has_health_facility": false,
+        "has_school": true,
+        "road_connectivity": "connected",
+        "landslide_exposure": "HIGH",
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          93.06161,
+          26.300885
+        ]
+      },
+      "properties": {
+        "village_id": "VIL_0010",
+        "name": "ASS_Village_0010",
+        "state": "Assam",
+        "district": "Assam_District_1",
+        "population": 366,
+        "households": 73,
+        "elevation_approx_m": 1895.1,
+        "has_health_facility": true,
+        "has_school": true,
+        "road_connectivity": "isolated",
+        "landslide_exposure": "HIGH",
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.848537,
+          24.316142
+        ]
+      },
+      "properties": {
+        "village_id": "VIL_0011",
+        "name": "ASS_Village_0011",
+        "state": "Assam",
+        "district": "Assam_District_2",
+        "population": 1307,
+        "households": 261,
+        "elevation_approx_m": 263.1,
+        "has_health_facility": false,
+        "has_school": true,
+        "road_connectivity": "isolated",
+        "landslide_exposure": "HIGH",
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          89.946398,
+          26.299892
+        ]
+      },
+      "properties": {
+        "village_id": "VIL_0012",
+        "name": "ASS_Village_0012",
+        "state": "Assam",
+        "district": "Assam_District_3",
+        "population": 1054,
+        "households": 210,
+        "elevation_approx_m": 296.8,
+        "has_health_facility": false,
+        "has_school": true,
+        "road_connectivity": "connected",
+        "landslide_exposure": "MEDIUM",
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.140389,
+          24.876185
+        ]
+      },
+      "properties": {
+        "village_id": "VIL_0013",
+        "name": "ASS_Village_0013",
+        "state": "Assam",
+        "district": "Assam_District_4",
+        "population": 1234,
+        "households": 246,
+        "elevation_approx_m": 1712.1,
+        "has_health_facility": false,
+        "has_school": true,
+        "road_connectivity": "connected",
+        "landslide_exposure": "HIGH",
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.890418,
+          25.841485
+        ]
+      },
+      "properties": {
+        "village_id": "VIL_0014",
+        "name": "ASS_Village_0014",
+        "state": "Assam",
+        "district": "Assam_District_5",
+        "population": 1680,
+        "households": 336,
+        "elevation_approx_m": 2490.6,
+        "has_health_facility": true,
+        "has_school": true,
+        "road_connectivity": "connected",
+        "landslide_exposure": "HIGH",
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.161358,
+          27.646386
+        ]
+      },
+      "properties": {
+        "village_id": "VIL_0015",
+        "name": "ASS_Village_0015",
+        "state": "Assam",
+        "district": "Assam_District_1",
+        "population": 1534,
+        "households": 306,
+        "elevation_approx_m": 478.6,
+        "has_health_facility": false,
+        "has_school": false,
+        "road_connectivity": "isolated",
+        "landslide_exposure": "HIGH",
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          93.138534,
+          26.63788
+        ]
+      },
+      "properties": {
+        "village_id": "VIL_0016",
+        "name": "ASS_Village_0016",
+        "state": "Assam",
+        "district": "Assam_District_2",
+        "population": 882,
+        "households": 176,
+        "elevation_approx_m": 2336.2,
+        "has_health_facility": true,
+        "has_school": false,
+        "road_connectivity": "connected",
+        "landslide_exposure": "HIGH",
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.302983,
+          27.480908
+        ]
+      },
+      "properties": {
+        "village_id": "VIL_0017",
+        "name": "ASS_Village_0017",
+        "state": "Assam",
+        "district": "Assam_District_3",
+        "population": 1418,
+        "households": 283,
+        "elevation_approx_m": 605.5,
+        "has_health_facility": false,
+        "has_school": false,
+        "road_connectivity": "connected",
+        "landslide_exposure": "LOW",
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.330586,
+          25.054261
+        ]
+      },
+      "properties": {
+        "village_id": "VIL_0018",
+        "name": "ASS_Village_0018",
+        "state": "Assam",
+        "district": "Assam_District_4",
+        "population": 1523,
+        "households": 304,
+        "elevation_approx_m": 221.9,
+        "has_health_facility": false,
+        "has_school": false,
+        "road_connectivity": "connected",
+        "landslide_exposure": "HIGH",
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.511082,
+          25.367515
+        ]
+      },
+      "properties": {
+        "village_id": "VIL_0019",
+        "name": "ASS_Village_0019",
+        "state": "Assam",
+        "district": "Assam_District_5",
+        "population": 1482,
+        "households": 296,
+        "elevation_approx_m": 1160.4,
+        "has_health_facility": false,
+        "has_school": true,
+        "road_connectivity": "connected",
+        "landslide_exposure": "HIGH",
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          93.984322,
+          27.691194
+        ]
+      },
+      "properties": {
+        "village_id": "VIL_0020",
+        "name": "ASS_Village_0020",
+        "state": "Assam",
+        "district": "Assam_District_1",
+        "population": 1163,
+        "households": 232,
+        "elevation_approx_m": 457.7,
+        "has_health_facility": true,
+        "has_school": true,
+        "road_connectivity": "isolated",
+        "landslide_exposure": "HIGH",
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          89.959339,
+          25.73319
+        ]
+      },
+      "properties": {
+        "village_id": "VIL_0021",
+        "name": "ASS_Village_0021",
+        "state": "Assam",
+        "district": "Assam_District_2",
+        "population": 463,
+        "households": 92,
+        "elevation_approx_m": 2433.3,
+        "has_health_facility": true,
+        "has_school": true,
+        "road_connectivity": "isolated",
+        "landslide_exposure": "HIGH",
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          91.892808,
+          26.634347
+        ]
+      },
+      "properties": {
+        "village_id": "VIL_0022",
+        "name": "ASS_Village_0022",
+        "state": "Assam",
+        "district": "Assam_District_3",
+        "population": 2038,
+        "households": 407,
+        "elevation_approx_m": 1443.7,
+        "has_health_facility": false,
+        "has_school": false,
+        "road_connectivity": "isolated",
+        "landslide_exposure": "HIGH",
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          91.167771,
+          27.617903
+        ]
+      },
+      "properties": {
+        "village_id": "VIL_0023",
+        "name": "ASS_Village_0023",
+        "state": "Assam",
+        "district": "Assam_District_4",
+        "population": 1649,
+        "households": 329,
+        "elevation_approx_m": 524.9,
+        "has_health_facility": false,
+        "has_school": true,
+        "road_connectivity": "connected",
+        "landslide_exposure": "LOW",
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.057197,
+          27.148494
+        ]
+      },
+      "properties": {
+        "village_id": "VIL_0024",
+        "name": "ASS_Village_0024",
+        "state": "Assam",
+        "district": "Assam_District_5",
+        "population": 1934,
+        "households": 386,
+        "elevation_approx_m": 2045.8,
+        "has_health_facility": false,
+        "has_school": false,
+        "road_connectivity": "connected",
+        "landslide_exposure": "LOW",
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.023278,
+          27.414234
+        ]
+      },
+      "properties": {
+        "village_id": "VIL_0025",
+        "name": "ASS_Village_0025",
+        "state": "Assam",
+        "district": "Assam_District_1",
+        "population": 1352,
+        "households": 270,
+        "elevation_approx_m": 1204.7,
+        "has_health_facility": false,
+        "has_school": false,
+        "road_connectivity": "connected",
+        "landslide_exposure": "HIGH",
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.639466,
+          26.66626
+        ]
+      },
+      "properties": {
+        "village_id": "VIL_0026",
+        "name": "ARU_Village_0026",
+        "state": "Arunachal Pradesh",
+        "district": "Arunachal Pradesh_District_2",
+        "population": 603,
+        "households": 120,
+        "elevation_approx_m": 887.8,
+        "has_health_facility": false,
+        "has_school": false,
+        "road_connectivity": "connected",
+        "landslide_exposure": "MEDIUM",
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          93.858102,
+          28.396149
+        ]
+      },
+      "properties": {
+        "village_id": "VIL_0027",
+        "name": "ARU_Village_0027",
+        "state": "Arunachal Pradesh",
+        "district": "Arunachal Pradesh_District_3",
+        "population": 522,
+        "households": 104,
+        "elevation_approx_m": 2354.2,
+        "has_health_facility": true,
+        "has_school": false,
+        "road_connectivity": "connected",
+        "landslide_exposure": "MEDIUM",
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.01977,
+          26.70712
+        ]
+      },
+      "properties": {
+        "village_id": "VIL_0028",
+        "name": "ARU_Village_0028",
+        "state": "Arunachal Pradesh",
+        "district": "Arunachal Pradesh_District_4",
+        "population": 329,
+        "households": 65,
+        "elevation_approx_m": 929.6,
+        "has_health_facility": false,
+        "has_school": true,
+        "road_connectivity": "isolated",
+        "landslide_exposure": "HIGH",
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.901869,
+          27.678547
+        ]
+      },
+      "properties": {
+        "village_id": "VIL_0029",
+        "name": "ARU_Village_0029",
+        "state": "Arunachal Pradesh",
+        "district": "Arunachal Pradesh_District_5",
+        "population": 343,
+        "households": 68,
+        "elevation_approx_m": 104.1,
+        "has_health_facility": false,
+        "has_school": true,
+        "road_connectivity": "isolated",
+        "landslide_exposure": "HIGH",
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          91.912845,
+          27.61982
+        ]
+      },
+      "properties": {
+        "village_id": "VIL_0030",
+        "name": "ARU_Village_0030",
+        "state": "Arunachal Pradesh",
+        "district": "Arunachal Pradesh_District_1",
+        "population": 569,
+        "households": 113,
+        "elevation_approx_m": 1694.2,
+        "has_health_facility": false,
+        "has_school": true,
+        "road_connectivity": "connected",
+        "landslide_exposure": "MEDIUM",
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.434668,
+          28.019943
+        ]
+      },
+      "properties": {
+        "village_id": "VIL_0031",
+        "name": "ARU_Village_0031",
+        "state": "Arunachal Pradesh",
+        "district": "Arunachal Pradesh_District_2",
+        "population": 250,
+        "households": 50,
+        "elevation_approx_m": 1430.6,
+        "has_health_facility": true,
+        "has_school": false,
+        "road_connectivity": "connected",
+        "landslide_exposure": "HIGH",
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          93.275604,
+          28.323442
+        ]
+      },
+      "properties": {
+        "village_id": "VIL_0032",
+        "name": "ARU_Village_0032",
+        "state": "Arunachal Pradesh",
+        "district": "Arunachal Pradesh_District_3",
+        "population": 542,
+        "households": 108,
+        "elevation_approx_m": 1415.0,
+        "has_health_facility": true,
+        "has_school": true,
+        "road_connectivity": "connected",
+        "landslide_exposure": "MEDIUM",
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.108743,
+          27.901967
+        ]
+      },
+      "properties": {
+        "village_id": "VIL_0033",
+        "name": "ARU_Village_0033",
+        "state": "Arunachal Pradesh",
+        "district": "Arunachal Pradesh_District_4",
+        "population": 385,
+        "households": 77,
+        "elevation_approx_m": 2262.8,
+        "has_health_facility": false,
+        "has_school": true,
+        "road_connectivity": "connected",
+        "landslide_exposure": "MEDIUM",
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.234351,
+          28.043266
+        ]
+      },
+      "properties": {
+        "village_id": "VIL_0034",
+        "name": "ARU_Village_0034",
+        "state": "Arunachal Pradesh",
+        "district": "Arunachal Pradesh_District_5",
+        "population": 504,
+        "households": 100,
+        "elevation_approx_m": 904.5,
+        "has_health_facility": false,
+        "has_school": false,
+        "road_connectivity": "isolated",
+        "landslide_exposure": "MEDIUM",
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.674867,
+          27.228994
+        ]
+      },
+      "properties": {
+        "village_id": "VIL_0035",
+        "name": "ARU_Village_0035",
+        "state": "Arunachal Pradesh",
+        "district": "Arunachal Pradesh_District_1",
+        "population": 453,
+        "households": 90,
+        "elevation_approx_m": 1240.3,
+        "has_health_facility": false,
+        "has_school": true,
+        "road_connectivity": "connected",
+        "landslide_exposure": "HIGH",
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          93.765473,
+          28.611369
+        ]
+      },
+      "properties": {
+        "village_id": "VIL_0036",
+        "name": "ARU_Village_0036",
+        "state": "Arunachal Pradesh",
+        "district": "Arunachal Pradesh_District_2",
+        "population": 366,
+        "households": 73,
+        "elevation_approx_m": 1059.2,
+        "has_health_facility": true,
+        "has_school": false,
+        "road_connectivity": "connected",
+        "landslide_exposure": "LOW",
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          96.244248,
+          27.212755
+        ]
+      },
+      "properties": {
+        "village_id": "VIL_0037",
+        "name": "ARU_Village_0037",
+        "state": "Arunachal Pradesh",
+        "district": "Arunachal Pradesh_District_3",
+        "population": 297,
+        "households": 59,
+        "elevation_approx_m": 1437.8,
+        "has_health_facility": false,
+        "has_school": true,
+        "road_connectivity": "connected",
+        "landslide_exposure": "LOW",
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          97.328565,
+          28.469218
+        ]
+      },
+      "properties": {
+        "village_id": "VIL_0038",
+        "name": "ARU_Village_0038",
+        "state": "Arunachal Pradesh",
+        "district": "Arunachal Pradesh_District_4",
+        "population": 202,
+        "households": 40,
+        "elevation_approx_m": 1529.1,
+        "has_health_facility": false,
+        "has_school": false,
+        "road_connectivity": "isolated",
+        "landslide_exposure": "LOW",
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.732445,
+          28.925594
+        ]
+      },
+      "properties": {
+        "village_id": "VIL_0039",
+        "name": "ARU_Village_0039",
+        "state": "Arunachal Pradesh",
+        "district": "Arunachal Pradesh_District_5",
+        "population": 534,
+        "households": 106,
+        "elevation_approx_m": 1239.2,
+        "has_health_facility": false,
+        "has_school": true,
+        "road_connectivity": "isolated",
+        "landslide_exposure": "MEDIUM",
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.575669,
+          28.744278
+        ]
+      },
+      "properties": {
+        "village_id": "VIL_0040",
+        "name": "ARU_Village_0040",
+        "state": "Arunachal Pradesh",
+        "district": "Arunachal Pradesh_District_1",
+        "population": 210,
+        "households": 42,
+        "elevation_approx_m": 1604.2,
+        "has_health_facility": false,
+        "has_school": true,
+        "road_connectivity": "connected",
+        "landslide_exposure": "HIGH",
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          93.386286,
+          27.360802
+        ]
+      },
+      "properties": {
+        "village_id": "VIL_0041",
+        "name": "ARU_Village_0041",
+        "state": "Arunachal Pradesh",
+        "district": "Arunachal Pradesh_District_2",
+        "population": 276,
+        "households": 55,
+        "elevation_approx_m": 655.0,
+        "has_health_facility": false,
+        "has_school": false,
+        "road_connectivity": "connected",
+        "landslide_exposure": "LOW",
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.701406,
+          27.741278
+        ]
+      },
+      "properties": {
+        "village_id": "VIL_0042",
+        "name": "ARU_Village_0042",
+        "state": "Arunachal Pradesh",
+        "district": "Arunachal Pradesh_District_3",
+        "population": 330,
+        "households": 66,
+        "elevation_approx_m": 1097.9,
+        "has_health_facility": false,
+        "has_school": true,
+        "road_connectivity": "isolated",
+        "landslide_exposure": "HIGH",
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          96.017008,
+          28.99885
+        ]
+      },
+      "properties": {
+        "village_id": "VIL_0043",
+        "name": "ARU_Village_0043",
+        "state": "Arunachal Pradesh",
+        "district": "Arunachal Pradesh_District_4",
+        "population": 338,
+        "households": 67,
+        "elevation_approx_m": 944.2,
+        "has_health_facility": false,
+        "has_school": false,
+        "road_connectivity": "connected",
+        "landslide_exposure": "HIGH",
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          93.110318,
+          27.967043
+        ]
+      },
+      "properties": {
+        "village_id": "VIL_0044",
+        "name": "ARU_Village_0044",
+        "state": "Arunachal Pradesh",
+        "district": "Arunachal Pradesh_District_5",
+        "population": 360,
+        "households": 72,
+        "elevation_approx_m": 1265.5,
+        "has_health_facility": false,
+        "has_school": false,
+        "road_connectivity": "connected",
+        "landslide_exposure": "HIGH",
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          96.925296,
+          28.953416
+        ]
+      },
+      "properties": {
+        "village_id": "VIL_0045",
+        "name": "ARU_Village_0045",
+        "state": "Arunachal Pradesh",
+        "district": "Arunachal Pradesh_District_1",
+        "population": 521,
+        "households": 104,
+        "elevation_approx_m": 2276.6,
+        "has_health_facility": false,
+        "has_school": false,
+        "road_connectivity": "connected",
+        "landslide_exposure": "LOW",
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          91.138925,
+          25.149269
+        ]
+      },
+      "properties": {
+        "village_id": "VIL_0046",
+        "name": "MEG_Village_0046",
+        "state": "Meghalaya",
+        "district": "Meghalaya_District_2",
+        "population": 752,
+        "households": 150,
+        "elevation_approx_m": 220.7,
+        "has_health_facility": false,
+        "has_school": true,
+        "road_connectivity": "connected",
+        "landslide_exposure": "MEDIUM",
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.899466,
+          25.837353
+        ]
+      },
+      "properties": {
+        "village_id": "VIL_0047",
+        "name": "MEG_Village_0047",
+        "state": "Meghalaya",
+        "district": "Meghalaya_District_3",
+        "population": 807,
+        "households": 161,
+        "elevation_approx_m": 705.5,
+        "has_health_facility": true,
+        "has_school": true,
+        "road_connectivity": "isolated",
+        "landslide_exposure": "HIGH",
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.814885,
+          26.099899
+        ]
+      },
+      "properties": {
+        "village_id": "VIL_0048",
+        "name": "MEG_Village_0048",
+        "state": "Meghalaya",
+        "district": "Meghalaya_District_4",
+        "population": 195,
+        "households": 39,
+        "elevation_approx_m": 1660.3,
+        "has_health_facility": false,
+        "has_school": false,
+        "road_connectivity": "connected",
+        "landslide_exposure": "HIGH",
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          89.859102,
+          25.219297
+        ]
+      },
+      "properties": {
+        "village_id": "VIL_0049",
+        "name": "MEG_Village_0049",
+        "state": "Meghalaya",
+        "district": "Meghalaya_District_5",
+        "population": 895,
+        "households": 179,
+        "elevation_approx_m": 1706.7,
+        "has_health_facility": false,
+        "has_school": true,
+        "road_connectivity": "isolated",
+        "landslide_exposure": "MEDIUM",
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.286589,
+          25.843588
+        ]
+      },
+      "properties": {
+        "village_id": "VIL_0050",
+        "name": "MEG_Village_0050",
+        "state": "Meghalaya",
+        "district": "Meghalaya_District_1",
+        "population": 935,
+        "households": 187,
+        "elevation_approx_m": 1557.4,
+        "has_health_facility": false,
+        "has_school": true,
+        "road_connectivity": "connected",
+        "landslide_exposure": "MEDIUM",
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          89.874467,
+          25.118909
+        ]
+      },
+      "properties": {
+        "village_id": "VIL_0051",
+        "name": "MEG_Village_0051",
+        "state": "Meghalaya",
+        "district": "Meghalaya_District_2",
+        "population": 617,
+        "households": 123,
+        "elevation_approx_m": 2399.6,
+        "has_health_facility": false,
+        "has_school": false,
+        "road_connectivity": "connected",
+        "landslide_exposure": "HIGH",
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.040195,
+          25.112091
+        ]
+      },
+      "properties": {
+        "village_id": "VIL_0052",
+        "name": "MEG_Village_0052",
+        "state": "Meghalaya",
+        "district": "Meghalaya_District_3",
+        "population": 1245,
+        "households": 249,
+        "elevation_approx_m": 2140.7,
+        "has_health_facility": false,
+        "has_school": true,
+        "road_connectivity": "isolated",
+        "landslide_exposure": "HIGH",
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          91.042296,
+          25.381924
+        ]
+      },
+      "properties": {
+        "village_id": "VIL_0053",
+        "name": "MEG_Village_0053",
+        "state": "Meghalaya",
+        "district": "Meghalaya_District_4",
+        "population": 538,
+        "households": 107,
+        "elevation_approx_m": 919.0,
+        "has_health_facility": false,
+        "has_school": false,
+        "road_connectivity": "connected",
+        "landslide_exposure": "LOW",
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          91.643197,
+          26.056866
+        ]
+      },
+      "properties": {
+        "village_id": "VIL_0054",
+        "name": "MEG_Village_0054",
+        "state": "Meghalaya",
+        "district": "Meghalaya_District_5",
+        "population": 1076,
+        "households": 215,
+        "elevation_approx_m": 2088.9,
+        "has_health_facility": false,
+        "has_school": true,
+        "road_connectivity": "isolated",
+        "landslide_exposure": "MEDIUM",
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.466891,
+          25.677504
+        ]
+      },
+      "properties": {
+        "village_id": "VIL_0055",
+        "name": "MEG_Village_0055",
+        "state": "Meghalaya",
+        "district": "Meghalaya_District_1",
+        "population": 855,
+        "households": 171,
+        "elevation_approx_m": 2081.8,
+        "has_health_facility": false,
+        "has_school": true,
+        "road_connectivity": "connected",
+        "landslide_exposure": "HIGH",
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          91.107326,
+          25.306821
+        ]
+      },
+      "properties": {
+        "village_id": "VIL_0056",
+        "name": "MEG_Village_0056",
+        "state": "Meghalaya",
+        "district": "Meghalaya_District_2",
+        "population": 446,
+        "households": 89,
+        "elevation_approx_m": 1901.1,
+        "has_health_facility": false,
+        "has_school": false,
+        "road_connectivity": "connected",
+        "landslide_exposure": "HIGH",
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.742541,
+          25.543737
+        ]
+      },
+      "properties": {
+        "village_id": "VIL_0057",
+        "name": "MEG_Village_0057",
+        "state": "Meghalaya",
+        "district": "Meghalaya_District_3",
+        "population": 501,
+        "households": 100,
+        "elevation_approx_m": 720.0,
+        "has_health_facility": false,
+        "has_school": true,
+        "road_connectivity": "connected",
+        "landslide_exposure": "HIGH",
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          93.663007,
+          26.078266
+        ]
+      },
+      "properties": {
+        "village_id": "VIL_0058",
+        "name": "NAG_Village_0058",
+        "state": "Nagaland",
+        "district": "Nagaland_District_4",
+        "population": 617,
+        "households": 123,
+        "elevation_approx_m": 679.3,
+        "has_health_facility": false,
+        "has_school": true,
+        "road_connectivity": "connected",
+        "landslide_exposure": "LOW",
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.232561,
+          26.298035
+        ]
+      },
+      "properties": {
+        "village_id": "VIL_0059",
+        "name": "NAG_Village_0059",
+        "state": "Nagaland",
+        "district": "Nagaland_District_5",
+        "population": 628,
+        "households": 125,
+        "elevation_approx_m": 631.8,
+        "has_health_facility": false,
+        "has_school": true,
+        "road_connectivity": "isolated",
+        "landslide_exposure": "MEDIUM",
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.308752,
+          26.004543
+        ]
+      },
+      "properties": {
+        "village_id": "VIL_0060",
+        "name": "NAG_Village_0060",
+        "state": "Nagaland",
+        "district": "Nagaland_District_1",
+        "population": 497,
+        "households": 99,
+        "elevation_approx_m": 1121.2,
+        "has_health_facility": false,
+        "has_school": true,
+        "road_connectivity": "isolated",
+        "landslide_exposure": "LOW",
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          93.777667,
+          25.660558
+        ]
+      },
+      "properties": {
+        "village_id": "VIL_0061",
+        "name": "NAG_Village_0061",
+        "state": "Nagaland",
+        "district": "Nagaland_District_2",
+        "population": 713,
+        "households": 142,
+        "elevation_approx_m": 386.9,
+        "has_health_facility": false,
+        "has_school": false,
+        "road_connectivity": "connected",
+        "landslide_exposure": "HIGH",
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.219977,
+          25.567854
+        ]
+      },
+      "properties": {
+        "village_id": "VIL_0062",
+        "name": "NAG_Village_0062",
+        "state": "Nagaland",
+        "district": "Nagaland_District_3",
+        "population": 707,
+        "households": 141,
+        "elevation_approx_m": 1839.0,
+        "has_health_facility": false,
+        "has_school": true,
+        "road_connectivity": "connected",
+        "landslide_exposure": "HIGH",
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          93.862868,
+          26.615468
+        ]
+      },
+      "properties": {
+        "village_id": "VIL_0063",
+        "name": "NAG_Village_0063",
+        "state": "Nagaland",
+        "district": "Nagaland_District_4",
+        "population": 469,
+        "households": 93,
+        "elevation_approx_m": 1799.2,
+        "has_health_facility": true,
+        "has_school": true,
+        "road_connectivity": "connected",
+        "landslide_exposure": "MEDIUM",
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          93.539931,
+          26.38561
+        ]
+      },
+      "properties": {
+        "village_id": "VIL_0064",
+        "name": "NAG_Village_0064",
+        "state": "Nagaland",
+        "district": "Nagaland_District_5",
+        "population": 756,
+        "households": 151,
+        "elevation_approx_m": 2184.3,
+        "has_health_facility": false,
+        "has_school": false,
+        "road_connectivity": "isolated",
+        "landslide_exposure": "MEDIUM",
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.136891,
+          25.997975
+        ]
+      },
+      "properties": {
+        "village_id": "VIL_0065",
+        "name": "NAG_Village_0065",
+        "state": "Nagaland",
+        "district": "Nagaland_District_1",
+        "population": 631,
+        "households": 126,
+        "elevation_approx_m": 2358.6,
+        "has_health_facility": false,
+        "has_school": false,
+        "road_connectivity": "connected",
+        "landslide_exposure": "LOW",
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.495947,
+          25.32594
+        ]
+      },
+      "properties": {
+        "village_id": "VIL_0066",
+        "name": "NAG_Village_0066",
+        "state": "Nagaland",
+        "district": "Nagaland_District_2",
+        "population": 671,
+        "households": 134,
+        "elevation_approx_m": 228.7,
+        "has_health_facility": true,
+        "has_school": true,
+        "road_connectivity": "connected",
+        "landslide_exposure": "HIGH",
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          93.525058,
+          26.889661
+        ]
+      },
+      "properties": {
+        "village_id": "VIL_0067",
+        "name": "NAG_Village_0067",
+        "state": "Nagaland",
+        "district": "Nagaland_District_3",
+        "population": 629,
+        "households": 125,
+        "elevation_approx_m": 1997.8,
+        "has_health_facility": false,
+        "has_school": true,
+        "road_connectivity": "connected",
+        "landslide_exposure": "LOW",
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.000493,
+          24.335236
+        ]
+      },
+      "properties": {
+        "village_id": "VIL_0068",
+        "name": "MAN_Village_0068",
+        "state": "Manipur",
+        "district": "Manipur_District_4",
+        "population": 319,
+        "households": 63,
+        "elevation_approx_m": 1129.2,
+        "has_health_facility": false,
+        "has_school": true,
+        "road_connectivity": "isolated",
+        "landslide_exposure": "HIGH",
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          93.353239,
+          25.505662
+        ]
+      },
+      "properties": {
+        "village_id": "VIL_0069",
+        "name": "MAN_Village_0069",
+        "state": "Manipur",
+        "district": "Manipur_District_5",
+        "population": 799,
+        "households": 159,
+        "elevation_approx_m": 476.9,
+        "has_health_facility": true,
+        "has_school": true,
+        "road_connectivity": "connected",
+        "landslide_exposure": "LOW",
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.009479,
+          24.610907
+        ]
+      },
+      "properties": {
+        "village_id": "VIL_0070",
+        "name": "MAN_Village_0070",
+        "state": "Manipur",
+        "district": "Manipur_District_1",
+        "population": 1099,
+        "households": 219,
+        "elevation_approx_m": 799.0,
+        "has_health_facility": false,
+        "has_school": false,
+        "road_connectivity": "isolated",
+        "landslide_exposure": "LOW",
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          93.39682,
+          23.928124
+        ]
+      },
+      "properties": {
+        "village_id": "VIL_0071",
+        "name": "MAN_Village_0071",
+        "state": "Manipur",
+        "district": "Manipur_District_2",
+        "population": 654,
+        "households": 130,
+        "elevation_approx_m": 1515.5,
+        "has_health_facility": false,
+        "has_school": true,
+        "road_connectivity": "connected",
+        "landslide_exposure": "HIGH",
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.544299,
+          24.965743
+        ]
+      },
+      "properties": {
+        "village_id": "VIL_0072",
+        "name": "MAN_Village_0072",
+        "state": "Manipur",
+        "district": "Manipur_District_3",
+        "population": 1193,
+        "households": 238,
+        "elevation_approx_m": 2083.9,
+        "has_health_facility": true,
+        "has_school": true,
+        "road_connectivity": "connected",
+        "landslide_exposure": "MEDIUM",
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          93.796787,
+          24.590476
+        ]
+      },
+      "properties": {
+        "village_id": "VIL_0073",
+        "name": "MAN_Village_0073",
+        "state": "Manipur",
+        "district": "Manipur_District_4",
+        "population": 605,
+        "households": 121,
+        "elevation_approx_m": 753.4,
+        "has_health_facility": false,
+        "has_school": true,
+        "road_connectivity": "isolated",
+        "landslide_exposure": "HIGH",
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.248708,
+          25.400961
+        ]
+      },
+      "properties": {
+        "village_id": "VIL_0074",
+        "name": "MAN_Village_0074",
+        "state": "Manipur",
+        "district": "Manipur_District_5",
+        "population": 967,
+        "households": 193,
+        "elevation_approx_m": 1548.9,
+        "has_health_facility": true,
+        "has_school": true,
+        "road_connectivity": "isolated",
+        "landslide_exposure": "HIGH",
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.142879,
+          25.59923
+        ]
+      },
+      "properties": {
+        "village_id": "VIL_0075",
+        "name": "MAN_Village_0075",
+        "state": "Manipur",
+        "district": "Manipur_District_1",
+        "population": 690,
+        "households": 138,
+        "elevation_approx_m": 1915.0,
+        "has_health_facility": false,
+        "has_school": false,
+        "road_connectivity": "connected",
+        "landslide_exposure": "HIGH",
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          93.741004,
+          25.594502
+        ]
+      },
+      "properties": {
+        "village_id": "VIL_0076",
+        "name": "MAN_Village_0076",
+        "state": "Manipur",
+        "district": "Manipur_District_2",
+        "population": 779,
+        "households": 155,
+        "elevation_approx_m": 2054.2,
+        "has_health_facility": false,
+        "has_school": true,
+        "road_connectivity": "connected",
+        "landslide_exposure": "MEDIUM",
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          93.17782,
+          24.377905
+        ]
+      },
+      "properties": {
+        "village_id": "VIL_0077",
+        "name": "MAN_Village_0077",
+        "state": "Manipur",
+        "district": "Manipur_District_3",
+        "population": 853,
+        "households": 170,
+        "elevation_approx_m": 1289.1,
+        "has_health_facility": false,
+        "has_school": true,
+        "road_connectivity": "isolated",
+        "landslide_exposure": "HIGH",
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.545969,
+          23.037065
+        ]
+      },
+      "properties": {
+        "village_id": "VIL_0078",
+        "name": "MIZ_Village_0078",
+        "state": "Mizoram",
+        "district": "Mizoram_District_4",
+        "population": 539,
+        "households": 107,
+        "elevation_approx_m": 875.9,
+        "has_health_facility": false,
+        "has_school": true,
+        "road_connectivity": "isolated",
+        "landslide_exposure": "HIGH",
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.796853,
+          23.544151
+        ]
+      },
+      "properties": {
+        "village_id": "VIL_0079",
+        "name": "MIZ_Village_0079",
+        "state": "Mizoram",
+        "district": "Mizoram_District_5",
+        "population": 311,
+        "households": 62,
+        "elevation_approx_m": 968.3,
+        "has_health_facility": false,
+        "has_school": false,
+        "road_connectivity": "connected",
+        "landslide_exposure": "HIGH",
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.344115,
+          22.567641
+        ]
+      },
+      "properties": {
+        "village_id": "VIL_0080",
+        "name": "MIZ_Village_0080",
+        "state": "Mizoram",
+        "district": "Mizoram_District_1",
+        "population": 453,
+        "households": 90,
+        "elevation_approx_m": 791.3,
+        "has_health_facility": false,
+        "has_school": true,
+        "road_connectivity": "connected",
+        "landslide_exposure": "HIGH",
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.541825,
+          23.674457
+        ]
+      },
+      "properties": {
+        "village_id": "VIL_0081",
+        "name": "MIZ_Village_0081",
+        "state": "Mizoram",
+        "district": "Mizoram_District_2",
+        "population": 563,
+        "households": 112,
+        "elevation_approx_m": 639.3,
+        "has_health_facility": false,
+        "has_school": true,
+        "road_connectivity": "connected",
+        "landslide_exposure": "HIGH",
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.988264,
+          23.145939
+        ]
+      },
+      "properties": {
+        "village_id": "VIL_0082",
+        "name": "MIZ_Village_0082",
+        "state": "Mizoram",
+        "district": "Mizoram_District_3",
+        "population": 414,
+        "households": 82,
+        "elevation_approx_m": 1321.3,
+        "has_health_facility": false,
+        "has_school": false,
+        "road_connectivity": "connected",
+        "landslide_exposure": "HIGH",
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.359106,
+          23.041966
+        ]
+      },
+      "properties": {
+        "village_id": "VIL_0083",
+        "name": "MIZ_Village_0083",
+        "state": "Mizoram",
+        "district": "Mizoram_District_4",
+        "population": 478,
+        "households": 95,
+        "elevation_approx_m": 1891.1,
+        "has_health_facility": true,
+        "has_school": true,
+        "road_connectivity": "connected",
+        "landslide_exposure": "MEDIUM",
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.758511,
+          24.235621
+        ]
+      },
+      "properties": {
+        "village_id": "VIL_0084",
+        "name": "MIZ_Village_0084",
+        "state": "Mizoram",
+        "district": "Mizoram_District_5",
+        "population": 601,
+        "households": 120,
+        "elevation_approx_m": 2069.3,
+        "has_health_facility": false,
+        "has_school": true,
+        "road_connectivity": "isolated",
+        "landslide_exposure": "LOW",
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.691202,
+          24.063151
+        ]
+      },
+      "properties": {
+        "village_id": "VIL_0085",
+        "name": "MIZ_Village_0085",
+        "state": "Mizoram",
+        "district": "Mizoram_District_1",
+        "population": 256,
+        "households": 51,
+        "elevation_approx_m": 1930.9,
+        "has_health_facility": false,
+        "has_school": false,
+        "road_connectivity": "connected",
+        "landslide_exposure": "HIGH",
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          91.450344,
+          23.757696
+        ]
+      },
+      "properties": {
+        "village_id": "VIL_0086",
+        "name": "TRI_Village_0086",
+        "state": "Tripura",
+        "district": "Tripura_District_2",
+        "population": 931,
+        "households": 186,
+        "elevation_approx_m": 1961.3,
+        "has_health_facility": true,
+        "has_school": false,
+        "road_connectivity": "isolated",
+        "landslide_exposure": "LOW",
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.095533,
+          23.479118
+        ]
+      },
+      "properties": {
+        "village_id": "VIL_0087",
+        "name": "TRI_Village_0087",
+        "state": "Tripura",
+        "district": "Tripura_District_3",
+        "population": 1335,
+        "households": 267,
+        "elevation_approx_m": 1288.8,
+        "has_health_facility": true,
+        "has_school": true,
+        "road_connectivity": "isolated",
+        "landslide_exposure": "MEDIUM",
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.411286,
+          24.20455
+        ]
+      },
+      "properties": {
+        "village_id": "VIL_0088",
+        "name": "TRI_Village_0088",
+        "state": "Tripura",
+        "district": "Tripura_District_4",
+        "population": 50,
+        "households": 10,
+        "elevation_approx_m": 1156.7,
+        "has_health_facility": false,
+        "has_school": true,
+        "road_connectivity": "isolated",
+        "landslide_exposure": "HIGH",
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.082172,
+          23.514968
+        ]
+      },
+      "properties": {
+        "village_id": "VIL_0089",
+        "name": "TRI_Village_0089",
+        "state": "Tripura",
+        "district": "Tripura_District_5",
+        "population": 1129,
+        "households": 225,
+        "elevation_approx_m": 2426.1,
+        "has_health_facility": false,
+        "has_school": false,
+        "road_connectivity": "isolated",
+        "landslide_exposure": "HIGH",
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.378512,
+          24.177648
+        ]
+      },
+      "properties": {
+        "village_id": "VIL_0090",
+        "name": "TRI_Village_0090",
+        "state": "Tripura",
+        "district": "Tripura_District_1",
+        "population": 1234,
+        "households": 246,
+        "elevation_approx_m": 2162.4,
+        "has_health_facility": false,
+        "has_school": true,
+        "road_connectivity": "isolated",
+        "landslide_exposure": "LOW",
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          91.153849,
+          24.208575
+        ]
+      },
+      "properties": {
+        "village_id": "VIL_0091",
+        "name": "TRI_Village_0091",
+        "state": "Tripura",
+        "district": "Tripura_District_2",
+        "population": 1362,
+        "households": 272,
+        "elevation_approx_m": 2310.2,
+        "has_health_facility": false,
+        "has_school": false,
+        "road_connectivity": "connected",
+        "landslide_exposure": "HIGH",
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.155836,
+          24.040555
+        ]
+      },
+      "properties": {
+        "village_id": "VIL_0092",
+        "name": "TRI_Village_0092",
+        "state": "Tripura",
+        "district": "Tripura_District_3",
+        "population": 1111,
+        "households": 222,
+        "elevation_approx_m": 341.2,
+        "has_health_facility": true,
+        "has_school": true,
+        "road_connectivity": "connected",
+        "landslide_exposure": "HIGH",
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          91.184179,
+          23.386562
+        ]
+      },
+      "properties": {
+        "village_id": "VIL_0093",
+        "name": "TRI_Village_0093",
+        "state": "Tripura",
+        "district": "Tripura_District_4",
+        "population": 659,
+        "households": 131,
+        "elevation_approx_m": 686.1,
+        "has_health_facility": false,
+        "has_school": false,
+        "road_connectivity": "connected",
+        "landslide_exposure": "HIGH",
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.487593,
+          27.175069
+        ]
+      },
+      "properties": {
+        "village_id": "VIL_0094",
+        "name": "SIK_Village_0094",
+        "state": "Sikkim",
+        "district": "Sikkim_District_5",
+        "population": 398,
+        "households": 79,
+        "elevation_approx_m": 1018.1,
+        "has_health_facility": false,
+        "has_school": true,
+        "road_connectivity": "isolated",
+        "landslide_exposure": "HIGH",
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.510324,
+          27.232188
+        ]
+      },
+      "properties": {
+        "village_id": "VIL_0095",
+        "name": "SIK_Village_0095",
+        "state": "Sikkim",
+        "district": "Sikkim_District_1",
+        "population": 127,
+        "households": 25,
+        "elevation_approx_m": 2257.4,
+        "has_health_facility": false,
+        "has_school": true,
+        "road_connectivity": "isolated",
+        "landslide_exposure": "HIGH",
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.756189,
+          27.073862
+        ]
+      },
+      "properties": {
+        "village_id": "VIL_0096",
+        "name": "SIK_Village_0096",
+        "state": "Sikkim",
+        "district": "Sikkim_District_2",
+        "population": 344,
+        "households": 68,
+        "elevation_approx_m": 2470.4,
+        "has_health_facility": false,
+        "has_school": false,
+        "road_connectivity": "isolated",
+        "landslide_exposure": "MEDIUM",
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.241697,
+          27.456836
+        ]
+      },
+      "properties": {
+        "village_id": "VIL_0097",
+        "name": "SIK_Village_0097",
+        "state": "Sikkim",
+        "district": "Sikkim_District_3",
+        "population": 535,
+        "households": 107,
+        "elevation_approx_m": 356.0,
+        "has_health_facility": false,
+        "has_school": true,
+        "road_connectivity": "connected",
+        "landslide_exposure": "MEDIUM",
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.66403,
+          27.02194
+        ]
+      },
+      "properties": {
+        "village_id": "VIL_0098",
+        "name": "SIK_Village_0098",
+        "state": "Sikkim",
+        "district": "Sikkim_District_4",
+        "population": 299,
+        "households": 59,
+        "elevation_approx_m": 1049.9,
+        "has_health_facility": true,
+        "has_school": false,
+        "road_connectivity": "isolated",
+        "landslide_exposure": "HIGH",
+        "is_synthetic": true,
+        "data_source": "SYNTHETIC_DEMO"
+      }
+    }
+  ]
+}

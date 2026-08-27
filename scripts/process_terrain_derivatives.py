@@ -6,6 +6,7 @@ from data/processed/terrain/ner_dem.tif.
 
 import os
 from PIL import Image
+Image.MAX_IMAGE_PIXELS = None
 import numpy as np
 from PIL.TiffImagePlugin import ImageFileDirectory_v2
 

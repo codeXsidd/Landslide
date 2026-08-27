@@ -1,0 +1,87 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Northeast India SRTM Required Cells Plan Schema",
+  "type": "object",
+  "properties": {
+    "metadata": {
+      "type": "object",
+      "properties": {
+        "total_required_cells": {
+          "type": "integer"
+        },
+        "existing_coverage_cells": {
+          "type": "integer"
+        },
+        "missing_cells": {
+          "type": "integer"
+        },
+        "cells_outside_ner_excluded": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "total_required_cells",
+        "existing_coverage_cells",
+        "missing_cells",
+        "cells_outside_ner_excluded"
+      ]
+    },
+    "tiles": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "tile_id": {
+            "type": "string"
+          },
+          "west": {
+            "type": "number"
+          },
+          "south": {
+            "type": "number"
+          },
+          "east": {
+            "type": "number"
+          },
+          "north": {
+            "type": "number"
+          },
+          "intersecting_states": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "approximate_area_km2": {
+            "type": "number"
+          },
+          "existing_coverage": {
+            "type": "boolean"
+          },
+          "missing_coverage": {
+            "type": "boolean"
+          },
+          "required_for_NER": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "tile_id",
+          "west",
+          "south",
+          "east",
+          "north",
+          "intersecting_states",
+          "approximate_area_km2",
+          "existing_coverage",
+          "missing_coverage",
+          "required_for_NER"
+        ]
+      }
+    }
+  },
+  "required": [
+    "metadata",
+    "tiles"
+  ]
+}

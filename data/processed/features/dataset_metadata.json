@@ -1,0 +1,29 @@
+{
+  "total_records": 5000,
+  "positive_samples": 2000,
+  "negative_samples": 3000,
+  "synthetic_rainfall_count": 5000,
+  "synthetic_terrain_count": 2675,
+  "real_terrain_count": 2325,
+  "columns": [
+    "latitude",
+    "longitude",
+    "date",
+    "elevation",
+    "slope",
+    "aspect",
+    "terrain_ruggedness",
+    "rainfall_1d",
+    "rainfall_3d",
+    "rainfall_7d",
+    "landslide_label",
+    "is_synthetic_rainfall",
+    "is_synthetic_terrain",
+    "source"
+  ],
+  "terrain_source": "data/processed/terrain/*.tif (PIL pixel sampling)",
+  "rainfall_source": "data/processed/rainfall/rainfall_daily.parquet (real 2024-06-01..07; rest synthetic)",
+  "landslide_source": "data/processed/landslides/gsi_landslide_inventory_ner.csv",
+  "note": "synthetic values clearly labelled via is_synthetic_rainfall and is_synthetic_terrain columns",
+  "generated_at": "2026-08-27T10:25:10.931854Z"
+}
