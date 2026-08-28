@@ -1,0 +1,85 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "NER-LDI Evidence Item",
+  "type": "object",
+  "required": [
+    "evidence_id",
+    "source",
+    "timestamp",
+    "location",
+    "evidence_type",
+    "freshness",
+    "reliability",
+    "is_simulated"
+  ],
+  "properties": {
+    "evidence_id": {
+      "type": "string"
+    },
+    "source": {
+      "type": "string"
+    },
+    "source_type": {
+      "type": "string",
+      "enum": [
+        "satellite",
+        "rainfall_sensor",
+        "citizen_report",
+        "field_inspection",
+        "official_report",
+        "model_output",
+        "historical"
+      ]
+    },
+    "timestamp": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "location": {
+      "type": "object",
+      "properties": {
+        "latitude": {
+          "type": "number"
+        },
+        "longitude": {
+          "type": "number"
+        }
+      }
+    },
+    "evidence_type": {
+      "type": "string"
+    },
+    "value": {},
+    "freshness": {
+      "type": "string",
+      "enum": [
+        "FRESH",
+        "RECENT",
+        "STALE",
+        "EXPIRED"
+      ]
+    },
+    "reliability": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "is_simulated": {
+      "type": "boolean"
+    },
+    "provenance": {
+      "type": "object",
+      "properties": {
+        "collected_by": {
+          "type": "string"
+        },
+        "method": {
+          "type": "string"
+        },
+        "instrument": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

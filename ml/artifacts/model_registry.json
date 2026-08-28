@@ -1,0 +1,85 @@
+{
+  "registry_version": "1.0.0",
+  "updated": "2026-08-27T14:04:41.250923+00:00",
+  "models": {
+    "terrain_susceptibility_baseline": {
+      "path": "ml/artifacts/terrain_susceptibility_model.joblib",
+      "version": "1.0.0-baseline",
+      "type": "RandomForest",
+      "features": [
+        "elevation",
+        "slope",
+        "aspect",
+        "terrain_ruggedness"
+      ],
+      "metrics": {
+        "accuracy": 0.7642340050870671,
+        "precision": 0.4678456591639871,
+        "recall": 0.8046082949308756,
+        "f1": 0.5916638427651644,
+        "roc_auc": 0.8432715002254928,
+        "pr_auc": 0.4910973988556644,
+        "brier_score": 0.15032210772161564,
+        "confusion_matrix": [
+          [
+            3033,
+            993
+          ],
+          [
+            212,
+            873
+          ]
+        ]
+      },
+      "training_date": "2026-08-27T13:01:48.811101+00:00",
+      "status": "ACTIVE",
+      "limitations": [
+        "Terrain only",
+        "Partial coverage (24/57 cells)"
+      ]
+    },
+    "dynamic_risk_model": {
+      "path": "ml/artifacts/ner_dynamic_risk_model.joblib",
+      "version": "2.0.0-dynamic-partial",
+      "type": "XGBoost",
+      "features": [
+        "elevation",
+        "slope",
+        "aspect",
+        "terrain_ruggedness",
+        "rainfall_1d",
+        "rainfall_3d",
+        "rainfall_7d",
+        "antecedent_rainfall_index"
+      ],
+      "metrics": {
+        "roc_auc": 0.7904103030888309,
+        "pr_auc": 0.5859724633872144,
+        "f1": 0.49014778325123154,
+        "brier": 0.18344950675964355
+      },
+      "training_date": "2026-08-27T14:04:41.250923+00:00",
+      "status": "INCOMPLETE",
+      "limitations": [
+        "Only 7 days of rainfall data used for features",
+        "Temporal rainfall features lack multi-year context",
+        "Model should be retrained when full IMERG archive is available",
+        "Not suitable for operational deployment without complete rainfall history"
+      ]
+    },
+    "risk_calibrator": {
+      "path": "ml/artifacts/risk_calibrator.joblib",
+      "version": "1.0.0",
+      "type": "IsotonicCalibration",
+      "status": "ACTIVE"
+    }
+  },
+  "feature_version": "2.0.0",
+  "known_limitations": [
+    "Terrain coverage partial (24/57 SRTM cells)",
+    "Rainfall history only 7 days",
+    "Dynamic model INCOMPLETE for production use",
+    "No real satellite observations integrated",
+    "Infrastructure data is representative, not exhaustive"
+  ]
+}

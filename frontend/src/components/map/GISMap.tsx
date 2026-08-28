@@ -1,6 +1,5 @@
 "use client";
 
-import React, { useEffect, useState } from 'react';
 import { MapContainer, TileLayer, Marker, Popup, Circle } from 'react-leaflet';
 import L from 'leaflet';
 
@@ -21,13 +20,6 @@ const pulseIcon = L.divIcon({
 });
 
 export default function GISMap() {
-  const [mounted, setMounted] = useState(false);
-
-  useEffect(() => {
-    setMounted(true);
-  }, []);
-
-  if (!mounted) return <div className="glass-panel" style={{ height: '400px' }}>Loading Map...</div>;
 
   return (
     <div className="glass-panel" style={{ padding: 0, overflow: 'hidden', height: '100%', position: 'relative' }}>
@@ -38,8 +30,8 @@ export default function GISMap() {
         zoomControl={false}
       >
         <TileLayer
-          url="https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png"
-          attribution='&copy; <a href="https://carto.com/">CARTO</a>'
+          url="https://tile.openstreetmap.org/{z}/{x}/{y}.png"
+          attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
         />
         
         {/* Road B (High Risk) */}

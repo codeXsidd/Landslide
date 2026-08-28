@@ -1,0 +1,48 @@
+{
+  "model_type": "XGBoost",
+  "model_version": "2.0.0-dynamic-partial",
+  "features": [
+    "elevation",
+    "slope",
+    "aspect",
+    "terrain_ruggedness",
+    "rainfall_1d",
+    "rainfall_3d",
+    "rainfall_7d",
+    "antecedent_rainfall_index"
+  ],
+  "terrain_features": [
+    "elevation",
+    "slope",
+    "aspect",
+    "terrain_ruggedness"
+  ],
+  "rainfall_features": [
+    "rainfall_1d",
+    "rainfall_3d",
+    "rainfall_7d",
+    "antecedent_rainfall_index"
+  ],
+  "training_rows": 17940,
+  "test_rows": 5955,
+  "positive_count": 6026,
+  "negative_count": 11914,
+  "metrics": {
+    "roc_auc": 0.7904103030888309,
+    "pr_auc": 0.5859724633872144,
+    "f1": 0.49014778325123154,
+    "brier": 0.18344950675964355
+  },
+  "split_method": "spatial_block_0.5deg",
+  "random_seed": 42,
+  "training_timestamp": "2026-08-27T14:04:41.250923+00:00",
+  "rainfall_coverage": "7 days only (2024-06-01 to 2024-06-07)",
+  "terrain_coverage": "PARTIAL (24/57 cells)",
+  "status": "INCOMPLETE - insufficient historical rainfall for production use",
+  "limitations": [
+    "Only 7 days of rainfall data used for features",
+    "Temporal rainfall features lack multi-year context",
+    "Model should be retrained when full IMERG archive is available",
+    "Not suitable for operational deployment without complete rainfall history"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "NER-LDI Simulation Run",
+  "type": "object",
+  "required": [
+    "simulation_id",
+    "scenario_type",
+    "baseline_state",
+    "simulated_state",
+    "timestamp"
+  ],
+  "properties": {
+    "simulation_id": {
+      "type": "string"
+    },
+    "scenario_type": {
+      "type": "string"
+    },
+    "input_changes": {
+      "type": "object"
+    },
+    "baseline_state": {
+      "type": "object"
+    },
+    "simulated_state": {
+      "type": "object"
+    },
+    "delta": {
+      "type": "object"
+    },
+    "timestamp": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "is_simulated": {
+      "type": "boolean",
+      "const": true
+    }
+  }
+}

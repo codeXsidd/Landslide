@@ -1,0 +1,49 @@
+{
+  "model_type": "RandomForest",
+  "model_version": "1.0.0-baseline",
+  "feature_names": [
+    "elevation",
+    "slope",
+    "aspect",
+    "terrain_ruggedness"
+  ],
+  "training_row_count": 23895,
+  "positive_count": 7965,
+  "negative_count": 15930,
+  "train_count": 18784,
+  "test_count": 5111,
+  "random_seed": 42,
+  "split_method": "spatial_grid_block_0.5deg",
+  "evaluation_metrics": {
+    "accuracy": 0.7642340050870671,
+    "precision": 0.4678456591639871,
+    "recall": 0.8046082949308756,
+    "f1": 0.5916638427651644,
+    "roc_auc": 0.8432715002254928,
+    "pr_auc": 0.4910973988556644,
+    "brier_score": 0.15032210772161564,
+    "confusion_matrix": [
+      [
+        3033,
+        993
+      ],
+      [
+        212,
+        873
+      ]
+    ]
+  },
+  "training_timestamp": "2026-08-27T13:01:48.811101+00:00",
+  "terrain_source_paths": {
+    "elevation": "data\\processed\\terrain\\elevation.tif",
+    "slope": "data\\processed\\terrain\\slope.tif",
+    "aspect": "data\\processed\\terrain\\aspect.tif",
+    "terrain_ruggedness": "data\\processed\\terrain\\terrain_ruggedness.tif"
+  },
+  "gsi_source_path": "data\\processed\\landslides\\gsi_landslide_inventory_ner.csv",
+  "total_gsi_events": 10982,
+  "events_excluded_no_terrain": 1962,
+  "terrain_coverage": "PARTIAL (24/57 NER cells)",
+  "negative_sampling_method": "random background, min 0.01 deg from landslides",
+  "negative_ratio": 2
+}

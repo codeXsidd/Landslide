@@ -1,64 +1,33 @@
-"use client";
-
-import React from 'react';
-import { motion } from 'framer-motion';
-import { ShieldAlert, Activity, Users } from 'lucide-react';
+import { useState } from 'react';
+import { Activity, ShieldAlert, Users } from 'lucide-react';
 
 export default function RiskOverview() {
   return (
-    <div className="glass-panel" style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem', height: '100%' }}>
-      <h3 className="title-gradient" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-        <Activity size={20} color="var(--accent-cyan)" />
+    <div className="glass-panel flex flex-col gap-6 h-full">
+      <h3 className="flex items-center gap-2 text-cyan-400 font-bold text-lg">
+        <Activity size={20} />
         System Overview
       </h3>
-      
-      <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1rem' }}>
-        <motion.div 
-          whileHover={{ y: -2 }}
-          style={{ 
-            background: 'rgba(255, 255, 255, 0.03)', 
-            padding: '1rem', 
-            borderRadius: '12px',
-            border: '1px solid rgba(244, 63, 94, 0.2)',
-            borderLeft: '4px solid var(--accent-rose)'
-          }}
-        >
-          <div style={{ fontSize: '0.85rem', color: 'var(--text-secondary)', marginBottom: '0.5rem', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-            <ShieldAlert size={14} color="var(--accent-rose)" />
-            Critical Alerts
+      <div className="grid grid-cols-2 gap-4">
+        <div className="bg-white/5 p-4 rounded-xl border-l-4 border-rose-500 border border-rose-500/20">
+          <div className="text-sm text-gray-400 mb-2 flex items-center gap-2">
+            <ShieldAlert size={14} className="text-rose-400" /> Critical Alerts
           </div>
-          <div style={{ fontSize: '2rem', fontWeight: 700, color: 'var(--text-primary)' }}>1</div>
-          <div style={{ fontSize: '0.75rem', color: 'var(--accent-rose)', marginTop: '0.25rem' }}>Road B Corridor</div>
-        </motion.div>
-
-        <motion.div 
-          whileHover={{ y: -2 }}
-          style={{ 
-            background: 'rgba(255, 255, 255, 0.03)', 
-            padding: '1rem', 
-            borderRadius: '12px',
-            border: '1px solid rgba(16, 185, 129, 0.2)',
-            borderLeft: '4px solid var(--accent-emerald)'
-          }}
-        >
-          <div style={{ fontSize: '0.85rem', color: 'var(--text-secondary)', marginBottom: '0.5rem', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-            <Users size={14} color="var(--accent-emerald)" />
-            Pop. Protected
+          <div className="text-3xl font-bold">1</div>
+          <div className="text-xs text-rose-400 mt-1">Road B Corridor</div>
+        </div>
+        <div className="bg-white/5 p-4 rounded-xl border-l-4 border-emerald-500 border border-emerald-500/20">
+          <div className="text-sm text-gray-400 mb-2 flex items-center gap-2">
+            <Users size={14} className="text-emerald-400" /> Pop. Protected
           </div>
-          <div style={{ fontSize: '2rem', fontWeight: 700, color: 'var(--text-primary)' }}>12.4k</div>
-          <div style={{ fontSize: '0.75rem', color: 'var(--text-secondary)', marginTop: '0.25rem' }}>Across 18 villages</div>
-        </motion.div>
+          <div className="text-3xl font-bold">12.4k</div>
+          <div className="text-xs text-gray-400 mt-1">Across 18 villages</div>
+        </div>
       </div>
-
-      <div style={{ marginTop: 'auto' }}>
-        <div style={{ fontSize: '0.85rem', color: 'var(--text-secondary)', marginBottom: '0.5rem' }}>Network Connectivity</div>
-        <div style={{ height: '4px', background: 'var(--border-subtle)', borderRadius: '2px', overflow: 'hidden' }}>
-          <motion.div 
-            initial={{ width: 0 }}
-            animate={{ width: '92%' }}
-            transition={{ duration: 1, ease: 'easeOut' }}
-            style={{ height: '100%', background: 'linear-gradient(to right, var(--accent-cyan), var(--accent-emerald))' }}
-          />
+      <div className="mt-auto">
+        <div className="text-sm text-gray-400 mb-2">Network Connectivity</div>
+        <div className="h-1.5 bg-white/10 rounded-full overflow-hidden">
+          <div className="h-full w-[92%] bg-gradient-to-r from-cyan-400 to-emerald-400 rounded-full"></div>
         </div>
       </div>
     </div>

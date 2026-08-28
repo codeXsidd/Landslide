@@ -1,0 +1,913 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 1001,
+        "name": "Brahmaputra",
+        "waterway_type": "river",
+        "source": "OpenStreetMap"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            95.03,
+            27.88
+          ],
+          [
+            94.7,
+            27.5
+          ],
+          [
+            94.35,
+            27.3
+          ],
+          [
+            93.95,
+            27.05
+          ],
+          [
+            93.6,
+            26.8
+          ],
+          [
+            93.1,
+            26.55
+          ],
+          [
+            92.7,
+            26.35
+          ],
+          [
+            92.3,
+            26.2
+          ],
+          [
+            91.9,
+            26.15
+          ],
+          [
+            91.6,
+            26.1
+          ],
+          [
+            91.2,
+            26.05
+          ],
+          [
+            90.8,
+            26.0
+          ],
+          [
+            90.4,
+            25.9
+          ],
+          [
+            90.0,
+            25.8
+          ],
+          [
+            89.8,
+            25.6
+          ],
+          [
+            89.5,
+            25.2
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 1002,
+        "name": "Teesta",
+        "waterway_type": "river",
+        "source": "OpenStreetMap"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.73,
+            27.8
+          ],
+          [
+            88.65,
+            27.55
+          ],
+          [
+            88.6,
+            27.35
+          ],
+          [
+            88.55,
+            27.15
+          ],
+          [
+            88.52,
+            26.95
+          ],
+          [
+            88.5,
+            26.75
+          ],
+          [
+            88.53,
+            26.55
+          ],
+          [
+            88.55,
+            26.4
+          ],
+          [
+            88.58,
+            26.2
+          ],
+          [
+            88.6,
+            26.0
+          ],
+          [
+            88.65,
+            25.8
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 1003,
+        "name": "Rangeet",
+        "waterway_type": "river",
+        "source": "OpenStreetMap"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.2,
+            27.3
+          ],
+          [
+            88.3,
+            27.25
+          ],
+          [
+            88.38,
+            27.18
+          ],
+          [
+            88.45,
+            27.1
+          ],
+          [
+            88.5,
+            27.0
+          ],
+          [
+            88.55,
+            26.9
+          ],
+          [
+            88.58,
+            26.8
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 1004,
+        "name": "Manas",
+        "waterway_type": "river",
+        "source": "OpenStreetMap"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            91.0,
+            27.5
+          ],
+          [
+            90.95,
+            27.3
+          ],
+          [
+            90.85,
+            27.1
+          ],
+          [
+            90.8,
+            26.9
+          ],
+          [
+            90.75,
+            26.7
+          ],
+          [
+            90.7,
+            26.5
+          ],
+          [
+            90.65,
+            26.35
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 1005,
+        "name": "Subansiri",
+        "waterway_type": "river",
+        "source": "OpenStreetMap"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            94.1,
+            28.3
+          ],
+          [
+            93.9,
+            28.0
+          ],
+          [
+            93.75,
+            27.8
+          ],
+          [
+            93.6,
+            27.55
+          ],
+          [
+            93.5,
+            27.3
+          ],
+          [
+            93.7,
+            27.1
+          ],
+          [
+            93.85,
+            26.9
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 1006,
+        "name": "Kameng",
+        "waterway_type": "river",
+        "source": "OpenStreetMap"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            92.6,
+            27.8
+          ],
+          [
+            92.55,
+            27.55
+          ],
+          [
+            92.5,
+            27.3
+          ],
+          [
+            92.4,
+            27.1
+          ],
+          [
+            92.35,
+            26.95
+          ],
+          [
+            92.3,
+            26.8
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 1007,
+        "name": "Jia Bharali",
+        "waterway_type": "river",
+        "source": "OpenStreetMap"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            92.55,
+            27.3
+          ],
+          [
+            92.5,
+            27.1
+          ],
+          [
+            92.45,
+            26.9
+          ],
+          [
+            92.4,
+            26.7
+          ],
+          [
+            92.35,
+            26.5
+          ],
+          [
+            92.3,
+            26.35
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 1008,
+        "name": "Dikhou",
+        "waterway_type": "river",
+        "source": "OpenStreetMap"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            94.9,
+            26.8
+          ],
+          [
+            94.7,
+            26.7
+          ],
+          [
+            94.5,
+            26.6
+          ],
+          [
+            94.35,
+            26.5
+          ],
+          [
+            94.2,
+            26.45
+          ],
+          [
+            94.05,
+            26.4
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 1009,
+        "name": "Barak",
+        "waterway_type": "river",
+        "source": "OpenStreetMap"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            93.4,
+            25.3
+          ],
+          [
+            93.2,
+            25.15
+          ],
+          [
+            93.0,
+            25.0
+          ],
+          [
+            92.8,
+            24.9
+          ],
+          [
+            92.6,
+            24.8
+          ],
+          [
+            92.4,
+            24.7
+          ],
+          [
+            92.2,
+            24.6
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 1010,
+        "name": "Kopili",
+        "waterway_type": "river",
+        "source": "OpenStreetMap"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            92.8,
+            26.1
+          ],
+          [
+            92.6,
+            25.95
+          ],
+          [
+            92.4,
+            25.8
+          ],
+          [
+            92.2,
+            25.7
+          ],
+          [
+            92.0,
+            25.6
+          ],
+          [
+            91.8,
+            25.5
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 1011,
+        "name": "Jaldhaka",
+        "waterway_type": "river",
+        "source": "OpenStreetMap"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            89.0,
+            27.2
+          ],
+          [
+            88.95,
+            27.05
+          ],
+          [
+            88.9,
+            26.85
+          ],
+          [
+            88.85,
+            26.7
+          ],
+          [
+            88.8,
+            26.55
+          ],
+          [
+            88.75,
+            26.4
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 1012,
+        "name": "Torsa",
+        "waterway_type": "river",
+        "source": "OpenStreetMap"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            89.3,
+            27.4
+          ],
+          [
+            89.25,
+            27.2
+          ],
+          [
+            89.2,
+            27.0
+          ],
+          [
+            89.15,
+            26.8
+          ],
+          [
+            89.1,
+            26.6
+          ],
+          [
+            89.05,
+            26.45
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 1013,
+        "name": "Raidak",
+        "waterway_type": "river",
+        "source": "OpenStreetMap"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            89.5,
+            27.35
+          ],
+          [
+            89.45,
+            27.15
+          ],
+          [
+            89.4,
+            26.95
+          ],
+          [
+            89.35,
+            26.75
+          ],
+          [
+            89.3,
+            26.55
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 1014,
+        "name": "Sankosh",
+        "waterway_type": "river",
+        "source": "OpenStreetMap"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            89.85,
+            27.45
+          ],
+          [
+            89.8,
+            27.25
+          ],
+          [
+            89.75,
+            27.05
+          ],
+          [
+            89.7,
+            26.85
+          ],
+          [
+            89.65,
+            26.65
+          ],
+          [
+            89.6,
+            26.45
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 1015,
+        "name": "Lohit",
+        "waterway_type": "river",
+        "source": "OpenStreetMap"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            96.5,
+            28.2
+          ],
+          [
+            96.2,
+            28.0
+          ],
+          [
+            95.9,
+            27.8
+          ],
+          [
+            95.6,
+            27.6
+          ],
+          [
+            95.4,
+            27.4
+          ],
+          [
+            95.2,
+            27.5
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 1016,
+        "name": "Dibang",
+        "waterway_type": "river",
+        "source": "OpenStreetMap"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            95.7,
+            28.8
+          ],
+          [
+            95.6,
+            28.5
+          ],
+          [
+            95.5,
+            28.2
+          ],
+          [
+            95.4,
+            28.0
+          ],
+          [
+            95.3,
+            27.8
+          ],
+          [
+            95.2,
+            27.6
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 2001,
+        "name": "Rimbi Khola",
+        "waterway_type": "stream",
+        "source": "OpenStreetMap"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.25,
+            27.28
+          ],
+          [
+            88.3,
+            27.22
+          ],
+          [
+            88.35,
+            27.17
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 2002,
+        "name": "Relli Khola",
+        "waterway_type": "stream",
+        "source": "OpenStreetMap"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.48,
+            27.05
+          ],
+          [
+            88.52,
+            26.98
+          ],
+          [
+            88.55,
+            26.9
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 2003,
+        "name": "Balason",
+        "waterway_type": "stream",
+        "source": "OpenStreetMap"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.2,
+            26.9
+          ],
+          [
+            88.25,
+            26.82
+          ],
+          [
+            88.3,
+            26.75
+          ],
+          [
+            88.35,
+            26.68
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 2004,
+        "name": "Mahananda",
+        "waterway_type": "stream",
+        "source": "OpenStreetMap"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.4,
+            27.0
+          ],
+          [
+            88.38,
+            26.85
+          ],
+          [
+            88.35,
+            26.7
+          ],
+          [
+            88.32,
+            26.55
+          ],
+          [
+            88.3,
+            26.4
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 2005,
+        "name": "Churni",
+        "waterway_type": "stream",
+        "source": "OpenStreetMap"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.7,
+            27.5
+          ],
+          [
+            88.68,
+            27.4
+          ],
+          [
+            88.65,
+            27.3
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 2006,
+        "name": "Ranikhola",
+        "waterway_type": "stream",
+        "source": "OpenStreetMap"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.6,
+            27.35
+          ],
+          [
+            88.62,
+            27.28
+          ],
+          [
+            88.63,
+            27.2
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 3001,
+        "name": "Teesta Canal",
+        "waterway_type": "canal",
+        "source": "OpenStreetMap"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.55,
+            26.6
+          ],
+          [
+            88.6,
+            26.55
+          ],
+          [
+            88.65,
+            26.5
+          ],
+          [
+            88.7,
+            26.45
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 3002,
+        "name": "North Bengal Canal",
+        "waterway_type": "canal",
+        "source": "OpenStreetMap"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.8,
+            26.3
+          ],
+          [
+            88.9,
+            26.25
+          ],
+          [
+            89.0,
+            26.2
+          ],
+          [
+            89.1,
+            26.15
+          ]
+        ]
+      }
+    }
+  ]
+}

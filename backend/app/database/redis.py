@@ -22,6 +22,8 @@ async def connect_redis() -> None:
         settings.REDIS_URL,
         max_connections=20,
         decode_responses=True,
+        socket_connect_timeout=3,
+        socket_timeout=3,
     )
     _redis = Redis(connection_pool=pool)
     await _redis.ping()

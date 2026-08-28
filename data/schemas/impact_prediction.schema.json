@@ -1,0 +1,53 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "NER-LDI Impact Prediction",
+  "type": "object",
+  "required": [
+    "location",
+    "road_blockage_probability",
+    "village_isolation_probability",
+    "population_exposed"
+  ],
+  "properties": {
+    "location": {
+      "type": "object"
+    },
+    "road_blockage_probability": {
+      "type": "number"
+    },
+    "road_risk_level": {
+      "type": "string"
+    },
+    "village_isolation_probability": {
+      "type": "number"
+    },
+    "population_exposed": {
+      "type": "integer"
+    },
+    "hospital_access_degraded": {
+      "type": "boolean"
+    },
+    "alternative_routes": {
+      "type": "array"
+    },
+    "cascade_level": {
+      "type": "string",
+      "enum": [
+        "NONE",
+        "MINOR",
+        "MODERATE",
+        "SEVERE",
+        "CATASTROPHIC"
+      ]
+    },
+    "exposure_score": {
+      "type": "number"
+    },
+    "assets_affected": {
+      "type": "array"
+    },
+    "critical_assets": {
+      "type": "array"
+    }
+  }
+}

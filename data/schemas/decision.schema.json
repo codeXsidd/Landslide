@@ -1,0 +1,74 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "NER-LDI Decision Record",
+  "type": "object",
+  "required": [
+    "decision_id",
+    "location",
+    "risk_state",
+    "recommended_actions",
+    "human_approval_required",
+    "timestamp"
+  ],
+  "properties": {
+    "decision_id": {
+      "type": "string"
+    },
+    "location": {
+      "type": "object"
+    },
+    "risk_state": {
+      "type": "object"
+    },
+    "recommended_actions": {
+      "type": "array"
+    },
+    "human_approval_required": {
+      "type": "boolean"
+    },
+    "human_decision": {
+      "type": "object",
+      "properties": {
+        "status": {
+          "type": "string",
+          "enum": [
+            "PENDING",
+            "APPROVED",
+            "REJECTED",
+            "MODIFIED"
+          ]
+        },
+        "decided_by": {
+          "type": "string"
+        },
+        "reason": {
+          "type": "string"
+        },
+        "timestamp": {
+          "type": "string"
+        }
+      }
+    },
+    "outcome": {
+      "type": "object",
+      "properties": {
+        "actual_event": {
+          "type": "boolean"
+        },
+        "harm_realized": {
+          "type": "number"
+        },
+        "feedback_category": {
+          "type": "string"
+        }
+      }
+    },
+    "audit_trail": {
+      "type": "array"
+    },
+    "timestamp": {
+      "type": "string",
+      "format": "date-time"
+    }
+  }
+}

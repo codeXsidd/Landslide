@@ -6,10 +6,9 @@ from datetime import UTC
 
 from fastapi import APIRouter
 
-# Auth
-auth = APIRouter()
+router = APIRouter()
 
-@auth.post("/auth/login", summary="Login and get JWT token")
+@router.post("/auth/login", summary="Login and get JWT token")
 async def login(payload: dict):
     """Returns a JWT token for demo user. Replace with real auth in production."""
     from datetime import datetime, timedelta

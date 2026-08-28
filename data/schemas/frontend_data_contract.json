@@ -1,0 +1,122 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "NER-LDI Frontend Data Contract",
+  "description": "Schema for all data the frontend receives from the NER-LDI API. All AI outputs include is_simulated and disclaimer fields.",
+  "version": "1.0.0",
+  "definitions": {
+    "Location": {
+      "type": "object",
+      "properties": {
+        "latitude": {"type": "number", "minimum": 21, "maximum": 30},
+        "longitude": {"type": "number", "minimum": 88, "maximum": 98},
+        "location_id": {"type": "string"},
+        "name": {"type": "string"}
+      },
+      "required": ["latitude", "longitude"]
+    },
+    "RiskSummary": {
+      "type": "object",
+      "properties": {
+        "score": {"type": "number", "minimum": 0, "maximum": 1},
+        "level": {"type": "string", "enum": ["VERY_LOW", "LOW", "MODERATE", "HIGH", "CRITICAL"]},
+        "confidence": {"type": "number", "minimum": 0, "maximum": 1},
+        "model_version": {"type": "string"}
+      },
+      "required": ["score", "level", "confidence"]
+    },
+    "EvidenceStatus": {
+      "type": "object",
+      "properties": {
+        "fusion_status": {"type": "string", "enum": ["KNOWN", "UNKNOWN", "UNCERTAIN", "CONFLICTING", "STALE"]},
+        "coverage": {"type": "number", "minimum": 0, "maximum": 1},
+        "contradictions": {"type": "integer", "minimum": 0},
+        "knowledge_gaps": {"type": "integer", "minimum": 0},
+        "critical_gaps": {"type": "integer", "minimum": 0}
+      }
+    },
+    "ImpactSummary": {
+      "type": "object",
+      "properties": {
+        "road_blockage_probability": {"type": "number", "minimum": 0, "maximum": 1},
+        "village_isolation_probability": {"type": "number", "minimum": 0, "maximum": 1},
+        "population_exposed": {"type": "integer", "minimum": 0},
+        "infrastructure_exposure_score": {"type": "number", "minimum": 0, "maximum": 1},
+        "critical_assets_count": {"type": "integer", "minimum": 0}
+      }
+    },
+    "Priority": {
+      "type": "object",
+      "properties": {
+        "score": {"type": "number", "minimum": 0, "maximum": 1},
+        "level": {"type": "string", "enum": ["LOW", "MODERATE", "HIGH", "CRITICAL"]}
+      }
+    },
+    "ActionRecommendation": {
+      "type": "object",
+      "properties": {
+        "action": {"type": "string"},
+        "cost": {"type": "number"},
+        "time_hours": {"type": "number"},
+        "expected_harm_reduction": {"type": "number"},
+        "requires_human_approval": {"type": "boolean"}
+      },
+      "required": ["action", "requires_human_approval"]
+    },
+    "HumanDecisionStatus": {
+      "type": "object",
+      "properties": {
+        "status": {"type": "string", "enum": ["PENDING", "APPROVED", "REJECTED", "MODIFIED", "NOT_REQUIRED"]},
+        "decided_by": {"type": ["string", "null"]}
+      }
+    },
+    "RoleOutput": {
+      "type": "object",
+      "properties": {
+        "role": {"type": "string", "enum": ["CITIZEN", "DRIVER", "FIELD_WORKER", "DISTRICT_AUTHORITY", "EMERGENCY_COORDINATOR"]},
+        "message": {"type": "string"},
+        "risk_level": {"type": "string"},
+        "confidence": {"type": "number"},
+        "actions": {"type": "array", "items": {"type": "string"}},
+        "disclaimer": {"type": "string"},
+        "is_simulated": {"type": "boolean"}
+      },
+      "required": ["role", "message", "disclaimer", "is_simulated"]
+    },
+    "UnifiedRiskObject": {
+      "type": "object",
+      "properties": {
+        "object_id": {"type": "string"},
+        "version": {"type": "string"},
+        "timestamp": {"type": "string", "format": "date-time"},
+        "location": {"$ref": "#/definitions/Location"},
+        "risk": {"$ref": "#/definitions/RiskSummary"},
+        "evidence": {"$ref": "#/definitions/EvidenceStatus"},
+        "impact": {"$ref": "#/definitions/ImpactSummary"},
+        "priority": {"$ref": "#/definitions/Priority"},
+        "actions": {
+          "type": "object",
+          "properties": {
+            "recommended": {"type": "array", "items": {"$ref": "#/definitions/ActionRecommendation"}},
+            "requires_approval": {"type": "boolean"}
+          }
+        },
+        "human_decision": {"$ref": "#/definitions/HumanDecisionStatus"},
+        "metadata": {
+          "type": "object",
+          "properties": {
+            "is_simulated": {"type": "boolean"},
+            "partial_coverage": {"type": "boolean"},
+            "disclaimer": {"type": "string"}
+          },
+          "required": ["is_simulated", "disclaimer"]
+        }
+      },
+      "required": ["object_id", "timestamp", "location", "risk", "metadata"]
+    }
+  },
+  "type": "object",
+  "properties": {
+    "unified_risk": {"$ref": "#/definitions/UnifiedRiskObject"},
+    "role_output": {"$ref": "#/definitions/RoleOutput"}
+  }
+}

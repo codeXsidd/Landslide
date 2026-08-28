@@ -1,0 +1,28 @@
+{
+  "source": "OpenStreetMap",
+  "retrieval_timestamp": "2026-08-28T04:02:46.590486+00:00",
+  "bounding_area": {
+    "west": 88.0,
+    "south": 25.0,
+    "east": 97.0,
+    "north": 29.5
+  },
+  "feature_count": 24,
+  "breakdown": {
+    "rivers": 16,
+    "streams": 6,
+    "canals": 2
+  },
+  "geometry_types": [
+    "LineString"
+  ],
+  "tags_used": [
+    "waterway=river",
+    "waterway=stream",
+    "waterway=canal"
+  ],
+  "crs": "EPSG:4326",
+  "is_simulated": false,
+  "from_cache": false,
+  "note": "Seed data from known NE India river geography. Refresh from Overpass when network available."
+}

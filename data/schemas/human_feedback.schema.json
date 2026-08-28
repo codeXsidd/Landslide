@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "NER-LDI Human Feedback",
+  "type": "object",
+  "required": [
+    "feedback_id",
+    "decision_id",
+    "prediction_was",
+    "human_action",
+    "timestamp"
+  ],
+  "properties": {
+    "feedback_id": {
+      "type": "string"
+    },
+    "decision_id": {
+      "type": "string"
+    },
+    "prediction_was": {
+      "type": "object"
+    },
+    "human_action": {
+      "type": "string",
+      "enum": [
+        "APPROVED",
+        "REJECTED",
+        "MODIFIED",
+        "ESCALATED"
+      ]
+    },
+    "reason": {
+      "type": "string"
+    },
+    "outcome_observed": {
+      "type": "object"
+    },
+    "feedback_category": {
+      "type": "string",
+      "enum": [
+        "CORRECT",
+        "OVER_CONSERVATIVE",
+        "UNDER_ESTIMATED",
+        "INSUFFICIENT_EVIDENCE",
+        "WRONG_PRIORITY"
+      ]
+    },
+    "timestamp": {
+      "type": "string",
+      "format": "date-time"
+    }
+  }
+}

@@ -13,7 +13,7 @@ router = APIRouter()
 
 
 @router.post("/simulation", summary="Run a what-if simulation scenario", status_code=201)
-async def run_simulation(payload: dict):
+async def run_simulation_route(payload: dict):
     """
     Runs a what-if simulation scenario. Supported scenario types:
     - rainfall_increase: Simulate increased rainfall (e.g., +25%)
@@ -26,8 +26,21 @@ async def run_simulation(payload: dict):
         if f not in payload:
             raise HTTPException(status_code=422, detail=f"Missing required field: {f}")
 
-    from app.services.simulation.engine import run_scenario_simulation
-    result = await run_scenario_simulation(payload)
+    from app.simulation.risk_simulation import run_simulation
+
+    baseline_state = {
+        "risk_score": 0.72,
+        "road_blockage_probability": 0.45,
+        "village_isolation_probability": 0.32,
+        "population_exposed": 850,
+        "rainfall_features": {"cumulative_7d": 120, "intensity_max": 35},
+    }
+    scenario = {
+        "type": payload.get("scenario_type"),
+        "rainfall_factor": payload.get("rainfall_multiplier", 1.0),
+        "road_closure": payload.get("road_failure", False),
+    }
+    result = run_simulation(baseline_state, scenario)
     return result
 
 

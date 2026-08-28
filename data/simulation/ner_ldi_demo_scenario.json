@@ -1,0 +1,404 @@
+{
+  "scenario_name": "NER-LDI SIH Demo - Haflong Road Corridor",
+  "description": "Deterministic replayable demonstration of the complete NER-LDI decision loop",
+  "seed": 42,
+  "is_simulated": true,
+  "all_evidence_simulated": true,
+  "generated": "2026-08-27T14:04:41.250923+00:00",
+  "steps": [
+    {
+      "step": 1,
+      "name": "Initial Risk Assessment",
+      "data": {
+        "risk_score": 0.65,
+        "confidence": 0.55
+      }
+    },
+    {
+      "step": 2,
+      "name": "Evidence Collection",
+      "data": {
+        "items": 3
+      }
+    },
+    {
+      "step": 3,
+      "name": "Uncertainty Computation",
+      "data": {
+        "risk_score": 0.65,
+        "confidence": 0.5738,
+        "uncertainty_level": "MODERATE",
+        "uncertainty_reasons": [
+          "Model trained on partial terrain coverage",
+          "1 stale/expired evidence sources"
+        ],
+        "data_completeness": 1.0,
+        "model_version": "2.0.0-dynamic-partial",
+        "freshness_factor": 0.9,
+        "source_reliability": 0.85,
+        "conflict_penalty": 0.0
+      }
+    },
+    {
+      "step": 4,
+      "name": "Evidence Fusion",
+      "data": {
+        "status": "UNKNOWN",
+        "coverage": 0.5
+      }
+    },
+    {
+      "step": 5,
+      "name": "Contradiction Detection",
+      "data": {
+        "has_contradictions": true,
+        "contradiction_count": 1,
+        "contradictions": [
+          {
+            "type": "rainfall_vs_satellite",
+            "severity": "MEDIUM",
+            "explanation": "High rainfall detected but satellite shows no ground change. Possible: early stage, satellite stale, or false alarm.",
+            "supporting_sources": [
+              "IMERG"
+            ],
+            "conflicting_sources": [
+              "sentinel_2"
+            ],
+            "verification_required": true
+          }
+        ],
+        "evidence_status": "CONFLICTING",
+        "max_severity": "MEDIUM"
+      }
+    },
+    {
+      "step": 6,
+      "name": "Knowledge Gap Analysis",
+      "data": {
+        "gaps": 7,
+        "critical": 4
+      }
+    },
+    {
+      "step": 7,
+      "name": "Next-Best-Evidence",
+      "data": {
+        "recommended_observation": "HISTORICAL_COMPARISON",
+        "reason": "Fills gap in {'historical', 'field_inspection', 'rainfall', 'road_status', 'terrain', 'satellite', 'forecast'}",
+        "information_value": 5.8176,
+        "expected_uncertainty_reduction": 0.1492,
+        "cost": 0.05,
+        "urgency": "HIGH",
+        "all_candidates": [
+          {
+            "action": "HISTORICAL_COMPARISON",
+            "information_value": 5.8176,
+            "expected_uncertainty_reduction": 0.1492,
+            "cost": 0.05,
+            "time_hours": 0.5,
+            "urgency": "HIGH",
+            "reason": "Fills gap in {'historical', 'field_inspection', 'rainfall', 'road_status', 'terrain', 'satellite', 'forecast'}"
+          },
+          {
+            "action": "SATELLITE_REFRESH",
+            "information_value": 3.6568,
+            "expected_uncertainty_reduction": 0.1875,
+            "cost": 0.1,
+            "time_hours": 12,
+            "urgency": "HIGH",
+            "reason": "Fills gap in {'historical', 'field_inspection', 'rainfall', 'road_status', 'terrain', 'satellite', 'forecast'}"
+          },
+          {
+            "action": "ROAD_STATUS_VERIFICATION",
+            "information_value": 1.2466,
+            "expected_uncertainty_reduction": 0.1918,
+            "cost": 0.3,
+            "time_hours": 2,
+            "urgency": "HIGH",
+            "reason": "Fills gap in {'historical', 'field_inspection', 'rainfall', 'road_status', 'terrain', 'satellite', 'forecast'}"
+          },
+          {
+            "action": "FIELD_PHOTO",
+            "information_value": 1.0389,
+            "expected_uncertainty_reduction": 0.1598,
+            "cost": 0.2,
+            "time_hours": 1,
+            "urgency": "HIGH",
+            "reason": "General uncertainty reduction"
+          },
+          {
+            "action": "FIELD_INSPECTION",
+            "information_value": 0.6579,
+            "expected_uncertainty_reduction": 0.2024,
+            "cost": 0.6,
+            "time_hours": 4,
+            "urgency": "HIGH",
+            "reason": "Fills gap in {'historical', 'field_inspection', 'rainfall', 'road_status', 'terrain', 'satellite', 'forecast'}"
+          }
+        ]
+      }
+    },
+    {
+      "step": 8,
+      "name": "Citizen Evidence Arrives",
+      "data": {
+        "reliability_score": 0.9,
+        "validation_status": "LIKELY_VALID",
+        "detected_signals": [
+          {
+            "check": "location_in_ner",
+            "passed": true
+          },
+          {
+            "check": "timestamp_aged",
+            "passed": true,
+            "age_hours": 19517.620559983334
+          },
+          {
+            "check": "has_image",
+            "passed": true
+          },
+          {
+            "check": "description_length",
+            "passed": true
+          },
+          {
+            "check": "relevant_keywords",
+            "passed": true
+          }
+        ],
+        "reason": "Score 0.90 based on 5 checks",
+        "is_simulated": true
+      }
+    },
+    {
+      "step": 9,
+      "name": "Risk Updated",
+      "data": {
+        "new_risk": 0.713,
+        "new_confidence": 0.6638
+      }
+    },
+    {
+      "step": 10,
+      "name": "Road Impact",
+      "data": {
+        "road_blockage_probability": 0,
+        "road_risk_level": "LOW",
+        "affected_roads": [],
+        "critical_roads_at_risk": [],
+        "alternative_routes": 0,
+        "response_accessibility": "NORMAL"
+      }
+    },
+    {
+      "step": 11,
+      "name": "Village Isolation",
+      "data": {
+        "isolation_prob": 0,
+        "pop_affected": 0
+      }
+    },
+    {
+      "step": 12,
+      "name": "Infrastructure Exposure",
+      "data": {
+        "exposure_score": 0.0,
+        "assets_affected": [],
+        "critical_assets": [],
+        "population_exposed": 0
+      }
+    },
+    {
+      "step": 13,
+      "name": "What-If Simulation (Rain +50%)",
+      "data": {
+        "simulated_risk": 0.81995,
+        "delta": {
+          "risk_change": 0.10694999999999999,
+          "priority_change": 0.49196999999999996,
+          "isolation_change": 0
+        }
+      }
+    },
+    {
+      "step": 14,
+      "name": "Priority Calculation",
+      "data": {
+        "priority": 0.3565
+      }
+    },
+    {
+      "step": 15,
+      "name": "Action Optimization",
+      "data": {
+        "selected_actions": [
+          {
+            "location_id": "demo_loc_01",
+            "action": "inspect_road",
+            "cost": 2,
+            "time_hours": 3,
+            "expected_harm_reduction": 0.0,
+            "efficiency": 0.0,
+            "requires_human_approval": false
+          },
+          {
+            "location_id": "demo_loc_01",
+            "action": "field_verification",
+            "cost": 3,
+            "time_hours": 4,
+            "expected_harm_reduction": 0.0,
+            "efficiency": 0.0,
+            "requires_human_approval": false
+          },
+          {
+            "location_id": "demo_loc_01",
+            "action": "prepare_route",
+            "cost": 5,
+            "time_hours": 6,
+            "expected_harm_reduction": 0.0,
+            "efficiency": 0.0,
+            "requires_human_approval": false
+          }
+        ],
+        "total_cost": 10,
+        "total_harm_reduction": 0.0,
+        "remaining_budget": 10,
+        "any_requires_approval": false
+      }
+    },
+    {
+      "step": 16,
+      "name": "Human Decision & Outcome",
+      "data": {
+        "status": "APPROVED",
+        "feedback": "CORRECT"
+      }
+    }
+  ],
+  "final_state": {
+    "location": {
+      "latitude": 25.5,
+      "longitude": 93.0,
+      "location_id": "demo_loc_01",
+      "name": "Haflong Road Corridor"
+    },
+    "risk_score": 0.713,
+    "risk_level": "HIGH",
+    "confidence": 0.6638,
+    "terrain_features": {
+      "elevation": 850,
+      "slope": 32,
+      "aspect": 180,
+      "terrain_ruggedness": 28
+    },
+    "rainfall_features": {
+      "rainfall_1d": 45,
+      "rainfall_3d": 120,
+      "rainfall_7d": 280,
+      "antecedent_rainfall_index": 65
+    },
+    "model_version": "2.0.0-dynamic-partial",
+    "timestamp": "2024-06-05T06:00:00Z",
+    "uncertainty": {
+      "level": "MODERATE",
+      "reasons": [
+        "Model trained on partial terrain coverage",
+        "1 stale/expired evidence sources"
+      ]
+    },
+    "audit_trail": [
+      {
+        "update_id": "0be7a0c0-da1d-44bd-8998-a62803589d36",
+        "timestamp": "2026-08-27T14:07:14.016039+00:00",
+        "evidence_added": "citizen_report",
+        "previous_risk": 0.65,
+        "previous_confidence": 0.5738,
+        "new_risk": 0.7130000000000001,
+        "new_confidence": 0.6638,
+        "update_method": "bayesian_evidence_update"
+      }
+    ],
+    "last_updated": "2026-08-27T14:07:14.016039+00:00",
+    "road_blockage_probability": 0,
+    "village_isolation_probability": 0,
+    "population_exposed": 0,
+    "priority_score": 0.3565
+  },
+  "decision_record": {
+    "decision_id": "9d47632f-2006-45db-b188-6d6c7b93baf6",
+    "location": {
+      "latitude": 25.5,
+      "longitude": 93.0,
+      "location_id": "demo_loc_01",
+      "name": "Haflong Road Corridor"
+    },
+    "risk_state": {
+      "risk_score": 0.713,
+      "risk_level": "HIGH",
+      "confidence": 0.6638
+    },
+    "recommended_actions": [
+      {
+        "location_id": "demo_loc_01",
+        "action": "inspect_road",
+        "cost": 2,
+        "time_hours": 3,
+        "expected_harm_reduction": 0.0,
+        "efficiency": 0.0,
+        "requires_human_approval": false
+      },
+      {
+        "location_id": "demo_loc_01",
+        "action": "field_verification",
+        "cost": 3,
+        "time_hours": 4,
+        "expected_harm_reduction": 0.0,
+        "efficiency": 0.0,
+        "requires_human_approval": false
+      },
+      {
+        "location_id": "demo_loc_01",
+        "action": "prepare_route",
+        "cost": 5,
+        "time_hours": 6,
+        "expected_harm_reduction": 0.0,
+        "efficiency": 0.0,
+        "requires_human_approval": false
+      }
+    ],
+    "human_approval_required": false,
+    "human_decision": {
+      "status": "APPROVED",
+      "decided_by": "district_dm_officer",
+      "reason": "Confirmed via field radio. Approve all actions.",
+      "timestamp": "2026-08-27T14:07:14.028891+00:00",
+      "modified_actions": null
+    },
+    "timestamp": "2026-08-27T14:07:14.028869+00:00",
+    "audit_trail": [
+      {
+        "event": "CREATED",
+        "timestamp": "2026-08-27T14:07:14.028882+00:00",
+        "actor": "system"
+      },
+      {
+        "event": "HUMAN_APPROVED",
+        "timestamp": "2026-08-27T14:07:14.028899+00:00",
+        "actor": "district_dm_officer",
+        "reason": "Confirmed via field radio. Approve all actions."
+      },
+      {
+        "event": "OUTCOME_RECORDED",
+        "timestamp": "2026-08-27T14:07:14.028913+00:00",
+        "feedback": "CORRECT"
+      }
+    ],
+    "outcome": {
+      "actual_event": true,
+      "harm_realized": 0.2,
+      "feedback_category": "CORRECT",
+      "recorded_at": "2026-08-27T14:07:14.028907+00:00"
+    }
+  }
+}

@@ -22,8 +22,8 @@ async def connect_neo4j() -> None:
         settings.NEO4J_URI,
         auth=(settings.NEO4J_USERNAME, settings.NEO4J_PASSWORD),
         max_connection_pool_size=20,
+        connection_timeout=3,
     )
-    # Verify connectivity
     await _driver.verify_connectivity()
     log.info("neo4j_connected", uri=settings.NEO4J_URI)
 
